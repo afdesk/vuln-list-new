@@ -1,0 +1,255 @@
+{
+  "RpminfoObjects": [
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213487001",
+      "Version": "635",
+      "Name": "etcd"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488001",
+      "Version": "635",
+      "Name": "openstack-neutron"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488002",
+      "Version": "635",
+      "Name": "openstack-neutron-common"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488003",
+      "Version": "635",
+      "Name": "openstack-neutron-linuxbridge"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488004",
+      "Version": "635",
+      "Name": "openstack-neutron-macvtap-agent"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488005",
+      "Version": "635",
+      "Name": "openstack-neutron-metering-agent"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488006",
+      "Version": "635",
+      "Name": "openstack-neutron-ml2"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488007",
+      "Version": "635",
+      "Name": "openstack-neutron-openvswitch"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488008",
+      "Version": "635",
+      "Name": "openstack-neutron-rpc-server"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488009",
+      "Version": "635",
+      "Name": "openstack-neutron-sriov-nic-agent"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213488010",
+      "Version": "635",
+      "Name": "python3-neutron"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213490001",
+      "Version": "634",
+      "Name": "python3-django20"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220992001",
+      "Version": "635",
+      "Name": "python3-twisted"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220993001",
+      "Version": "634",
+      "Name": "python-oslo-utils-lang"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220993002",
+      "Version": "634",
+      "Name": "python3-oslo-utils"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220995001",
+      "Version": "635",
+      "Name": "openstack-tripleo-heat-templates"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220997001",
+      "Version": "634",
+      "Name": "golang-qpid-apache"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220998001",
+      "Version": "634",
+      "Name": "golang-github-vbatts-tar-split"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999001",
+      "Version": "636",
+      "Name": "openstack-nova"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999002",
+      "Version": "636",
+      "Name": "openstack-nova-api"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999003",
+      "Version": "636",
+      "Name": "openstack-nova-common"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999004",
+      "Version": "636",
+      "Name": "openstack-nova-compute"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999005",
+      "Version": "636",
+      "Name": "openstack-nova-conductor"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999006",
+      "Version": "636",
+      "Name": "openstack-nova-console"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999007",
+      "Version": "636",
+      "Name": "openstack-nova-migration"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999008",
+      "Version": "636",
+      "Name": "openstack-nova-novncproxy"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999009",
+      "Version": "636",
+      "Name": "openstack-nova-scheduler"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999010",
+      "Version": "636",
+      "Name": "openstack-nova-serialproxy"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999011",
+      "Version": "636",
+      "Name": "openstack-nova-spicehtml5proxy"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20220999012",
+      "Version": "636",
+      "Name": "python3-nova"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20221000001",
+      "Version": "634",
+      "Name": "python3-numpy"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20221000002",
+      "Version": "634",
+      "Name": "python3-numpy-f2py"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20221253001",
+      "Version": "634",
+      "Name": "python3-waitress"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225114001",
+      "Version": "636",
+      "Name": "openstack-barbican"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225114002",
+      "Version": "636",
+      "Name": "openstack-barbican-api"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225114003",
+      "Version": "636",
+      "Name": "openstack-barbican-common"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225114004",
+      "Version": "636",
+      "Name": "openstack-barbican-keystone-listener"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225114005",
+      "Version": "636",
+      "Name": "openstack-barbican-worker"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225114006",
+      "Version": "636",
+      "Name": "python3-barbican"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225116001",
+      "Version": "635",
+      "Name": "puppet-firewall"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226062001",
+      "Version": "636",
+      "Name": "collectd-libpod-stats"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226969001",
+      "Version": "634",
+      "Name": "tripleo-ansible"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226969002",
+      "Version": "634",
+      "Name": "python3-tripleo-common"
+    }
+  ],
+  "RpmverifyfileObjects": [
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20213487002",
+      "AttrVersion": "635",
+      "Behaviors": {
+        "Noconfigfiles": "true",
+        "Noghostfiles": "true",
+        "Nogroup": "true",
+        "Nolinkto": "true",
+        "Nomd5": "true",
+        "Nomode": "true",
+        "Nomtime": "true",
+        "Nordev": "true",
+        "Nosize": "true",
+        "Nouser": "true"
+      },
+      "Filepath": {
+        "Text": "/etc/redhat-release"
+      },
+      "Name": {
+        "Operation": "pattern match"
+      },
+      "Version": {
+        "Operation": "pattern match"
+      },
+      "Epoch": {
+        "Operation": "pattern match"
+      },
+      "Arch": {
+        "Operation": "pattern match"
+      },
+      "Release": {
+        "Operation": "pattern match"
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2022-06-23T06:48:59Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.main:jenkins-core"
+  },
+  "Advisory": {
+    "DatabaseId": 174341,
+    "Id": "GSA_kwCzR0hTQS0zcTg0LXZydngtcmZ2Zs4AAqkF",
+    "GhsaId": "GHSA-3q84-vrvx-rfvf",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-21687"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2455"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-3q84-vrvx-rfvf"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-3q84-vrvx-rfvf"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-21687"
+      }
+    ],
+    "Description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier does not check agent-to-controller access to create symbolic links when unarchiving a symbolic link in FilePath#untar.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-24T19:19:44Z",
+    "Severity": "CRITICAL",
+    "Summary": "Missing Authorization in Jenkins",
+    "UpdatedAt": "2022-06-23T06:49:00Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.319"
+      },
+      "VulnerableVersionRange": "\u003e= 2.304, \u003c= 2.318"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.319"
+      },
+      "VulnerableVersionRange": "\u003c 2.303.2"
+    }
+  ]
+}

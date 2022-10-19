@@ -1,0 +1,47 @@
+{
+  "id": "GHSA-gq5r-cc4w-g8xf",
+  "modified": "2021-05-20T21:39:22Z",
+  "published": "2021-06-23T17:25:08Z",
+  "aliases": [
+    "CVE-2020-7731"
+  ],
+  "summary": "Denial of Service (DoS)",
+  "details": "This affects all versions up to and including 0.6.0 of package github.com/russellhaering/gosaml2. There is a crash on nil-pointer dereference caused by sending malformed XML signatures.",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/russellhaering/gosaml2",
+        "purl": "pkg:golang/github.com/russellhaering/gosaml2"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {}
+          ]
+        }
+      ],
+      "database_specific": {
+        "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/06/GHSA-gq5r-cc4w-g8xf/GHSA-gq5r-cc4w-g8xf.json"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-7731"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/russellhaering/gosaml2/issues/59"
+    },
+    {
+      "type": "WEB",
+      "url": "https://snyk.io/vuln/SNYK-GOLANG-GITHUBCOMRUSSELLHAERINGGOSAML2-608302"
+    }
+  ]
+}

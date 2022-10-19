@@ -1,0 +1,56 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-08-10T18:28:39Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:git"
+  },
+  "Advisory": {
+    "DatabaseId": 187214,
+    "Id": "GSA_kwCzR0hTQS00NDl3LWM3N2Mtdm1mNs4AAttO",
+    "GhsaId": "GHSA-449w-c77c-vmf6",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-36884"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-07-27/#SECURITY-284"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/07/27/1"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-449w-c77c-vmf6"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-449w-c77c-vmf6"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-36884"
+      }
+    ],
+    "Description": "The webhook endpoint in Jenkins Git Plugin 4.11.3 and earlier provide unauthenticated attackers information about the existence of jobs configured to use an attacker-specified Git repository.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-07-28T00:00:43Z",
+    "Severity": "MODERATE",
+    "Summary": "Jenkins Git Plugin before 4.11.4 provides unauthenticated attackers information about the existence of jobs",
+    "UpdatedAt": "2022-08-10T18:28:39Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 5.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "4.11.4"
+      },
+      "VulnerableVersionRange": "\u003c= 4.11.3"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "GO-2020-0040",
+  "modified": "2022-09-20T15:16:04Z",
+  "published": "2021-04-14T20:04:52Z",
+  "aliases": [
+    "CVE-2020-36562"
+  ],
+  "details": "Due to unchecked type assertions, maliciously crafted messages can\ncause panics, which may be used as a denial of service vector.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/shiyanhui/dht",
+        "purl": "pkg:golang/github.com/shiyanhui/dht"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {
+        "imports": [
+          {
+            "path": "github.com/shiyanhui/dht"
+          }
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/go-vulndb/ID/GO-2020-0040.json",
+        "url": "https://pkg.go.dev/vuln/GO-2020-0040"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/shiyanhui/dht/issues/57"
+    }
+  ]
+}

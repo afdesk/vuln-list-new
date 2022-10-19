@@ -1,0 +1,95 @@
+{
+  "RpminfoObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:202036604001",
+      "Version": "636",
+      "Name": "servicemesh-prometheus"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202123648001",
+      "Version": "636",
+      "Name": "servicemesh-grafana"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202138561001",
+      "Version": "636",
+      "Name": "servicemesh-cni"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202138561002",
+      "Version": "636",
+      "Name": "servicemesh-pilot-agent"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202138561003",
+      "Version": "636",
+      "Name": "servicemesh-pilot-discovery"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202138561004",
+      "Version": "636",
+      "Name": "servicemesh"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202221656001",
+      "Version": "636",
+      "Name": "servicemesh-proxy-debugsource"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202221656002",
+      "Version": "636",
+      "Name": "servicemesh-proxy"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202221656003",
+      "Version": "636",
+      "Name": "servicemesh-proxy-wasm"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202221698005",
+      "Version": "636",
+      "Name": "servicemesh-operator"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202224675010",
+      "Version": "636",
+      "Name": "servicemesh-ratelimit"
+    }
+  ],
+  "RpmverifyfileObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:202036604002",
+      "AttrVersion": "636",
+      "Behaviors": {
+        "Noconfigfiles": "true",
+        "Noghostfiles": "true",
+        "Nogroup": "true",
+        "Nolinkto": "true",
+        "Nomd5": "true",
+        "Nomode": "true",
+        "Nomtime": "true",
+        "Nordev": "true",
+        "Nosize": "true",
+        "Nouser": "true"
+      },
+      "Filepath": {
+        "Text": "/etc/redhat-release"
+      },
+      "Name": {
+        "Operation": "pattern match"
+      },
+      "Version": {
+        "Operation": "pattern match"
+      },
+      "Epoch": {
+        "Operation": "pattern match"
+      },
+      "Arch": {
+        "Operation": "pattern match"
+      },
+      "Release": {
+        "Operation": "pattern match"
+      }
+    }
+  ]
+}

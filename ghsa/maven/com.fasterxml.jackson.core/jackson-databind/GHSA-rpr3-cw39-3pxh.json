@@ -1,0 +1,65 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2022-07-15T19:41:48Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "com.fasterxml.jackson.core:jackson-databind"
+  },
+  "Advisory": {
+    "DatabaseId": 185979,
+    "Id": "GSA_kwCzR0hTQS1ycHIzLWN3MzktM3B4aM4AAtZ7",
+    "GhsaId": "GHSA-rpr3-cw39-3pxh",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-10650"
+      },
+      {
+        "Url": "https://github.com/FasterXML/jackson-databind/issues/2658"
+      },
+      {
+        "Url": "https://github.com/luisgarciacheckmarx/LGV_onefile/issues/19"
+      },
+      {
+        "Url": "https://github.com/FasterXML/jackson-databind/pull/2864"
+      },
+      {
+        "Url": "https://github.com/FasterXML/jackson-databind/commit/a424c038ba0c0d65e579e22001dec925902ac0ef"
+      },
+      {
+        "Url": "https://www.oracle.com/security-alerts/cpujan2021.html"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-rpr3-cw39-3pxh"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-rpr3-cw39-3pxh"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-10650"
+      }
+    ],
+    "Description": "The com.fasterxml.jackson.core:jackson-databind library before versions 2.9.10.4 is vulnerable to an Unsafe Deserialization vulnerability when handling interactions related to the class `ignite-jta`.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-07-15T19:41:47Z",
+    "Severity": "HIGH",
+    "Summary": "jackson-databind before 2.9.10.4 vulnerable to unsafe deserialization",
+    "UpdatedAt": "2022-07-15T19:41:48Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 0,
+      "VectorString": ""
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.9.10.4"
+      },
+      "VulnerableVersionRange": "\u003c= 2.9.10.3"
+    }
+  ]
+}

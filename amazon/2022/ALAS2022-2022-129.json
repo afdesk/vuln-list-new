@@ -1,0 +1,40 @@
+{
+  "id": "ALAS2022-2022-129",
+  "title": "Amazon Linux 2022 - ALAS2022-2022-129: Medium priority package update for microcode_ctl",
+  "issued": {
+    "date": "2022-08-29 21:21"
+  },
+  "updated": {
+    "date": "2022-08-30 22:33"
+  },
+  "severity": "Medium",
+  "description": "Package updates are available for Amazon Linux 2022 that fix the following vulnerabilities:\nCVE-2022-21233:\n\tA flaw was found in hw. The APIC can operate in xAPIC mode (also known as a legacy mode), in which APIC configuration registers are exposed through a memory-mapped I/O (MMIO) page. This flaw allows an attacker who can execute code on a target CPU to query the APIC configuration page. When reading the APIC configuration page with an unaligned read from the MMIO page, the registers may return stale data from previous requests made by the same processor core to the same configuration page, leading to unauthorized access.\n",
+  "packages": [
+    {
+      "name": "microcode_ctl",
+      "epoch": "2",
+      "version": "2.1",
+      "release": "53.amzn2022",
+      "arch": "x86_64",
+      "filename": "Packages/microcode_ctl-2.1-53.amzn2022.x86_64.rpm"
+    },
+    {
+      "name": "microcode_ctl",
+      "epoch": "2",
+      "version": "2.1",
+      "release": "53.amzn2022",
+      "arch": "i686",
+      "filename": "Packages/microcode_ctl-2.1-53.amzn2022.i686.rpm"
+    }
+  ],
+  "references": [
+    {
+      "href": "http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21233",
+      "id": "CVE-2022-21233",
+      "type": "cve"
+    }
+  ],
+  "cveids": [
+    "CVE-2022-21233"
+  ]
+}

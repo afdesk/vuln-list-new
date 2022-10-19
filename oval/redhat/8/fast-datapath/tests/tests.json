@@ -1,0 +1,1554 @@
+{
+  "RpminfoTests": [
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.13 is earlier than 0:2.13.0-71.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205310001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.13 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205310002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13 is earlier than 0:2.13.0-71.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205310003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205310004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-devel is earlier than 0:2.13.0-71.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205310005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205310006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-test is earlier than 0:2.13.0-71.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205310007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205310008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.13 is earlier than 0:2.13.0-71.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205310009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.13 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205310010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.11 is earlier than 0:2.11.3-74.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205311001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205311001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.11 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205311002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11 is earlier than 0:2.11.3-74.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205311003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205311001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205311004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-devel is earlier than 0:2.11.3-74.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205311005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205311001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205311006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-test is earlier than 0:2.11.3-74.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205311007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205311003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205311008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.11 is earlier than 0:2.11.3-74.el8fdp",
+      "ID": "oval:com.redhat.rhba:tst:20205311009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205311001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.11 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhba:tst:20205311010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.11 is earlier than 0:2.11.0-35.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200171001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200171001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11 is earlier than 0:2.11.0-35.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200171003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200171001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-devel is earlier than 0:2.11.0-35.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200171005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200171001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-test is earlier than 0:2.11.0-35.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200171007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200171003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.11 is earlier than 0:2.11.0-35.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200171009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200171001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.12 is earlier than 0:2.12.0-12.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200172001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200172001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.12 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20200172002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.12 is earlier than 0:2.12.0-12.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200172003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200172001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.12 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20200172004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.12-devel is earlier than 0:2.12.0-12.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200172005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200172001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.12-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20200172006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.12-test is earlier than 0:2.12.0-12.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200172007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200172003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.12-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20200172008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.12 is earlier than 0:2.12.0-12.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20200172009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20200172001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.12 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20200172010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20200172005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.13 is earlier than 0:2.13.0-25.el8fdp.1",
+      "ID": "oval:com.redhat.rhsa:tst:20202295001",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202295001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13 is earlier than 0:2.13.0-25.el8fdp.1",
+      "ID": "oval:com.redhat.rhsa:tst:20202295003",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202295001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-devel is earlier than 0:2.13.0-25.el8fdp.1",
+      "ID": "oval:com.redhat.rhsa:tst:20202295005",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202295001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-test is earlier than 0:2.13.0-25.el8fdp.1",
+      "ID": "oval:com.redhat.rhsa:tst:20202295007",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202295003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.13 is earlier than 0:2.13.0-25.el8fdp.1",
+      "ID": "oval:com.redhat.rhsa:tst:20202295009",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202295001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.11 is earlier than 0:2.11.0-54.20200327gita4efc59.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20202297001",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202297001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11 is earlier than 0:2.11.0-54.20200327gita4efc59.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20202297003",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202297001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-devel is earlier than 0:2.11.0-54.20200327gita4efc59.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20202297005",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202297001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-test is earlier than 0:2.11.0-54.20200327gita4efc59.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20202297007",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202297003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.11 is earlier than 0:2.11.0-54.20200327gita4efc59.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20202297009",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20202297001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.13 is earlier than 0:2.13.0-79.5.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210497001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210497001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13 is earlier than 0:2.13.0-79.5.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210497003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210497001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-devel is earlier than 0:2.13.0-79.5.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210497005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210497001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-ipsec is earlier than 0:2.13.0-79.5.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210497007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20210497004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210497001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-ipsec is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20210497008",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20210497004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-test is earlier than 0:2.13.0-79.5.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210497009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210497003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.13 is earlier than 0:2.13.0-79.5.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210497011",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210497001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.11 is earlier than 0:2.11.3-83.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210837001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210837001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11 is earlier than 0:2.11.3-83.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210837003",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210837001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-devel is earlier than 0:2.11.3-83.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210837005",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210837001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.11-test is earlier than 0:2.11.3-83.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210837007",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210837003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.11 is earlier than 0:2.11.3-83.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20210837009",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205311005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20210837001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13 is earlier than 0:2.13.0-180.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20224786001",
+      "Version": "638",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20224786001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15 is earlier than 0:2.15.0-99.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20224787001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224787001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20224787001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20224787002",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224787001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16 is earlier than 0:2.16.0-74.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20224788001",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224788001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20224788001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20224788002",
+      "Version": "637",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224788001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.16 is earlier than 0:2.16.0-89.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226382001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226382001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.16 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226382002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16 is earlier than 0:2.16.0-89.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226382003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224788001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226382001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16-devel is earlier than 0:2.16.0-89.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226382005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226382001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226382006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16-ipsec is earlier than 0:2.16.0-89.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226382007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226382001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16-ipsec is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226382008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16-test is earlier than 0:2.16.0-89.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226382009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226382003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226382010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.16 is earlier than 0:2.16.0-89.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226382011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226382001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.16 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226382012",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.17 is earlier than 0:2.17.0-37.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226383001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226383001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.17 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226383002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is earlier than 0:2.17.0-37.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226383003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226383001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226383004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is earlier than 0:2.17.0-37.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226383005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226383001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226383006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is earlier than 0:2.17.0-37.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226383007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226383001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226383008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is earlier than 0:2.17.0-37.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226383009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226383003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226383010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is earlier than 0:2.17.0-37.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226383011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226383001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226383012",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.13 is earlier than 0:2.13.0-193.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226384001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226384001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13 is earlier than 0:2.13.0-193.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226384003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226384001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-devel is earlier than 0:2.13.0-193.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226384005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226384001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-ipsec is earlier than 0:2.13.0-193.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226384007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20210497004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226384001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-test is earlier than 0:2.13.0-193.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226384009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226384003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.13 is earlier than 0:2.13.0-193.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226384011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226384001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.15 is earlier than 0:2.15.0-113.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226385001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226385001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.15 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226385002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15 is earlier than 0:2.15.0-113.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226385003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224787001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226385001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15-devel is earlier than 0:2.15.0-113.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226385005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226385001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226385006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15-ipsec is earlier than 0:2.15.0-113.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226385007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226385001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15-ipsec is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226385008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15-test is earlier than 0:2.15.0-113.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226385009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226385003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226385010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.15 is earlier than 0:2.15.0-113.2.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226385011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226385001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.15 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226385012",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.13 is earlier than 0:2.13.0-193.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226502001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226502001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13 is earlier than 0:2.13.0-193.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226502003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226502001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-devel is earlier than 0:2.13.0-193.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226502005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226502001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-ipsec is earlier than 0:2.13.0-193.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226502007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20210497004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226502001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.13-test is earlier than 0:2.13.0-193.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226502009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226502003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.13 is earlier than 0:2.13.0-193.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226502011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226502001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.17 is earlier than 0:2.17.0-37.4.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226504001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226504001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is earlier than 0:2.17.0-37.4.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226504003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226504001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is earlier than 0:2.17.0-37.4.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226504005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226504001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is earlier than 0:2.17.0-37.4.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226504007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226504001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is earlier than 0:2.17.0-37.4.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226504009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226504003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is earlier than 0:2.17.0-37.4.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226504011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226383006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226504001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.15 is earlier than 0:2.15.0-113.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226505001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226505001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15 is earlier than 0:2.15.0-113.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226505003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224787001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226505001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15-devel is earlier than 0:2.15.0-113.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226505005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226505001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15-ipsec is earlier than 0:2.15.0-113.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226505007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226505001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.15-test is earlier than 0:2.15.0-113.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226505009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226505003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.15 is earlier than 0:2.15.0-113.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226505011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226385006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226505001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "network-scripts-openvswitch2.16 is earlier than 0:2.16.0-89.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226506001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226506001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16 is earlier than 0:2.16.0-89.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226506003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224788001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226506001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16-devel is earlier than 0:2.16.0-89.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226506005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226506001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16-ipsec is earlier than 0:2.16.0-89.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226506007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226506001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.16-test is earlier than 0:2.16.0-89.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226506009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226506003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.16 is earlier than 0:2.16.0-89.3.el8fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226506011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226382006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226506001"
+      }
+    }
+  ],
+  "RpmverifyfileTests": [
+    {
+      "Check": "at least one",
+      "Comment": "Red Hat Enterprise Linux 8 is installed",
+      "ID": "oval:com.redhat.rhba:tst:20205310011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Red Hat CoreOS 4 is installed",
+      "ID": "oval:com.redhat.rhba:tst:20205310012",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310005"
+      }
+    },
+    {
+      "Check": "none satisfy",
+      "Comment": "Red Hat Enterprise Linux must be installed",
+      "ID": "oval:com.redhat.rhba:tst:20205310013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20205310006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhba:ste:20205310006"
+      }
+    }
+  ]
+}

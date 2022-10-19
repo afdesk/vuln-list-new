@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2021-05-19T22:35:36Z",
+  "Package": {
+    "Ecosystem": "GO",
+    "Name": "github.com/elastic/beats/packetbeat/protos/pgsql"
+  },
+  "Advisory": {
+    "DatabaseId": 4480,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLTlxM2ctbTM1My1jcDRw",
+    "GhsaId": "GHSA-9q3g-m353-cp4p",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2017-11480"
+      },
+      {
+        "Url": "https://github.com/elastic/beats/pull/5457"
+      },
+      {
+        "Url": "https://discuss.elastic.co/t/beats-5-6-4-security-update/106739"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-9q3g-m353-cp4p"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-9q3g-m353-cp4p"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2017-11480"
+      }
+    ],
+    "Description": "Packetbeat versions prior to 5.6.4 are affected by a denial of service flaw in the PostgreSQL protocol handler. If Packetbeat is listening for PostgreSQL traffic and a user is able to send arbitrary network traffic to the monitored port, the attacker could prevent Packetbeat from properly logging other PostgreSQL traffic.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-02-15T01:57:18Z",
+    "Severity": "HIGH",
+    "Summary": "Denial of Service in Packetbeat",
+    "UpdatedAt": "2022-08-13T03:06:07Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "6.5.4"
+      },
+      "VulnerableVersionRange": "\u003c 6.5.4"
+    }
+  ]
+}

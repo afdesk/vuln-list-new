@@ -1,0 +1,53 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-07-27T21:14:57Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:squashtm-publisher"
+  },
+  "Advisory": {
+    "DatabaseId": 184050,
+    "Id": "GSA_kwCzR0hTQS05aDc5LTVtMmYtbXFqMs4AAs7y",
+    "GhsaId": "GHSA-9h79-5m2f-mqj2",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-34213"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-06-22/#SECURITY-2089"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-9h79-5m2f-mqj2"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-9h79-5m2f-mqj2"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-34213"
+      }
+    ],
+    "Description": "Jenkins Squash TM Publisher (Squash4Jenkins) Plugin 1.0.0 and earlier stores passwords unencrypted in its global configuration file on the Jenkins controller where they can be viewed by users with access to the Jenkins controller file system.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-06-24T00:00:32Z",
+    "Severity": "MODERATE",
+    "Summary": "Squash TM Publisher (Squash4Jenkins) Plugin stores passwords stored in plain text",
+    "UpdatedAt": "2022-07-27T21:14:57Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 6.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003c= 1.0.0"
+    }
+  ]
+}

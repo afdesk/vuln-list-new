@@ -1,0 +1,1477 @@
+{
+  "RpminfoTests": [
+    {
+      "Check": "at least one",
+      "Comment": "ceph is installed",
+      "ID": "oval:com.redhat.cve:tst:20213807001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20213807001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20213807002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20213807001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-waitress is installed",
+      "ID": "oval:com.redhat.cve:tst:202224761001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202224761001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-waitress is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202224761002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202224761001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-adal is installed",
+      "ID": "oval:com.redhat.cve:tst:202229217001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202229217001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-adal is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202229217002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202229217001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-rbd is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-rbd is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-cephadm is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-cephadm is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-ceph-common is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-ceph-common is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librados-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librados-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-rook is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-rook is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129012",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcephfs-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcephfs-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129014",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rbd-nbd is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129015",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rbd-nbd is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129016",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-dashboard is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129017",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129009"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-dashboard is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129018",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librgw2 is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129019",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librgw2 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129020",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-resource-agents is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129021",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-resource-agents is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129022",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcephsqlite is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129023",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129012"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcephsqlite is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129024",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-prometheus-alerts is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129025",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129013"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-prometheus-alerts is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129026",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcephfs2 is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129027",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129014"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcephfs2 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129028",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librgw-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129029",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129015"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librgw-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129030",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-cephfs is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129031",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129016"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-cephfs is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129032",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-grafana-dashboards is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129033",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129017"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-grafana-dashboards is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129034",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-modules-core is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129035",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129018"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-modules-core is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129036",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mon is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129037",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129019"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mon is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129038",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-immutable-object-cache is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129039",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129020"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-immutable-object-cache is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129040",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "cephadm is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129041",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129021"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "cephadm is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129042",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-diskprediction-local is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129043",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129022"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-diskprediction-local is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129044",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-debugsource is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129045",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129023"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-debugsource is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129046",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129023"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librbd-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129047",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129024"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librbd-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129048",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129024"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-rgw is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129049",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129025"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-rgw is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129050",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129025"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librbd1 is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129051",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129026"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librbd1 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129052",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129026"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-common is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129053",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129027"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-common is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129054",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129027"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-k8sevents is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129055",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129028"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-k8sevents is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129056",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129028"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-rados is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129057",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129029"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-rados is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129058",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129029"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libradospp-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129059",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129030"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libradospp-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129060",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129030"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "cephfs-top is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129061",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129031"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "cephfs-top is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129062",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129031"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-fuse is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129063",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129032"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-fuse is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129064",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129032"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129065",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129033"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129066",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129033"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-ceph-argparse is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129067",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129034"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-ceph-argparse is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129068",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129034"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-test is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129069",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129035"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129070",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129035"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-base is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129071",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129036"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-base is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129072",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129036"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-osd is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129073",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129037"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-osd is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129074",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129037"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-selinux is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129075",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129038"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-selinux is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129076",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129038"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libradosstriper1 is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129077",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129039"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libradosstriper1 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129078",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129039"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mib is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129079",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129040"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mib is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129080",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129040"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librados2 is installed",
+      "ID": "oval:com.redhat.cve:tst:202231129081",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129041"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librados2 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202231129082",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129041"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pecan is installed",
+      "ID": "oval:com.redhat.cve:tst:202240023001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240023001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pecan is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202240023002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240023001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-base is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997001",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129036"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-common is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997003",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129027"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-fuse is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997005",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129032"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-grafana-dashboards is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997007",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-immutable-object-cache is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997009",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997011",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129033"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-cephadm is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997013",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-dashboard is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997015",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-diskprediction-local is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997017",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-k8sevents is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997019",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129028"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-modules-core is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997021",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mgr-rook is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997023",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mib is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997025",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129040"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-mon is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997027",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-osd is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997029",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129037"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-prometheus-alerts is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997031",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-resource-agents is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997033",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-selinux is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997035",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129038"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ceph-test is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997037",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129035"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "cephadm is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997039",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "cephfs-top is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997041",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129031"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcephfs-devel is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997043",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcephfs2 is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997045",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libcephsqlite is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997047",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librados-devel is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997049",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librados2 is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997051",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129041"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libradospp-devel is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997053",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129030"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libradosstriper1 is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997055",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129039"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librbd-devel is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997057",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129024"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librbd1 is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997059",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129026"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librgw-devel is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997061",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "librgw2 is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997063",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-ceph-argparse is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997065",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129034"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-ceph-common is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997067",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-cephfs is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997069",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-rados is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997071",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129029"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-rbd is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997073",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-rgw is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997075",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129025"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rbd-nbd is earlier than 2:16.2.8-84.el9cp",
+      "ID": "oval:com.redhat.rhsa:tst:20225997077",
+      "Version": "641",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202231129008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-waitress is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202231015002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202224761001"
+      },
+      "State": {}
+    }
+  ],
+  "RpmverifyfileTests": [
+    {
+      "Check": "at least one",
+      "Comment": "Red Hat Enterprise Linux 9 is installed",
+      "ID": "oval:com.redhat.cve:tst:20213807003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20213807002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807002"
+      }
+    },
+    {
+      "Check": "none satisfy",
+      "Comment": "Red Hat Enterprise Linux must be installed",
+      "ID": "oval:com.redhat.cve:tst:20213807004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20213807002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20213807003"
+      }
+    }
+  ]
+}

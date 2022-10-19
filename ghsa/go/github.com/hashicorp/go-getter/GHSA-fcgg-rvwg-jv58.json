@@ -1,0 +1,65 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2022-06-01T21:20:37Z",
+  "Package": {
+    "Ecosystem": "GO",
+    "Name": "github.com/hashicorp/go-getter"
+  },
+  "Advisory": {
+    "DatabaseId": 177000,
+    "Id": "GSA_kwCzR0hTQS1mY2dnLXJ2d2ctanY1OM4AArNo",
+    "GhsaId": "GHSA-fcgg-rvwg-jv58",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-30321"
+      },
+      {
+        "Url": "https://discuss.hashicorp.com/t/hcsec-2022-13-multiple-vulnerabilities-in-go-getter-library/39930"
+      },
+      {
+        "Url": "https://discuss.hashicorp.com"
+      },
+      {
+        "Url": "https://github.com/hashicorp/go-getter/releases"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-fcgg-rvwg-jv58"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-fcgg-rvwg-jv58"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-30321"
+      }
+    ],
+    "Description": "HashiCorp go-getter through 2.0.2 does not safely perform downloads. Protocol switching, endless redirect, and configuration bypass were possible via abuse of custom HTTP response header processing.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-26T00:01:27Z",
+    "Severity": "CRITICAL",
+    "Summary": "HashiCorp go-getter unsafe downloads",
+    "UpdatedAt": "2022-08-11T19:30:57Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.1.0"
+      },
+      "VulnerableVersionRange": "\u003e= 2.0.0, \u003c 2.1.0"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.6.1"
+      },
+      "VulnerableVersionRange": "\u003c 1.6.1"
+    }
+  ]
+}

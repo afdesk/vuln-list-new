@@ -1,0 +1,55 @@
+{
+  "id": "GO-2021-0106",
+  "modified": "2022-09-20T15:16:04Z",
+  "published": "2021-07-28T18:08:05Z",
+  "aliases": [
+    "CVE-2020-36566"
+  ],
+  "details": "Due to improper path santization, archives containing relative file\npaths can cause files to be written (or overwritten) outside of the\ntarget directory.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/whyrusleeping/tar-utils",
+        "purl": "pkg:golang/github.com/whyrusleeping/tar-utils"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.0-20201201191210-20a61371de5b"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {
+        "imports": [
+          {
+            "path": "github.com/whyrusleeping/tar-utils",
+            "symbols": [
+              "Extractor.outputPath"
+            ]
+          }
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/go-vulndb/ID/GO-2021-0106.json",
+        "url": "https://pkg.go.dev/vuln/GO-2021-0106"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "FIX",
+      "url": "https://github.com/whyrusleeping/tar-utils/commit/20a61371de5b51380bbdb0c7935b30b0625ac227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://snyk.io/research/zip-slip-vulnerability"
+    }
+  ]
+}

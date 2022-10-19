@@ -1,0 +1,83 @@
+{
+  "id": "GO-2021-0098",
+  "modified": "2022-09-23T18:53:37Z",
+  "published": "2021-04-14T20:04:52Z",
+  "aliases": [
+    "CVE-2021-21237",
+    "GHSA-cx3w-xqmc-84g5"
+  ],
+  "details": "Due to the standard library behavior of exec.LookPath on Windows a number of methods may\nresult in arbitrary code execution when cloning or operating on untrusted Git repositories.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/git-lfs/git-lfs",
+        "purl": "pkg:golang/github.com/git-lfs/git-lfs"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.5.1-0.20210113180018-fc664697ed2c"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {
+        "imports": [
+          {
+            "goos": [
+              "windows"
+            ],
+            "path": "github.com/git-lfs/git-lfs/commands",
+            "symbols": [
+              "PipeCommand"
+            ]
+          },
+          {
+            "goos": [
+              "windows"
+            ],
+            "path": "github.com/git-lfs/git-lfs/creds",
+            "symbols": [
+              "AskPassCredentialHelper.getFromProgram",
+              "commandCredentialHelper.Approve"
+            ]
+          },
+          {
+            "goos": [
+              "windows"
+            ],
+            "path": "github.com/git-lfs/git-lfs/lfs",
+            "symbols": [
+              "pipeExtensions"
+            ]
+          },
+          {
+            "goos": [
+              "windows"
+            ],
+            "path": "github.com/git-lfs/git-lfs/lfshttp",
+            "symbols": [
+              "sshAuthClient.Resolve"
+            ]
+          }
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/go-vulndb/ID/GO-2021-0098.json",
+        "url": "https://pkg.go.dev/vuln/GO-2021-0098"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "FIX",
+      "url": "https://github.com/git-lfs/git-lfs/commit/fc664697ed2c2081ee9633010de0a7f9debea72a"
+    }
+  ]
+}

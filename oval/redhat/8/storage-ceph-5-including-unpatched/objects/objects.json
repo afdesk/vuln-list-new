@@ -1,0 +1,280 @@
+{
+  "RpminfoObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807001",
+      "Version": "636",
+      "Name": "libcephfs-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807002",
+      "Version": "636",
+      "Name": "librgw2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807003",
+      "Version": "636",
+      "Name": "ceph-mgr-modules-core"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807004",
+      "Version": "636",
+      "Name": "ceph-mgr-diskprediction-local"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807005",
+      "Version": "636",
+      "Name": "libradospp-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807006",
+      "Version": "636",
+      "Name": "librbd-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807007",
+      "Version": "636",
+      "Name": "python3-rbd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807008",
+      "Version": "636",
+      "Name": "ceph-mgr-dashboard"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807009",
+      "Version": "636",
+      "Name": "librbd1"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807010",
+      "Version": "636",
+      "Name": "python3-rgw"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807011",
+      "Version": "636",
+      "Name": "python3-cephfs"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807012",
+      "Version": "636",
+      "Name": "python3-ceph-argparse"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807013",
+      "Version": "636",
+      "Name": "librados-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807014",
+      "Version": "636",
+      "Name": "ceph-immutable-object-cache"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807015",
+      "Version": "636",
+      "Name": "ceph-selinux"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807016",
+      "Version": "636",
+      "Name": "cephadm"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807017",
+      "Version": "636",
+      "Name": "python3-rados"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807018",
+      "Version": "636",
+      "Name": "ceph-mgr-rook"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807019",
+      "Version": "636",
+      "Name": "libcephfs2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807020",
+      "Version": "636",
+      "Name": "libcephsqlite"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807021",
+      "Version": "636",
+      "Name": "cephfs-top"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807022",
+      "Version": "636",
+      "Name": "libradosstriper1"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807023",
+      "Version": "636",
+      "Name": "rbd-nbd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807024",
+      "Version": "636",
+      "Name": "ceph-grafana-dashboards"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807025",
+      "Version": "636",
+      "Name": "ceph-osd"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807026",
+      "Version": "636",
+      "Name": "ceph-mgr"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807027",
+      "Version": "636",
+      "Name": "ceph-mgr-cephadm"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807028",
+      "Version": "636",
+      "Name": "ceph-mgr-k8sevents"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807029",
+      "Version": "636",
+      "Name": "librgw-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807030",
+      "Version": "636",
+      "Name": "ceph-common"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807031",
+      "Version": "636",
+      "Name": "librados2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807032",
+      "Version": "636",
+      "Name": "ceph-mon"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807033",
+      "Version": "636",
+      "Name": "ceph-radosgw"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807034",
+      "Version": "636",
+      "Name": "ceph-test"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807035",
+      "Version": "636",
+      "Name": "ceph-mds"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807036",
+      "Version": "636",
+      "Name": "python3-ceph-common"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807037",
+      "Version": "636",
+      "Name": "ceph-fuse"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807038",
+      "Version": "636",
+      "Name": "ceph-base"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807039",
+      "Version": "636",
+      "Name": "cephfs-mirror"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807040",
+      "Version": "636",
+      "Name": "rbd-mirror"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807041",
+      "Version": "636",
+      "Name": "ceph-resource-agents"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807042",
+      "Version": "636",
+      "Name": "ceph-prometheus-alerts"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20214048002",
+      "Version": "636",
+      "Name": "ceph-debugsource"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20214048011",
+      "Version": "636",
+      "Name": "ceph"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202224761001",
+      "Version": "636",
+      "Name": "python-waitress"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202229217001",
+      "Version": "636",
+      "Name": "python-adal"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202231129044",
+      "Version": "636",
+      "Name": "ceph-mib"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202240023001",
+      "Version": "636",
+      "Name": "python-pecan"
+    }
+  ],
+  "RpmverifyfileObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:20213807043",
+      "AttrVersion": "636",
+      "Behaviors": {
+        "Noconfigfiles": "true",
+        "Noghostfiles": "true",
+        "Nogroup": "true",
+        "Nolinkto": "true",
+        "Nomd5": "true",
+        "Nomode": "true",
+        "Nomtime": "true",
+        "Nordev": "true",
+        "Nosize": "true",
+        "Nouser": "true"
+      },
+      "Filepath": {
+        "Text": "/etc/redhat-release"
+      },
+      "Name": {
+        "Operation": "pattern match"
+      },
+      "Version": {
+        "Operation": "pattern match"
+      },
+      "Epoch": {
+        "Operation": "pattern match"
+      },
+      "Arch": {
+        "Operation": "pattern match"
+      },
+      "Release": {
+        "Operation": "pattern match"
+      }
+    }
+  ]
+}

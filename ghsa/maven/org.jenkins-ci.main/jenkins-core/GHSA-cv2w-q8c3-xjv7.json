@@ -1,0 +1,62 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2022-06-23T06:46:49Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.main:jenkins-core"
+  },
+  "Advisory": {
+    "DatabaseId": 174330,
+    "Id": "GSA_kwCzR0hTQS1jdjJ3LXE4YzMteGp2N84AAqj6",
+    "GhsaId": "GHSA-cv2w-q8c3-xjv7",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-21697"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2428"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2021/11/04/3"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-cv2w-q8c3-xjv7"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-cv2w-q8c3-xjv7"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-21697"
+      }
+    ],
+    "Description": "Jenkins 2.318 and earlier, LTS 2.303.2 and earlier allows any agent to read and write the contents of any build directory stored in Jenkins with very few restrictions.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-24T19:19:43Z",
+    "Severity": "CRITICAL",
+    "Summary": "Incomplete List of Disallowed Inputs in Jenkins",
+    "UpdatedAt": "2022-06-23T06:46:49Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.319"
+      },
+      "VulnerableVersionRange": "\u003e= 2.304, \u003c= 2.318"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.319"
+      },
+      "VulnerableVersionRange": "\u003c 2.303.2"
+    }
+  ]
+}

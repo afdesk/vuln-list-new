@@ -1,0 +1,348 @@
+{
+  "RpminfoTests": [
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is installed",
+      "ID": "oval:com.redhat.cve:tst:201925076001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:201925076002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201925076001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-debugsource is installed",
+      "ID": "oval:com.redhat.cve:tst:201925076003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-debugsource is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:201925076004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201925076001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is installed",
+      "ID": "oval:com.redhat.cve:tst:201925076005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:201925076006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201925076001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:201925076007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:201925076008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201925076001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is installed",
+      "ID": "oval:com.redhat.cve:tst:201925076009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:201925076010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201925076001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is installed",
+      "ID": "oval:com.redhat.cve:tst:201925076011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:201925076012",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201925076001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202232166002",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202232166004",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202232166006",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202232166008",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-debugsource is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202232166010",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is not installed",
+      "ID": "oval:com.redhat.unaffected:tst:202232166012",
+      "Version": "635",
+      "CheckExistence": "none_exist",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076001"
+      },
+      "State": {}
+    }
+  ],
+  "RpmverifyfileTests": [
+    {
+      "Check": "at least one",
+      "Comment": "Red Hat Enterprise Linux 9 is installed",
+      "ID": "oval:com.redhat.cve:tst:201925076013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201925076002"
+      }
+    },
+    {
+      "Check": "none satisfy",
+      "Comment": "Red Hat Enterprise Linux must be installed",
+      "ID": "oval:com.redhat.cve:tst:201925076014",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:201925076007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201925076003"
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "RpminfoObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:201712161001",
+      "Version": "636",
+      "Name": "rh-sso7-keycloak-server"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201814040001",
+      "Version": "636",
+      "Name": "keycloak-theme"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202013949001",
+      "Version": "636",
+      "Name": "libthrift"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202120323001",
+      "Version": "636",
+      "Name": "keycloak-services"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202120324001",
+      "Version": "636",
+      "Name": "wildfly-elytron"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202131684001",
+      "Version": "636",
+      "Name": "json-smart"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202137136001",
+      "Version": "636",
+      "Name": "netty-codec"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202142575001",
+      "Version": "636",
+      "Name": "owasp-java-html-sanitizer"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20220536001",
+      "Version": "636",
+      "Name": "follow-redirects"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20220839001",
+      "Version": "636",
+      "Name": "liquibase"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20220853001",
+      "Version": "636",
+      "Name": "jboss-client"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20221278001",
+      "Version": "636",
+      "Name": "WildFly"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202223913001",
+      "Version": "636",
+      "Name": "artemis-commons"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202224785001",
+      "Version": "636",
+      "Name": "Moment.js"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202224823001",
+      "Version": "636",
+      "Name": "netty"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202225647001",
+      "Version": "636",
+      "Name": "com.google.code.gson-gson"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202225857001",
+      "Version": "636",
+      "Name": "snakeyaml"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202231129001",
+      "Version": "636",
+      "Name": "moment"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202233987001",
+      "Version": "636",
+      "Name": "got"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873001",
+      "Version": "642",
+      "Name": "rh-sso7"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873002",
+      "Version": "642",
+      "Name": "rh-sso7-runtime"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873003",
+      "Version": "642",
+      "Name": "rh-sso7-javapackages-tools"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873004",
+      "Version": "642",
+      "Name": "rh-sso7-python-javapackages"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873005",
+      "Version": "642",
+      "Name": "rh-sso7-freemarker"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873006",
+      "Version": "642",
+      "Name": "rh-sso7-twitter4j"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873007",
+      "Version": "642",
+      "Name": "rh-sso7-twitter4j-core"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873008",
+      "Version": "642",
+      "Name": "rh-sso7-zxing"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873009",
+      "Version": "642",
+      "Name": "rh-sso7-zxing-core"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873010",
+      "Version": "642",
+      "Name": "rh-sso7-zxing-javase"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873011",
+      "Version": "642",
+      "Name": "rh-sso7-liquibase"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873012",
+      "Version": "642",
+      "Name": "rh-sso7-liquibase-core"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873013",
+      "Version": "642",
+      "Name": "rh-sso7-libunix-dbus-java"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873014",
+      "Version": "642",
+      "Name": "rh-sso7-libunix-dbus-java-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20170873015",
+      "Version": "642",
+      "Name": "rh-sso7-keycloak"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:201820200001",
+      "Version": "635",
+      "Name": "okhttp"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:201917571001",
+      "Version": "635",
+      "Name": "log4j"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:201917632001",
+      "Version": "635",
+      "Name": "jetty-project"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202014359001",
+      "Version": "635",
+      "Name": "keycloak-gatekeeper"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:20205529001",
+      "Version": "635",
+      "Name": "htmlunit"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202130468001",
+      "Version": "635",
+      "Name": "cxf-rt-rs-json-basic"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202143045001",
+      "Version": "635",
+      "Name": "avro"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202144228001",
+      "Version": "635",
+      "Name": "log4j-core"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202221680001",
+      "Version": "635",
+      "Name": "marked"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202222950001",
+      "Version": "635",
+      "Name": "spring-expression"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202229599001",
+      "Version": "635",
+      "Name": "maven-shared-utils"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202231197001",
+      "Version": "635",
+      "Name": "jdbc-postgresql"
+    }
+  ],
+  "RpmverifyfileObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:201712161002",
+      "AttrVersion": "636",
+      "Behaviors": {
+        "Noconfigfiles": "true",
+        "Noghostfiles": "true",
+        "Nogroup": "true",
+        "Nolinkto": "true",
+        "Nomd5": "true",
+        "Nomode": "true",
+        "Nomtime": "true",
+        "Nordev": "true",
+        "Nosize": "true",
+        "Nouser": "true"
+      },
+      "Filepath": {
+        "Text": "/etc/redhat-release"
+      },
+      "Name": {
+        "Operation": "pattern match"
+      },
+      "Version": {
+        "Operation": "pattern match"
+      },
+      "Epoch": {
+        "Operation": "pattern match"
+      },
+      "Arch": {
+        "Operation": "pattern match"
+      },
+      "Release": {
+        "Operation": "pattern match"
+      }
+    }
+  ]
+}

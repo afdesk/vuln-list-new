@@ -1,0 +1,85 @@
+{
+  "RpminfoObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:201910768001",
+      "Version": "636",
+      "Name": "XStatic-Angular-common"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:201910768002",
+      "Version": "636",
+      "Name": "python3-XStatic-Angular"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20222996001",
+      "Version": "636",
+      "Name": "python3-scciclient"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223100001",
+      "Version": "636",
+      "Name": "openstack-barbican"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223276001",
+      "Version": "636",
+      "Name": "puppet-mysql"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226750002",
+      "Version": "634",
+      "Name": "openstack-barbican-api"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226750003",
+      "Version": "634",
+      "Name": "openstack-barbican-common"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226750004",
+      "Version": "634",
+      "Name": "python3-barbican"
+    },
+    {
+      "ID": "oval:com.redhat.unaffected:obj:202240023001",
+      "Version": "635",
+      "Name": "python-pecan"
+    }
+  ],
+  "RpmverifyfileObjects": [
+    {
+      "ID": "oval:com.redhat.cve:obj:201910768003",
+      "AttrVersion": "636",
+      "Behaviors": {
+        "Noconfigfiles": "true",
+        "Noghostfiles": "true",
+        "Nogroup": "true",
+        "Nolinkto": "true",
+        "Nomd5": "true",
+        "Nomode": "true",
+        "Nomtime": "true",
+        "Nordev": "true",
+        "Nosize": "true",
+        "Nouser": "true"
+      },
+      "Filepath": {
+        "Text": "/etc/redhat-release"
+      },
+      "Name": {
+        "Operation": "pattern match"
+      },
+      "Version": {
+        "Operation": "pattern match"
+      },
+      "Epoch": {
+        "Operation": "pattern match"
+      },
+      "Arch": {
+        "Operation": "pattern match"
+      },
+      "Release": {
+        "Operation": "pattern match"
+      }
+    }
+  ]
+}

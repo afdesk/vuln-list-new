@@ -1,0 +1,59 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2022-06-23T06:51:55Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.main:jenkins-core"
+  },
+  "Advisory": {
+    "DatabaseId": 160655,
+    "Id": "GSA_kwCzR0hTQS1xdjZmLXJjdjYtNnEzeM4AAnOP",
+    "GhsaId": "GHSA-qv6f-rcv6-6q3x",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-21604"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2021-01-13/#SECURITY-1923"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-qv6f-rcv6-6q3x"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-qv6f-rcv6-6q3x"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-21604"
+      }
+    ],
+    "Description": "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier allows attackers with permission to create or configure various objects to inject crafted content into Old Data Monitor that results in the instantiation of potentially unsafe objects once discarded by an administrator.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-24T17:39:12Z",
+    "Severity": "HIGH",
+    "Summary": "Deserialization of Untrusted Data in Jenkins",
+    "UpdatedAt": "2022-06-23T06:51:55Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.275"
+      },
+      "VulnerableVersionRange": "\u003e= 2.263.2, \u003c= 2.274"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.275"
+      },
+      "VulnerableVersionRange": "\u003c 2.263.1"
+    }
+  ]
+}

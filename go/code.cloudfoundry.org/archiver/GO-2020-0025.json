@@ -1,0 +1,68 @@
+{
+  "module": "code.cloudfoundry.org/archiver",
+  "id": "GO-2020-0025",
+  "published": "2021-04-14T20:04:52Z",
+  "modified": "2022-09-20T15:16:04Z",
+  "aliases": [
+    "CVE-2018-25046"
+  ],
+  "details": "Due to improper path santization, archives containing relative file\npaths can cause files to be written (or overwritten) outside of the\ntarget directory.\n",
+  "affected": [
+    {
+      "package": {
+        "name": "github.com/cloudfoundry/archiver",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.0-20180523222229-09b5706aa936"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": "https://pkg.go.dev/vuln/GO-2020-0025"
+      },
+      "ecosystem_specific": {}
+    },
+    {
+      "package": {
+        "name": "code.cloudfoundry.org/archiver",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.0.0-20180523222229-09b5706aa936"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": "https://pkg.go.dev/vuln/GO-2020-0025"
+      },
+      "ecosystem_specific": {}
+    }
+  ],
+  "references": [
+    {
+      "type": "FIX",
+      "url": "https://github.com/cloudfoundry/archiver/commit/09b5706aa9367972c09144a450bb4523049ee840"
+    },
+    {
+      "type": "WEB",
+      "url": "https://snyk.io/research/zip-slip-vulnerability"
+    }
+  ]
+}

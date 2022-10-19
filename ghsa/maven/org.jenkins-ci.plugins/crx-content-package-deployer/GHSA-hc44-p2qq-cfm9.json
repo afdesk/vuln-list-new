@@ -1,0 +1,53 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-07-05T22:56:53Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:crx-content-package-deployer"
+  },
+  "Advisory": {
+    "DatabaseId": 184100,
+    "Id": "GSA_kwCzR0hTQS1oYzQ0LXAycXEtY2ZtOc4AAs8k",
+    "GhsaId": "GHSA-hc44-p2qq-cfm9",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-34184"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-06-22/#SECURITY-2784"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-hc44-p2qq-cfm9"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-hc44-p2qq-cfm9"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-34184"
+      }
+    ],
+    "Description": "Jenkins CRX Content Package Deployer Plugin 1.9 and earlier does not escape the name and description of CRX Content Package Choice parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-06-24T00:00:31Z",
+    "Severity": "MODERATE",
+    "Summary": "Cross-site Scripting in Jenkins CRX Content Package Deployer Plugin",
+    "UpdatedAt": "2022-07-05T22:56:53Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003c= 1.9"
+    }
+  ]
+}

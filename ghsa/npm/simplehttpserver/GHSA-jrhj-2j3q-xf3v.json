@@ -1,0 +1,56 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2018-07-26T15:03:23Z",
+  "Package": {
+    "Ecosystem": "NPM",
+    "Name": "simplehttpserver"
+  },
+  "Advisory": {
+    "DatabaseId": 470,
+    "Id": "MDE2OlNlY3VyaXR5QWR2aXNvcnlHSFNBLWpyaGotMmozcS14ZjN2",
+    "GhsaId": "GHSA-jrhj-2j3q-xf3v",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2018-3716"
+      },
+      {
+        "Url": "https://hackerone.com/reports/309648"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-jrhj-2j3q-xf3v"
+      },
+      {
+        "Url": "https://www.npmjs.com/advisories/585"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-jrhj-2j3q-xf3v"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2018-3716"
+      }
+    ],
+    "Description": "All versions of simplehttpserver are vulnerable to stored cross-site scripting (XSS). To be exploited an attacker needs to control the filename of a file that is used in the directory listing output.\n\n\n## Recommendation\n\nNo fix is currently available for this vulnerability. It is our recommendation to not use this module if the exploitable conditions are met.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2018-07-26T15:03:30Z",
+    "Severity": "HIGH",
+    "Summary": "Stored Cross-Site Scripting in simplehttpserver",
+    "UpdatedAt": "2022-08-13T03:05:51Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 0,
+      "VectorString": ""
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "0.1.0"
+      },
+      "VulnerableVersionRange": "\u003c 0.1.0"
+    }
+  ]
+}

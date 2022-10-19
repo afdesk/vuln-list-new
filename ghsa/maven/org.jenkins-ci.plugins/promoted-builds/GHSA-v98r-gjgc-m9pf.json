@@ -1,0 +1,59 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-04-22T21:07:38Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:promoted-builds"
+  },
+  "Advisory": {
+    "DatabaseId": 15012,
+    "Id": "GSA_kwCzR0hTQS12OThyLWdqZ2MtbTlwZs06pA",
+    "GhsaId": "GHSA-v98r-gjgc-m9pf",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-29045"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-04-12/#SECURITY-2617"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-v98r-gjgc-m9pf"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-v98r-gjgc-m9pf"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-29045"
+      }
+    ],
+    "Description": "Jenkins promoted builds Plugin 873.v6149db_d64130 and earlier, except 3.10.1, does not escape the name and description of Promoted Build parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-04-13T00:00:16Z",
+    "Severity": "MODERATE",
+    "Summary": "Cross-site Scripting in Jenkins Promoted Builds Plugin",
+    "UpdatedAt": "2022-04-22T21:07:38Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003e= 3.11, \u003c= 873"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "3.10.1"
+      },
+      "VulnerableVersionRange": "\u003c 3.10.1"
+    }
+  ]
+}

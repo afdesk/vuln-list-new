@@ -1,0 +1,59 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2022-06-02T15:51:27Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:windows-slaves"
+  },
+  "Advisory": {
+    "DatabaseId": 132669,
+    "Id": "GSA_kwCzR0hTQS14aHczLXdteDItNzZ3Zs4AAgY9",
+    "GhsaId": "GHSA-xhw3-wmx2-76wf",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-30950"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-05-17/#SECURITY-2604"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/05/17/8"
+      },
+      {
+        "Url": "https://github.com/jenkinsci/windows-slaves-plugin/commit/4638cf0e56caf839eadfdf0fab545abd2a9ac65e"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-xhw3-wmx2-76wf"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-xhw3-wmx2-76wf"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-30950"
+      }
+    ],
+    "Description": "Jenkins WMI Windows Agents Plugin 1.8 and earlier includes the Windows Remote Command library which has a buffer overflow vulnerability that may allow users able to connect to a named pipe to execute commands on the Windows agent machine.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-18T00:00:39Z",
+    "Severity": "HIGH",
+    "Summary": "Buffer overflow in Jenkins WMI Windows Agents plugin",
+    "UpdatedAt": "2022-06-02T15:51:27Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 8.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.8.1"
+      },
+      "VulnerableVersionRange": "\u003c 1.8.1"
+    }
+  ]
+}

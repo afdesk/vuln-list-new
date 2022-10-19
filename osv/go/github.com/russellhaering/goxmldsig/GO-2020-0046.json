@@ -1,0 +1,91 @@
+{
+  "id": "GO-2020-0046",
+  "modified": "2022-09-20T15:16:04Z",
+  "published": "2021-04-14T20:04:52Z",
+  "aliases": [
+    "CVE-2020-7711"
+  ],
+  "details": "Due to a nil pointer dereference, a malformed XML Digital Signature\ncan cause a panic during validation. If user supplied signatures are\nbeing validated, this may be used as a denial of service vector.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/russellhaering/goxmldsig",
+        "purl": "pkg:golang/github.com/russellhaering/goxmldsig"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.1.0"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {
+        "imports": [
+          {
+            "path": "github.com/russellhaering/goxmldsig",
+            "symbols": [
+              "ValidationContext.validateSignature"
+            ]
+          }
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/go-vulndb/ID/GO-2020-0046.json",
+        "url": "https://pkg.go.dev/vuln/GO-2020-0046"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/russellhaering/gosaml2",
+        "purl": "pkg:golang/github.com/russellhaering/gosaml2"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "0.6.0"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {
+        "imports": [
+          {
+            "path": "github.com/russellhaering/gosaml2",
+            "symbols": [
+              "SAMLServiceProvider.RetrieveAssertionInfo",
+              "SAMLServiceProvider.ValidateEncodedResponse",
+              "SAMLServiceProvider.validateAssertionSignatures"
+            ]
+          }
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/go-vulndb/ID/GO-2020-0046.json",
+        "url": "https://pkg.go.dev/vuln/GO-2020-0046"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/russellhaering/goxmldsig/issues/48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/russellhaering/gosaml2/issues/59"
+    }
+  ]
+}

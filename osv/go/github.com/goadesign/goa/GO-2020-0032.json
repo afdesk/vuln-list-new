@@ -1,0 +1,123 @@
+{
+  "id": "GO-2020-0032",
+  "modified": "2022-09-20T15:16:04Z",
+  "published": "2021-04-14T20:04:52Z",
+  "aliases": [
+    "CVE-2019-25073"
+  ],
+  "details": "Due to improper santization of user input, Controller.FileHandler allows\nfor directory traversal, allowing an attacker to read files outside of\nthe target directory that the server has permission to read.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/goadesign/goa",
+        "purl": "pkg:golang/github.com/goadesign/goa"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {
+        "imports": [
+          {
+            "path": "github.com/goadesign/goa",
+            "symbols": [
+              "Controller.FileHandler"
+            ]
+          }
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/go-vulndb/ID/GO-2020-0032.json",
+        "url": "https://pkg.go.dev/vuln/GO-2020-0032"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "goa.design/goa",
+        "purl": "pkg:golang/goa.design/goa"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.4.3"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {
+        "imports": [
+          {
+            "path": "goa.design/goa",
+            "symbols": [
+              "Controller.FileHandler"
+            ]
+          }
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/go-vulndb/ID/GO-2020-0032.json",
+        "url": "https://pkg.go.dev/vuln/GO-2020-0032"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "goa.design/goa/v3",
+        "purl": "pkg:golang/goa.design/goa/v3"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.0.9"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {
+        "imports": [
+          {
+            "path": "goa.design/goa/v3",
+            "symbols": [
+              "Controller.FileHandler"
+            ]
+          }
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/go-vulndb/ID/GO-2020-0032.json",
+        "url": "https://pkg.go.dev/vuln/GO-2020-0032"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "FIX",
+      "url": "https://github.com/goadesign/goa/pull/2388"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/goadesign/goa/commit/70b5a199d0f813d74423993832c424e1fc73fb39"
+    }
+  ]
+}

@@ -1,0 +1,1278 @@
+{
+  "RpminfoTests": [
+    {
+      "Check": "at least one",
+      "Comment": "etcd is earlier than 0:3.3.23-3.1.el8ost.1",
+      "ID": "oval:com.redhat.rhsa:tst:20213487001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213487001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "etcd is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213487002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213487001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-common is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-common is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-linuxbridge is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-linuxbridge is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-macvtap-agent is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-macvtap-agent is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-metering-agent is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-metering-agent is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-ml2 is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-ml2 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488012",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-openvswitch is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-openvswitch is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488014",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-rpc-server is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-rpc-server is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488016",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-sriov-nic-agent is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-sriov-nic-agent is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488018",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-neutron is earlier than 1:15.3.5-2.20210608154813.el8ost.3",
+      "ID": "oval:com.redhat.rhsa:tst:20213488019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213488001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-neutron is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213488020",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-django20 is earlier than 0:2.0.13-16.el8ost.1",
+      "ID": "oval:com.redhat.rhsa:tst:20213490001",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213490001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213490001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-django20 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20213490002",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213490001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "etcd is earlier than 0:3.3.23-7.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220237001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213487001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220237001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-twisted is earlier than 0:16.4.1-19.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220992001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220992001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220992001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-twisted is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220992002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220992001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-oslo-utils-lang is earlier than 0:3.41.6-2.20220111011750.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220993001",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220993001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220993001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-oslo-utils-lang is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220993002",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220993001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-oslo-utils is earlier than 0:3.41.6-2.20220111011750.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220993003",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220993002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220993001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-oslo-utils is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220993004",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220993002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-tripleo-heat-templates is earlier than 0:11.6.1-2.20220116004912.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220995001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220995001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220995001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-tripleo-heat-templates is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220995002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220995001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-common is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-linuxbridge is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-macvtap-agent is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-metering-agent is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-ml2 is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-openvswitch is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-rpc-server is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-neutron-sriov-nic-agent is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-neutron is earlier than 1:15.3.5-2.20220113150031.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220996019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213488010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220996001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-qpid-apache is earlier than 0:0.32.0-rc1.9.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220997001",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220997001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220997001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-qpid-apache is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220997002",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220997001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-github-vbatts-tar-split is earlier than 0:0.11.1-6.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220998001",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220998001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220998001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "golang-github-vbatts-tar-split is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220998002",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220998001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-api is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-api is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-common is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-common is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-compute is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-compute is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-conductor is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-conductor is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-console is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-console is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999012",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-migration is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-migration is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999014",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-novncproxy is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999015",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-novncproxy is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999016",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-scheduler is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999017",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-scheduler is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999018",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-serialproxy is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999019",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-serialproxy is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999020",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-spicehtml5proxy is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999021",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-nova-spicehtml5proxy is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999022",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-nova is earlier than 1:20.6.2-2.20220112164912.8906554.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20220999023",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20220999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-nova is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20220999024",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220999012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-numpy is earlier than 1:1.17.0-8.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20221000001",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221000001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20221000001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-numpy is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221000002",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221000001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-numpy-f2py is earlier than 1:1.17.0-8.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20221000003",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221000002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20221000001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-numpy-f2py is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221000004",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221000002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-waitress is earlier than 0:2.0.0-1.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20221253001",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221253001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20221253001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-waitress is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221253002",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221253001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-twisted is earlier than 0:16.4.1-20.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20221645001",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20220992001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20221645001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican is earlier than 0:9.0.2-2.20220122185348.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20225114001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225114001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20225114002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-api is earlier than 0:9.0.2-2.20220122185348.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20225114003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225114001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-api is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20225114004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-common is earlier than 0:9.0.2-2.20220122185348.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20225114005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225114001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-common is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20225114006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-keystone-listener is earlier than 0:9.0.2-2.20220122185348.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20225114007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225114001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-keystone-listener is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20225114008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-worker is earlier than 0:9.0.2-2.20220122185348.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20225114009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225114001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-worker is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20225114010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-barbican is earlier than 0:9.0.2-2.20220122185348.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20225114011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225114001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-barbican is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20225114012",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "puppet-firewall is earlier than 0:3.4.0-1.94f707cgit.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20225116001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225116001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20225116001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "puppet-firewall is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20225116002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225116001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "etcd is earlier than 0:3.3.23-10.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20226061001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213487001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226061001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "collectd-libpod-stats is earlier than 0:1.0.4-2.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20226062001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226062001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226062001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "collectd-libpod-stats is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226062002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226062001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican is earlier than 0:9.0.2-2.20220122185349.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20226750001",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226750001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-api is earlier than 0:9.0.2-2.20220122185349.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20226750003",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226750001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican-common is earlier than 0:9.0.2-2.20220122185349.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20226750005",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226750001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-barbican is earlier than 0:9.0.2-2.20220122185349.c718783.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20226750007",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20225114006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226750001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "tripleo-ansible is earlier than 0:0.8.1-2.20220406160116.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20226969001",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226969001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226969001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "tripleo-ansible is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226969002",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226969001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-tripleo-common is earlier than 0:11.7.1-2.20220318011206.el8ost",
+      "ID": "oval:com.redhat.rhsa:tst:20226969003",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226969002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226969003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-tripleo-common is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226969004",
+      "Version": "634",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226969002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487002"
+      }
+    }
+  ],
+  "RpmverifyfileTests": [
+    {
+      "Check": "at least one",
+      "Comment": "Red Hat Enterprise Linux 8 is installed",
+      "ID": "oval:com.redhat.rhsa:tst:20213487003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213487002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "Red Hat CoreOS 4 is installed",
+      "ID": "oval:com.redhat.rhsa:tst:20213487004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213487002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487004"
+      }
+    },
+    {
+      "Check": "none satisfy",
+      "Comment": "Red Hat Enterprise Linux must be installed",
+      "ID": "oval:com.redhat.rhsa:tst:20213487005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20213487002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20213487005"
+      }
+    }
+  ]
+}

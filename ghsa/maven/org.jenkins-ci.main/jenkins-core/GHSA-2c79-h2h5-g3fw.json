@@ -1,0 +1,59 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2022-06-23T06:48:07Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.main:jenkins-core"
+  },
+  "Advisory": {
+    "DatabaseId": 174325,
+    "Id": "GSA_kwCzR0hTQS0yYzc5LWgyaDUtZzNmd84AAqj1",
+    "GhsaId": "GHSA-2c79-h2h5-g3fw",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-21691"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2455"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-2c79-h2h5-g3fw"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-2c79-h2h5-g3fw"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-21691"
+      }
+    ],
+    "Description": "Creating symbolic links is possible without the 'symlink' agent-to-controller access control permission in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-24T19:19:44Z",
+    "Severity": "CRITICAL",
+    "Summary": "Incorrect Authorization in Jenkins",
+    "UpdatedAt": "2022-06-23T06:48:07Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.319"
+      },
+      "VulnerableVersionRange": "\u003e= 2.304, \u003c= 2.318"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.319"
+      },
+      "VulnerableVersionRange": "\u003c 2.303.2"
+    }
+  ]
+}

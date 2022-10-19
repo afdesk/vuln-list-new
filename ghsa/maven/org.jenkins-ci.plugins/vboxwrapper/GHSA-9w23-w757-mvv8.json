@@ -1,0 +1,53 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-06-01T21:13:58Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:vboxwrapper"
+  },
+  "Advisory": {
+    "DatabaseId": 132689,
+    "Id": "GSA_kwCzR0hTQS05dzIzLXc3NTctbXZ2OM4AAgZR",
+    "GhsaId": "GHSA-9w23-w757-mvv8",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-30968"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-05-17/#SECURITY-2717"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-9w23-w757-mvv8"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-9w23-w757-mvv8"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-30968"
+      }
+    ],
+    "Description": "Jenkins vboxwrapper Plugin 1.3 and earlier does not escape the name and description of VBox node parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-18T00:00:41Z",
+    "Severity": "MODERATE",
+    "Summary": "Cross-site Scripting in Jenkins vboxwrapper Plugin",
+    "UpdatedAt": "2022-06-01T21:13:58Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003c= 1.3"
+    }
+  ]
+}

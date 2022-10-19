@@ -1,0 +1,81 @@
+{
+  "module": "github.com/beego/beego/v2",
+  "id": "GO-2022-0463",
+  "published": "2022-07-01T20:06:59Z",
+  "modified": "2022-09-20T15:16:04Z",
+  "aliases": [
+    "CVE-2022-31259",
+    "GHSA-qx32-f6g6-fcfr"
+  ],
+  "details": "Routes in the beego HTTP router can match unintended patterns.\nThis overly-broad matching may permit an attacker to bypass access\ncontrols.\n\nFor example, the pattern \"/a/b/:name\" can match the URL \"/a.xml/b/\".\nThis may bypass access control applied to the prefix \"/a/\".\n",
+  "affected": [
+    {
+      "package": {
+        "name": "github.com/beego/beego",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.12.9"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": "https://pkg.go.dev/vuln/GO-2022-0463"
+      },
+      "ecosystem_specific": {}
+    },
+    {
+      "package": {
+        "name": "github.com/beego/beego/v2",
+        "ecosystem": "Go"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.0.3"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "url": "https://pkg.go.dev/vuln/GO-2022-0463"
+      },
+      "ecosystem_specific": {}
+    }
+  ],
+  "references": [
+    {
+      "type": "FIX",
+      "url": "https://github.com/beego/beego/pull/4958"
+    },
+    {
+      "type": "FIX",
+      "url": "https://github.com/beego/beego/commit/64cf44d725c8cc35d782327d333df9cbeb1bf2dd"
+    },
+    {
+      "type": "WEB",
+      "url": "https://beego.vip"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/beego/beego/issues/4946"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/beego/beego/pull/4954"
+    }
+  ]
+}

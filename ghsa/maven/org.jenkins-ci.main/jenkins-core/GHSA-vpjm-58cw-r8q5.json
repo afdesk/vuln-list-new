@@ -1,0 +1,59 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-06-23T06:52:15Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.main:jenkins-core"
+  },
+  "Advisory": {
+    "DatabaseId": 160674,
+    "Id": "GSA_kwCzR0hTQS12cGptLTU4Y3ctcjhxNc4AAnOi",
+    "GhsaId": "GHSA-vpjm-58cw-r8q5",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-21602"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2021-01-13/#SECURITY-1452"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-vpjm-58cw-r8q5"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-vpjm-58cw-r8q5"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-21602"
+      }
+    ],
+    "Description": "Jenkins 2.274 and earlier, LTS 2.263.1 and earlier allows reading arbitrary files using the file browser for workspaces and archived artifacts by following symlinks.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-24T17:39:12Z",
+    "Severity": "MODERATE",
+    "Summary": "Improper Link Resolution Before File Access in Jenkins",
+    "UpdatedAt": "2022-06-23T06:52:16Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 6.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.275"
+      },
+      "VulnerableVersionRange": "\u003e= 2.263.2, \u003c= 2.274"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.275"
+      },
+      "VulnerableVersionRange": "\u003c 2.263.1"
+    }
+  ]
+}

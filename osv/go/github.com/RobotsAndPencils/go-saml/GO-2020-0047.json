@@ -1,0 +1,50 @@
+{
+  "id": "GO-2020-0047",
+  "modified": "2022-09-20T15:16:04Z",
+  "published": "2021-04-14T20:04:52Z",
+  "aliases": [
+    "CVE-2020-36563"
+  ],
+  "details": "XML Digital Signatures generated and validated using this package use\nSHA-1, which may allow an attacker to craft inputs which cause hash\ncollisions depending on their control over the input.\n",
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/RobotsAndPencils/go-saml",
+        "purl": "pkg:golang/github.com/RobotsAndPencils/go-saml"
+      },
+      "ranges": [
+        {
+          "type": "SEMVER",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "ecosystem_specific": {
+        "imports": [
+          {
+            "path": "github.com/RobotsAndPencils/go-saml",
+            "symbols": [
+              "AuthnRequest.Validate",
+              "NewAuthnRequest",
+              "NewSignedResponse"
+            ]
+          }
+        ]
+      },
+      "database_specific": {
+        "source": "https://storage.googleapis.com/go-vulndb/ID/GO-2020-0047.json",
+        "url": "https://pkg.go.dev/vuln/GO-2020-0047"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/RobotsAndPencils/go-saml/pull/38"
+    }
+  ]
+}

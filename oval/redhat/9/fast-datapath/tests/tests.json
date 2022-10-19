@@ -1,0 +1,210 @@
+{
+  "RpminfoTests": [
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226386002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226386004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226386006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226386008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is earlier than 0:2.17.0-32.3.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226386009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20226386010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386002"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17 is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-devel is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-ipsec is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openvswitch2.17-test is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-openvswitch2.17 is earlier than 0:2.17.0-32.4.el9fdp",
+      "ID": "oval:com.redhat.rhsa:tst:20226503009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226503001"
+      }
+    }
+  ],
+  "RpmverifyfileTests": [
+    {
+      "Check": "at least one",
+      "Comment": "Red Hat Enterprise Linux 9 is installed",
+      "ID": "oval:com.redhat.rhsa:tst:20226386011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386004"
+      }
+    },
+    {
+      "Check": "none satisfy",
+      "Comment": "Red Hat Enterprise Linux must be installed",
+      "ID": "oval:com.redhat.rhsa:tst:20226386012",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20226386006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226386005"
+      }
+    }
+  ]
+}

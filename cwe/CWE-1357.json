@@ -1,0 +1,46 @@
+{
+ "ID": 1357,
+ "Name": "Reliance on Uncontrolled Component",
+ "Description": "The product's design or architecture is built from multiple separate components, but one or more components are not under complete control of the developer, such as a third-party software library or a physical component that is built by an original equipment manufacturer (OEM).",
+ "PotentialMitigations": {
+  "Mitigation": [
+   {
+    "Phase": [
+     "Architecture and Design",
+     "Implementation",
+     "Integration",
+     "Manufacturing"
+    ],
+    "Strategy": "",
+    "Description": null
+   },
+   {
+    "Phase": [
+     "Operation",
+     "Patching and Maintenance"
+    ],
+    "Strategy": "",
+    "Description": null
+   }
+  ]
+ },
+ "RelatedAttackPatterns": {
+  "RelatedAttackPattern": null
+ },
+ "CommonConsequences": {
+  "Consequence": [
+   {
+    "Scope": [
+     "Other"
+    ],
+    "Impact": [
+     "Reduce Maintainability"
+    ]
+   }
+  ]
+ },
+ "ExtendedDescription": [
+  "Many modern hardware and software products are built by combining multiple smaller components together into one larger entity. These components might be provided by external parties or otherwise unable to be modified, i.e., they are \"uncontrolled.\" For example, a hardware component might be built by a separate manufacturer, or the product might use an open source library that is developed by people who have no formal contract with the product vendor. Alternately, a component's vendor might no longer be in business and therefore cannot provide updates or changes to the component.",
+  "This dependency on \"uncontrolled\" components means that if security risks are found in the uncontrolled component, the product vendor is not necessarily able to fix them. The product vendor cannot necessarily be certain that the uncontrolled component was built following the security expectations."
+ ]
+}

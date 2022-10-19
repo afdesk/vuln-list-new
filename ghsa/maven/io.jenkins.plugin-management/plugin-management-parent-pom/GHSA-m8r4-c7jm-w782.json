@@ -1,0 +1,56 @@
+{
+  "Severity": "CRITICAL",
+  "UpdatedAt": "2022-09-07T23:54:44Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "io.jenkins.plugin-management:plugin-management-parent-pom"
+  },
+  "Advisory": {
+    "DatabaseId": 158680,
+    "Id": "GSA_kwCzR0hTQS1tOHI0LWM3am0tdzc4Ms4AAmvY",
+    "GhsaId": "GHSA-m8r4-c7jm-w782",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2020-2320"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2020-12-03/#SECURITY-1856"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2020/12/03/2"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-m8r4-c7jm-w782"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-m8r4-c7jm-w782"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2020-2320"
+      }
+    ],
+    "Description": "Jenkins Plugin Installation Manager Tool 2.1.3 and earlier does not verify plugin downloads.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-24T17:35:09Z",
+    "Severity": "CRITICAL",
+    "Summary": "Download of Code Without Integrity Check in Jenkins Plugin Installation Manager",
+    "UpdatedAt": "2022-09-07T23:54:44Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 9.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.2.0"
+      },
+      "VulnerableVersionRange": "\u003c 2.2.0"
+    }
+  ]
+}

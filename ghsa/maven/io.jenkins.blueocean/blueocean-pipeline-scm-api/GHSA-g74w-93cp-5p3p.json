@@ -1,0 +1,56 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-06-02T14:57:50Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "io.jenkins.blueocean:blueocean-pipeline-scm-api"
+  },
+  "Advisory": {
+    "DatabaseId": 132668,
+    "Id": "GSA_kwCzR0hTQS1nNzR3LTkzY3AtNXAzcM4AAgY8",
+    "GhsaId": "GHSA-g74w-93cp-5p3p",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-30952"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-05-17/#SECURITY-714"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/05/17/8"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-g74w-93cp-5p3p"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-g74w-93cp-5p3p"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-30952"
+      }
+    ],
+    "Description": "Jenkins Pipeline SCM API for Blue Ocean Plugin 1.25.3 and earlier allows attackers with Job/Configure permission to access credentials with attacker-specified IDs stored in the private per-user credentials stores of any attacker-specified user in Jenkins. Pipeline SCM API for Blue Ocean Plugin 1.25.4 deprecates the Blue Ocean Credentials Provider and disables it by default.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-18T00:00:40Z",
+    "Severity": "MODERATE",
+    "Summary": "Insufficiently Protected Credentials in Jenkins Pipeline SCM API for Blue Ocean Plugin",
+    "UpdatedAt": "2022-06-02T14:57:50Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 6.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.25.4"
+      },
+      "VulnerableVersionRange": "\u003c 1.25.4"
+    }
+  ]
+}

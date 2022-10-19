@@ -1,0 +1,145 @@
+{
+  "RpminfoObjects": [
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068001",
+      "Version": "642",
+      "Name": "buildah"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068002",
+      "Version": "642",
+      "Name": "buildah-tests"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068003",
+      "Version": "642",
+      "Name": "butane"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068004",
+      "Version": "642",
+      "Name": "butane-redistributable"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068005",
+      "Version": "642",
+      "Name": "containernetworking-plugins"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068006",
+      "Version": "642",
+      "Name": "podman"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068007",
+      "Version": "642",
+      "Name": "podman-catatonit"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068008",
+      "Version": "642",
+      "Name": "podman-docker"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068009",
+      "Version": "642",
+      "Name": "podman-plugins"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068010",
+      "Version": "642",
+      "Name": "podman-remote"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068011",
+      "Version": "642",
+      "Name": "podman-tests"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068012",
+      "Version": "642",
+      "Name": "runc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068013",
+      "Version": "642",
+      "Name": "skopeo"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068014",
+      "Version": "642",
+      "Name": "skopeo-tests"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068015",
+      "Version": "642",
+      "Name": "openshift-hyperkube"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068016",
+      "Version": "642",
+      "Name": "ignition"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068017",
+      "Version": "642",
+      "Name": "ignition-validate"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068018",
+      "Version": "642",
+      "Name": "cri-o"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068019",
+      "Version": "642",
+      "Name": "openshift-clients"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068020",
+      "Version": "642",
+      "Name": "openshift-clients-redistributable"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226535001",
+      "Version": "636",
+      "Name": "cri-tools"
+    }
+  ],
+  "RpmverifyfileObjects": [
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20225068021",
+      "AttrVersion": "642",
+      "Behaviors": {
+        "Noconfigfiles": "true",
+        "Noghostfiles": "true",
+        "Nogroup": "true",
+        "Nolinkto": "true",
+        "Nomd5": "true",
+        "Nomode": "true",
+        "Nomtime": "true",
+        "Nordev": "true",
+        "Nosize": "true",
+        "Nouser": "true"
+      },
+      "Filepath": {
+        "Text": "/etc/redhat-release"
+      },
+      "Name": {
+        "Operation": "pattern match"
+      },
+      "Version": {
+        "Operation": "pattern match"
+      },
+      "Epoch": {
+        "Operation": "pattern match"
+      },
+      "Arch": {
+        "Operation": "pattern match"
+      },
+      "Release": {
+        "Operation": "pattern match"
+      }
+    }
+  ]
+}

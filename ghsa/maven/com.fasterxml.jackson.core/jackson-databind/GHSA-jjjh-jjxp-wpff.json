@@ -1,0 +1,62 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2022-10-18T17:24:12Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "com.fasterxml.jackson.core:jackson-databind"
+  },
+  "Advisory": {
+    "DatabaseId": 193135,
+    "Id": "GSA_kwCzR0hTQS1qampoLWpqeHAtd3BmZs4AAvJv",
+    "GhsaId": "GHSA-jjjh-jjxp-wpff",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-42003"
+      },
+      {
+        "Url": "https://github.com/FasterXML/jackson-databind/issues/3590"
+      },
+      {
+        "Url": "https://github.com/FasterXML/jackson-databind/commit/d78d00ee7b5245b93103fef3187f70543d67ca33"
+      },
+      {
+        "Url": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=51020"
+      },
+      {
+        "Url": "https://github.com/FasterXML/jackson-databind/blob/2.13/release-notes/VERSION-2.x"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-jjjh-jjxp-wpff"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-jjjh-jjxp-wpff"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-42003"
+      }
+    ],
+    "Description": "In FasterXML jackson-databind before 2.14.0-rc1 and 2.13.4.1, resource exhaustion can occur because of a lack of a check in primitive value deserializers to avoid deep wrapper array nesting, when the UNWRAP_SINGLE_VALUE_ARRAYS feature is enabled.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-10-03T00:00:31Z",
+    "Severity": "HIGH",
+    "Summary": "Uncontrolled Resource Consumption in Jackson-databind",
+    "UpdatedAt": "2022-10-18T17:24:12Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.13.4.1"
+      },
+      "VulnerableVersionRange": "\u003c 2.13.4.1"
+    }
+  ]
+}

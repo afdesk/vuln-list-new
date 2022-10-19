@@ -1,0 +1,62 @@
+{
+  "Severity": "HIGH",
+  "UpdatedAt": "2022-06-23T06:47:14Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.main:jenkins-core"
+  },
+  "Advisory": {
+    "DatabaseId": 174339,
+    "Id": "GSA_kwCzR0hTQS1jdnZtLTRjcjktcjQzNs4AAqkD",
+    "GhsaId": "GHSA-cvvm-4cr9-r436",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2021-21695"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2021-11-04/#SECURITY-2455"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2021/11/04/3"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-cvvm-4cr9-r436"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-cvvm-4cr9-r436"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2021-21695"
+      }
+    ],
+    "Description": "FilePath#listFiles lists files outside directories that agents are allowed to access when following symbolic links in Jenkins 2.318 and earlier, LTS 2.303.2 and earlier.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-05-24T19:19:43Z",
+    "Severity": "HIGH",
+    "Summary": "Missing Authorization in Jenkins",
+    "UpdatedAt": "2022-06-23T06:47:14Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 8.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.319"
+      },
+      "VulnerableVersionRange": "\u003e= 2.304, \u003c= 2.318"
+    },
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "2.319"
+      },
+      "VulnerableVersionRange": "\u003c 2.303.2"
+    }
+  ]
+}
