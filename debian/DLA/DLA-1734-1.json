@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[28 Mar 2019] DLA-1734-1 libraw - security update",
-    "Line": 4365,
+    "Line": 4368,
     "ID": "DLA-1734-1",
     "Description": "libraw - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2018-5800 CVE-2018-5801 CVE-2018-5802 CVE-2018-5808 CVE-2018-5817 CVE-2018-5818 CVE-2018-5819}",
-      "Line": 4366,
+      "Line": 4369,
       "Type": "xref",
       "Bugs": [
         "CVE-2018-5800",
@@ -22,7 +22,7 @@
     },
     {
       "Original": "[jessie] - libraw 0.16.0-9+deb8u4",
-      "Line": 4367,
+      "Line": 4370,
       "Type": "package",
       "Release": "jessie",
       "Package": "libraw",

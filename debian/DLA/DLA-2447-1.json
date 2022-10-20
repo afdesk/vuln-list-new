@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[11 Nov 2020] DLA-2447-1 pacemaker - security update",
-    "Line": 2154,
+    "Line": 2157,
     "ID": "DLA-2447-1",
     "Description": "pacemaker - security update"
   },
   "Annotations": [
     {
       "Original": "[stretch] - pacemaker 1.1.16-1+deb9u1",
-      "Line": 2155,
+      "Line": 2158,
       "Type": "package",
       "Release": "stretch",
       "Package": "pacemaker",

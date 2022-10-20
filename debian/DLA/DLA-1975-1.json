@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[28 Oct 2019] DLA-1975-1 spip - security update",
-    "Line": 3602,
+    "Line": 3605,
     "ID": "DLA-1975-1",
     "Description": "spip - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2019-16391 CVE-2019-16392 CVE-2019-16393 CVE-2019-16394}",
-      "Line": 3603,
+      "Line": 3606,
       "Type": "xref",
       "Bugs": [
         "CVE-2019-16391",
@@ -19,7 +19,7 @@
     },
     {
       "Original": "[jessie] - spip 3.0.17-2+deb8u5",
-      "Line": 3604,
+      "Line": 3607,
       "Type": "package",
       "Release": "jessie",
       "Package": "spip",

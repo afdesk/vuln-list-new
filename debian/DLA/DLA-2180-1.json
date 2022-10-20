@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[18 Apr 2020] DLA-2180-1 file-roller - security update",
-    "Line": 2971,
+    "Line": 2974,
     "ID": "DLA-2180-1",
     "Description": "file-roller - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2020-11736}",
-      "Line": 2972,
+      "Line": 2975,
       "Type": "xref",
       "Bugs": [
         "CVE-2020-11736"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[jessie] - file-roller 3.14.1-1+deb8u2",
-      "Line": 2973,
+      "Line": 2976,
       "Type": "package",
       "Release": "jessie",
       "Package": "file-roller",

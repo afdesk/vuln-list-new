@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[13 Feb 2020] DLA-2103-1 debian-security-support - security update",
-    "Line": 3209,
+    "Line": 3212,
     "ID": "DLA-2103-1",
     "Description": "debian-security-support - security update"
   },
   "Annotations": [
     {
       "Original": "[jessie] - debian-security-support 2019.12.12~deb8u2",
-      "Line": 3210,
+      "Line": 3213,
       "Type": "package",
       "Release": "jessie",
       "Package": "debian-security-support",

@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[29 Oct 2021] DLA-2797-1 tzdata - new upstream version",
-    "Line": 1082,
+    "Line": 1085,
     "ID": "DLA-2797-1",
     "Description": "tzdata - new upstream version"
   },
   "Annotations": [
     {
       "Original": "[stretch] - tzdata 2021a-0+deb9u2",
-      "Line": 1083,
+      "Line": 1086,
       "Type": "package",
       "Release": "stretch",
       "Package": "tzdata",

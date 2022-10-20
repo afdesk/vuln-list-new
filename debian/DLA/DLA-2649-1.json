@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[04 May 2021] DLA-2649-1 cgal - security update",
-    "Line": 1536,
+    "Line": 1539,
     "ID": "DLA-2649-1",
     "Description": "cgal - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2020-28601 CVE-2020-35633 CVE-2020-35634 CVE-2020-35635 CVE-2020-28636 CVE-2020-35628 CVE-2020-35636}",
-      "Line": 1537,
+      "Line": 1540,
       "Type": "xref",
       "Bugs": [
         "CVE-2020-28601",
@@ -22,7 +22,7 @@
     },
     {
       "Original": "[stretch] - cgal 4.9-1+deb9u1",
-      "Line": 1538,
+      "Line": 1541,
       "Type": "package",
       "Release": "stretch",
       "Package": "cgal",

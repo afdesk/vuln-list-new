@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[27 Jan 2016] DLA-404-1 nginx - security update",
-    "Line": 8397,
+    "Line": 8400,
     "ID": "DLA-404-1",
     "Description": "nginx - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2016-0742}",
-      "Line": 8398,
+      "Line": 8401,
       "Type": "xref",
       "Bugs": [
         "CVE-2016-0742"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[squeeze] - nginx 0.7.67-3+squeeze4+deb6u1",
-      "Line": 8399,
+      "Line": 8402,
       "Type": "package",
       "Release": "squeeze",
       "Package": "nginx",

@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[07 May 2022] DLA-2997-1 ecdsautils - security update",
-    "Line": 473,
+    "Line": 476,
     "ID": "DLA-2997-1",
     "Description": "ecdsautils - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2022-24884}",
-      "Line": 474,
+      "Line": 477,
       "Type": "xref",
       "Bugs": [
         "CVE-2022-24884"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[stretch] - ecdsautils 0.3.2+git20151018-2+deb9u1",
-      "Line": 475,
+      "Line": 478,
       "Type": "package",
       "Release": "stretch",
       "Package": "ecdsautils",
