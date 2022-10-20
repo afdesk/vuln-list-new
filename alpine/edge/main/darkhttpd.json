@@ -1,11 +1,8 @@
 {
-  "name": "protobuf-c",
+  "name": "darkhttpd",
   "secfixes": {
-    "1.3.2-r0": [
-      "CVE-2021-3121"
-    ],
-    "1.4.1-r0": [
-      "CVE-2022-33070"
+    "1.14-r0": [
+      "CVE-2020-25691"
     ]
   },
   "apkurl": "{{urlprefix}}/{{distroversion}}/{{reponame}}/{{arch}}/{{pkg.name}}-{{pkg.ver}}.apk",
