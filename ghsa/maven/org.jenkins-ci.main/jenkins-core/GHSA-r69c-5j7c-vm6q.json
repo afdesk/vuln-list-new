@@ -38,6 +38,9 @@
         "Url": "http://www.securityfocus.com/bid/95960"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-r69c-5j7c-vm6q"
       }
     ],
@@ -56,7 +59,7 @@
     "PublishedAt": "2022-05-13T01:02:35Z",
     "Severity": "MODERATE",
     "Summary": "Cross-site Scripting in Jenkins",
-    "UpdatedAt": "2022-10-07T13:19:02Z",
+    "UpdatedAt": "2022-10-20T13:49:11Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.4,

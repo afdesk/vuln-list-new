@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2551"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-8cxw-wvhc-p4x4"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins NUnit Plugin vulnerable to Protection Mechanism Failure",
-    "UpdatedAt": "2022-10-19T22:24:15Z",
+    "UpdatedAt": "2022-10-20T13:36:00Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

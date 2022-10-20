@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2881"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-64r9-x74q-wxmh"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Pipeline: Supporting APIs Plugin vulnerable to stored Cross-site Scripting",
-    "UpdatedAt": "2022-10-19T22:22:36Z",
+    "UpdatedAt": "2022-10-20T13:32:44Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

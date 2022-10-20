@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2877"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-f9f9-4r63-4qcc"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins GitLab Plugin potentially allows attackers to use statistical methods to obtain valid webhook token",
-    "UpdatedAt": "2022-10-19T22:22:45Z",
+    "UpdatedAt": "2022-10-20T13:32:34Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

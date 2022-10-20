@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2627"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-mfcw-83qg-4vw3"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Compuware Xpediter Code Coverage Plugin vulnerable to Protection Mechanism Failure",
-    "UpdatedAt": "2022-10-19T22:20:50Z",
+    "UpdatedAt": "2022-10-20T13:33:35Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2631"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-hcw3-6459-pwhc"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Compuware Strobe Measurement Plugin Missing Authorization vulnerability",
-    "UpdatedAt": "2022-10-19T22:02:53Z",
+    "UpdatedAt": "2022-10-20T13:33:15Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

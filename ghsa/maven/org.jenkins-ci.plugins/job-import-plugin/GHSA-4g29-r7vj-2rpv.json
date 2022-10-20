@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2791"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-4g29-r7vj-2rpv"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Job Import Plugin allows attackers with Overall/Read permission to enumerate credentials IDs of credentials stored in Jenkins",
-    "UpdatedAt": "2022-10-19T22:24:06Z",
+    "UpdatedAt": "2022-10-20T13:32:54Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

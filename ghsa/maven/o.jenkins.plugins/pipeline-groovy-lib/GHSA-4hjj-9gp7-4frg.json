@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2824%20(2)"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-4hjj-9gp7-4frg"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:21Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Pipeline: Groovy Libraries Plugin vulnerable to Protection Mechanism Failure",
-    "UpdatedAt": "2022-10-19T22:04:28Z",
+    "UpdatedAt": "2022-10-20T13:31:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

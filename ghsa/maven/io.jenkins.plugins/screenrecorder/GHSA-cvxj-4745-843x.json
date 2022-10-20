@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2864"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-cvxj-4745-843x"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins ScreenRecorder Plugin disables Content-Security-Policy protection for user-generated content",
-    "UpdatedAt": "2022-10-19T22:03:54Z",
+    "UpdatedAt": "2022-10-20T13:36:38Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

@@ -17,6 +17,9 @@
         "Url": "https://github.com/Y4tacker/Web-Security/issues/3"
       },
       {
+        "Url": "https://github.com/PebbleTemplates/pebble/issues/625#issuecomment-1282138635"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-wxx5-w9jc-48wx"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-09-13T00:00:39Z",
     "Severity": "CRITICAL",
     "Summary": "Pebble Templates protection mechanism bypass can lead to arbitrary code execution",
-    "UpdatedAt": "2022-09-16T22:02:17Z",
+    "UpdatedAt": "2022-10-20T13:26:39Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

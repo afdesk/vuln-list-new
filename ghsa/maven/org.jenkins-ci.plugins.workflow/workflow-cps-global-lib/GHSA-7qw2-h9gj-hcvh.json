@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2824%20(2)"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-7qw2-h9gj-hcvh"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:21Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Pipeline: Deprecated Groovy Libraries Plugin vulnerable to Protection Mechanism Failure",
-    "UpdatedAt": "2022-10-19T21:20:22Z",
+    "UpdatedAt": "2022-10-20T13:32:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

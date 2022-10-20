@@ -38,6 +38,9 @@
         "Url": "https://issues.apache.org/jira/browse/ISIS-3240"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/2"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-7pfc-cc9x-8p4m"
       }
     ],
@@ -56,7 +59,7 @@
     "PublishedAt": "2022-10-19T12:00:18Z",
     "Severity": "MODERATE",
     "Summary": "Apache Isis Cross-site Scripting vulnerability",
-    "UpdatedAt": "2022-10-19T18:51:00Z",
+    "UpdatedAt": "2022-10-20T13:54:49Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

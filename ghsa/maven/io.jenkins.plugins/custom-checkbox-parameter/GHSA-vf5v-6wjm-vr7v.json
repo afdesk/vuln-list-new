@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2797"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-vf5v-6wjm-vr7v"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Custom Checkbox Parameter Plugin vulnerable to stored Cross-site Scripting",
-    "UpdatedAt": "2022-10-19T22:01:53Z",
+    "UpdatedAt": "2022-10-20T13:34:27Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

@@ -35,7 +35,7 @@
     "PublishedAt": "2021-05-04T17:42:33Z",
     "Severity": "MODERATE",
     "Summary": "Bypass of fix for CVE-2020-26231, Twig sandbox escape",
-    "UpdatedAt": "2022-08-13T03:06:12Z",
+    "UpdatedAt": "2022-10-20T13:56:32Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5.2,

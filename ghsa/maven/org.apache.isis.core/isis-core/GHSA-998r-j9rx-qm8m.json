@@ -20,6 +20,9 @@
         "Url": "https://github.com/apache/isis/commit/9fcab9816dac37e0f07ffe3f5c4f47df9cec8694"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/1"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-998r-j9rx-qm8m"
       }
     ],
@@ -38,7 +41,7 @@
     "PublishedAt": "2022-10-19T12:00:18Z",
     "Severity": "MODERATE",
     "Summary": "Apache Isis webconsole module may directly query the database in prototype mode",
-    "UpdatedAt": "2022-10-19T18:48:29Z",
+    "UpdatedAt": "2022-10-20T13:49:30Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,

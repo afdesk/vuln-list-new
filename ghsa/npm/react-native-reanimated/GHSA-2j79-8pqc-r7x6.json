@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-10-04T21:16:38Z",
+  "UpdatedAt": "2022-10-20T18:28:20Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "react-native-reanimated"
@@ -26,6 +26,12 @@
         "Url": "https://security.snyk.io/vuln/SNYK-JS-REACTNATIVEREANIMATED-2949507"
       },
       {
+        "Url": "https://github.com/software-mansion/react-native-reanimated/commit/8a927904366fa2d02df7a11553f8b0aa93471279"
+      },
+      {
+        "Url": "https://github.com/software-mansion/react-native-reanimated/compare/2.9.1...2.10.0"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-2j79-8pqc-r7x6"
       }
     ],
@@ -44,7 +50,7 @@
     "PublishedAt": "2022-10-01T00:00:24Z",
     "Severity": "HIGH",
     "Summary": "react-native-reanimated vulnerable to ReDoS",
-    "UpdatedAt": "2022-10-04T21:16:38Z",
+    "UpdatedAt": "2022-10-20T18:28:20Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,
@@ -54,9 +60,9 @@
   "Versions": [
     {
       "FirstPatchedVersion": {
-        "Identifier": "3.0.0-rc.1"
+        "Identifier": "2.10.0"
       },
-      "VulnerableVersionRange": "\u003c 3.0.0-rc.1"
+      "VulnerableVersionRange": "\u003c 2.10.0"
     }
   ]
 }

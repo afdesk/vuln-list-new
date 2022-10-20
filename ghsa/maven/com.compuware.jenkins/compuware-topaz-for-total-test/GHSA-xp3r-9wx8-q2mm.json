@@ -17,6 +17,9 @@
         "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2624"
       },
       {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-xp3r-9wx8-q2mm"
       }
     ],
@@ -35,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Compuware Topaz for Total Test Plugin vulnerable to Protection Mechanism Failure",
-    "UpdatedAt": "2022-10-19T22:02:44Z",
+    "UpdatedAt": "2022-10-20T13:35:25Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 0,
