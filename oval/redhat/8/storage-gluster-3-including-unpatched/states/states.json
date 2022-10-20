@@ -165,6 +165,32 @@
         "Operation": "less than"
       },
       "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20227056001",
+      "Version": "636",
+      "Arch": {
+        "Text": "x86_64",
+        "Datatype": "string",
+        "Operation": "equals"
+      },
+      "Evr": {
+        "Text": "0:4.16.5-100.el8rhgs",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20227056003",
+      "Version": "636",
+      "Arch": {},
+      "Evr": {
+        "Text": "0:4.16.5-100.el8rhgs",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
     }
   ],
   "RpmverifyfileStates": [

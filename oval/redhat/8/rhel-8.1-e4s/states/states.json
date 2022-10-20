@@ -18535,6 +18535,47 @@
       "SignatureKeyID": {}
     },
     {
+      "ID": "oval:com.redhat.rhsa:ste:20227003001",
+      "Version": "635",
+      "Arch": {
+        "Text": "ppc64le|x86_64",
+        "Datatype": "string",
+        "Operation": "pattern match"
+      },
+      "Evr": {
+        "Text": "1:1.8.0.352.b08-2.el8_1",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20227003003",
+      "Version": "635",
+      "Arch": {},
+      "Evr": {
+        "Text": "1:1.8.0.352.b08-2.el8_1",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:ste:20227009001",
+      "Version": "635",
+      "Arch": {
+        "Text": "ppc64le|x86_64",
+        "Datatype": "string",
+        "Operation": "pattern match"
+      },
+      "Evr": {
+        "Text": "1:11.0.17.0.8-2.el8_1",
+        "Datatype": "evr_string",
+        "Operation": "less than"
+      },
+      "SignatureKeyID": {}
+    },
+    {
       "ID": "oval:com.redhat.rhsa:ste:20227019001",
       "Version": "635",
       "Arch": {

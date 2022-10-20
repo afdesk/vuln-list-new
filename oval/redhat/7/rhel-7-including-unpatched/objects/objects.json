@@ -14416,91 +14416,6 @@
       "Name": "java-1.7.1-ibm-devel"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:202221618001",
-      "Version": "636",
-      "Name": "java-11-openjdk-devel"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618002",
-      "Version": "636",
-      "Name": "java-11-openjdk-static-libs"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618003",
-      "Version": "636",
-      "Name": "java-11-openjdk-devel-debug"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618004",
-      "Version": "636",
-      "Name": "java-11-openjdk-src"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618005",
-      "Version": "636",
-      "Name": "java-11-openjdk-jmods-debug"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618006",
-      "Version": "636",
-      "Name": "java-11-openjdk-headless"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618007",
-      "Version": "636",
-      "Name": "java-11-openjdk"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618008",
-      "Version": "636",
-      "Name": "java-11-openjdk-demo"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618009",
-      "Version": "636",
-      "Name": "java-11-openjdk-javadoc-debug"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618010",
-      "Version": "636",
-      "Name": "java-11-openjdk-javadoc-zip-debug"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618011",
-      "Version": "636",
-      "Name": "java-11-openjdk-headless-debug"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618012",
-      "Version": "636",
-      "Name": "java-11-openjdk-debug"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618013",
-      "Version": "636",
-      "Name": "java-11-openjdk-src-debug"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618014",
-      "Version": "636",
-      "Name": "java-11-openjdk-jmods"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618015",
-      "Version": "636",
-      "Name": "java-11-openjdk-demo-debug"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618016",
-      "Version": "636",
-      "Name": "java-11-openjdk-javadoc"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:202221618017",
-      "Version": "636",
-      "Name": "java-11-openjdk-javadoc-zip"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:20222211001",
       "Version": "636",
       "Name": "ocaml-libguestfs-devel"
@@ -18566,6 +18481,86 @@
       "Name": "setup"
     },
     {
+      "ID": "oval:com.redhat.rhsa:obj:20183521001",
+      "Version": "636",
+      "Name": "java-11-openjdk"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521002",
+      "Version": "636",
+      "Name": "java-11-openjdk-debug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521003",
+      "Version": "636",
+      "Name": "java-11-openjdk-demo"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521004",
+      "Version": "636",
+      "Name": "java-11-openjdk-demo-debug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521005",
+      "Version": "636",
+      "Name": "java-11-openjdk-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521006",
+      "Version": "636",
+      "Name": "java-11-openjdk-devel-debug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521007",
+      "Version": "636",
+      "Name": "java-11-openjdk-headless"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521008",
+      "Version": "636",
+      "Name": "java-11-openjdk-headless-debug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521009",
+      "Version": "636",
+      "Name": "java-11-openjdk-javadoc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521010",
+      "Version": "636",
+      "Name": "java-11-openjdk-javadoc-debug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521011",
+      "Version": "636",
+      "Name": "java-11-openjdk-javadoc-zip"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521012",
+      "Version": "636",
+      "Name": "java-11-openjdk-javadoc-zip-debug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521013",
+      "Version": "636",
+      "Name": "java-11-openjdk-jmods"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521014",
+      "Version": "636",
+      "Name": "java-11-openjdk-jmods-debug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521015",
+      "Version": "636",
+      "Name": "java-11-openjdk-src"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20183521016",
+      "Version": "636",
+      "Name": "java-11-openjdk-src-debug"
+    },
+    {
       "ID": "oval:com.redhat.rhsa:obj:20183663001",
       "Version": "635",
       "Name": "sos-collector"
@@ -19519,6 +19514,11 @@
       "ID": "oval:com.redhat.rhsa:obj:20203978008",
       "Version": "637",
       "Name": "ibus-setup"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20204307009",
+      "Version": "635",
+      "Name": "java-11-openjdk-static-libs"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20205012001",

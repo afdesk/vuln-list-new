@@ -175,7 +175,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619020"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20191146002"
                   }
                 ]
               },
@@ -188,7 +188,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-accessibility is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619124"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20191146004"
                   }
                 ]
               },
@@ -201,7 +201,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-accessibility-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619138"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776006"
                   }
                 ]
               },
@@ -214,7 +214,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-accessibility-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619082"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776008"
                   }
                 ]
               },
@@ -227,7 +227,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-demo is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619002"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20191146006"
                   }
                 ]
               },
@@ -240,7 +240,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-demo-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619090"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776012"
                   }
                 ]
               },
@@ -253,7 +253,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-demo-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619046"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776014"
                   }
                 ]
               },
@@ -266,7 +266,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-devel is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619120"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20191146008"
                   }
                 ]
               },
@@ -279,7 +279,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-devel-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619130"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776018"
                   }
                 ]
               },
@@ -292,7 +292,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-devel-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619106"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776020"
                   }
                 ]
               },
@@ -305,7 +305,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619110"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776022"
                   }
                 ]
               },
@@ -318,7 +318,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-headless is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619010"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20191146010"
                   }
                 ]
               },
@@ -331,7 +331,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-headless-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619116"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776026"
                   }
                 ]
               },
@@ -344,7 +344,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-headless-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619066"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776028"
                   }
                 ]
               },
@@ -357,7 +357,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619044"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20191146012"
                   }
                 ]
               },
@@ -370,7 +370,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619072"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20191146014"
                   }
                 ]
               },
@@ -383,7 +383,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619018"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776034"
                   }
                 ]
               },
@@ -396,7 +396,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-src is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619126"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20191146016"
                   }
                 ]
               },
@@ -409,7 +409,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-src-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619102"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776038"
                   }
                 ]
               },
@@ -422,7 +422,7 @@
                   },
                   {
                     "Comment": "java-1.8.0-openjdk-src-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221619014"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20212776040"
                   }
                 ]
               }

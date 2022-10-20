@@ -192,7 +192,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618074"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068048"
                   }
                 ]
               },
@@ -205,7 +205,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-demo is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618008"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068010"
                   }
                 ]
               },
@@ -218,7 +218,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-demo-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618014"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068052"
                   }
                 ]
               },
@@ -231,7 +231,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-demo-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618012"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068046"
                   }
                 ]
               },
@@ -244,7 +244,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-devel is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618078"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068058"
                   }
                 ]
               },
@@ -257,7 +257,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-devel-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618066"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068080"
                   }
                 ]
               },
@@ -270,7 +270,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-devel-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618072"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068040"
                   }
                 ]
               },
@@ -283,7 +283,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618044"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068086"
                   }
                 ]
               },
@@ -296,7 +296,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-headless is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618088"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068034"
                   }
                 ]
               },
@@ -309,7 +309,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-headless-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618042"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068026"
                   }
                 ]
               },
@@ -322,7 +322,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-headless-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618090"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068094"
                   }
                 ]
               },
@@ -335,7 +335,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618096"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068090"
                   }
                 ]
               },
@@ -348,7 +348,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618040"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068038"
                   }
                 ]
               },
@@ -361,7 +361,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-jmods is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618018"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068020"
                   }
                 ]
               },
@@ -374,7 +374,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-jmods-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618062"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068068"
                   }
                 ]
               },
@@ -387,7 +387,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-jmods-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618020"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068056"
                   }
                 ]
               },
@@ -400,7 +400,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618092"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068014"
                   }
                 ]
               },
@@ -413,7 +413,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-src is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618048"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068092"
                   }
                 ]
               },
@@ -426,7 +426,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-src-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618094"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068050"
                   }
                 ]
               },
@@ -439,7 +439,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-src-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618064"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068016"
                   }
                 ]
               },
@@ -452,7 +452,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-static-libs is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618038"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068074"
                   }
                 ]
               },
@@ -465,7 +465,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-static-libs-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618086"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068028"
                   }
                 ]
               },
@@ -478,7 +478,7 @@
                   },
                   {
                     "Comment": "java-17-openjdk-static-libs-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618016"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068088"
                   }
                 ]
               }

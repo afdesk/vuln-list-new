@@ -202,7 +202,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618014"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521002"
                   }
                 ]
               },
@@ -215,7 +215,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-debug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618024"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521004"
                   }
                 ]
               },
@@ -228,7 +228,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-demo is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618016"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521006"
                   }
                 ]
               },
@@ -241,7 +241,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-demo-debug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618030"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521008"
                   }
                 ]
               },
@@ -254,7 +254,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-devel is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618002"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521010"
                   }
                 ]
               },
@@ -267,7 +267,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-devel-debug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618006"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521012"
                   }
                 ]
               },
@@ -280,7 +280,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-headless is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618012"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521014"
                   }
                 ]
               },
@@ -293,7 +293,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-headless-debug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618022"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521016"
                   }
                 ]
               },
@@ -306,7 +306,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618032"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521018"
                   }
                 ]
               },
@@ -319,7 +319,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-javadoc-debug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618018"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521020"
                   }
                 ]
               },
@@ -332,7 +332,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618034"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521022"
                   }
                 ]
               },
@@ -345,7 +345,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-javadoc-zip-debug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618020"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521024"
                   }
                 ]
               },
@@ -358,7 +358,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-jmods is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618028"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521026"
                   }
                 ]
               },
@@ -371,7 +371,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-jmods-debug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618010"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521028"
                   }
                 ]
               },
@@ -384,7 +384,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-src is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618008"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521030"
                   }
                 ]
               },
@@ -397,7 +397,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-src-debug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618026"
+                    "TestRef": "oval:com.redhat.rhsa:tst:20183521032"
                   }
                 ]
               }

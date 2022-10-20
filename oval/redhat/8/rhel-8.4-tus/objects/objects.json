@@ -11754,6 +11754,121 @@
       "ID": "oval:com.redhat.rhsa:obj:20226978009",
       "Version": "637",
       "Name": "kpatch-patch-4_18_0-305_62_1"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001001",
+      "Version": "635",
+      "Name": "java-17-openjdk"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001002",
+      "Version": "635",
+      "Name": "java-17-openjdk-demo"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001003",
+      "Version": "635",
+      "Name": "java-17-openjdk-demo-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001004",
+      "Version": "635",
+      "Name": "java-17-openjdk-demo-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001005",
+      "Version": "635",
+      "Name": "java-17-openjdk-devel"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001006",
+      "Version": "635",
+      "Name": "java-17-openjdk-devel-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001007",
+      "Version": "635",
+      "Name": "java-17-openjdk-devel-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001008",
+      "Version": "635",
+      "Name": "java-17-openjdk-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001009",
+      "Version": "635",
+      "Name": "java-17-openjdk-headless"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001010",
+      "Version": "635",
+      "Name": "java-17-openjdk-headless-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001011",
+      "Version": "635",
+      "Name": "java-17-openjdk-headless-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001012",
+      "Version": "635",
+      "Name": "java-17-openjdk-javadoc"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001013",
+      "Version": "635",
+      "Name": "java-17-openjdk-javadoc-zip"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001014",
+      "Version": "635",
+      "Name": "java-17-openjdk-jmods"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001015",
+      "Version": "635",
+      "Name": "java-17-openjdk-jmods-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001016",
+      "Version": "635",
+      "Name": "java-17-openjdk-jmods-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001017",
+      "Version": "635",
+      "Name": "java-17-openjdk-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001018",
+      "Version": "635",
+      "Name": "java-17-openjdk-src"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001019",
+      "Version": "635",
+      "Name": "java-17-openjdk-src-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001020",
+      "Version": "635",
+      "Name": "java-17-openjdk-src-slowdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001021",
+      "Version": "635",
+      "Name": "java-17-openjdk-static-libs"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001022",
+      "Version": "635",
+      "Name": "java-17-openjdk-static-libs-fastdebug"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20227001023",
+      "Version": "635",
+      "Name": "java-17-openjdk-static-libs-slowdebug"
     }
   ],
   "RpmverifyfileObjects": [

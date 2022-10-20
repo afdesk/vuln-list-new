@@ -1763,6 +1763,258 @@
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221756001"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "ctdb is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libsmbclient is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libsmbclient-devel is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libwbclient is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libwbclient-devel is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-samba is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-client is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056015",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-client-libs is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056017",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-common is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056019",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-common-libs is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056021",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-common-tools is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056023",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-devel is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056025",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-krb5-printing is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056027",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-libs is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056029",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-pidl is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056031",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-vfs-glusterfs is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056033",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-winbind is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056035",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-winbind-clients is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056037",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-winbind-krb5-locator is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056039",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "samba-winbind-modules is earlier than 0:4.16.5-100.el8rhgs",
+      "ID": "oval:com.redhat.rhsa:tst:20227056041",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhba:obj:20211503021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227056001"
+      }
     }
   ],
   "RpmverifyfileTests": [
