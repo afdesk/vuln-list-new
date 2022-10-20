@@ -1,0 +1,53 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-10-19T22:01:53Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "io.jenkins.plugins:custom-checkbox-parameter"
+  },
+  "Advisory": {
+    "DatabaseId": 194350,
+    "Id": "GSA_kwCzR0hTQS12ZjV2LTZ3am0tdnI3ds4AAvcu",
+    "GhsaId": "GHSA-vf5v-6wjm-vr7v",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43425"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2797"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-vf5v-6wjm-vr7v"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-vf5v-6wjm-vr7v"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-43425"
+      }
+    ],
+    "Description": "Jenkins Custom Checkbox Parameter Plugin 1.4 and earlier does not escape the name and description of Custom Checkbox Parameter parameters on views displaying parameters, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Item/Configure permission.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-10-19T19:00:22Z",
+    "Severity": "MODERATE",
+    "Summary": "Jenkins Custom Checkbox Parameter Plugin vulnerable to stored Cross-site Scripting",
+    "UpdatedAt": "2022-10-19T22:01:53Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 0,
+      "VectorString": ""
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003c= 1.4"
+    }
+  ]
+}

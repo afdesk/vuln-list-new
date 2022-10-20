@@ -1,0 +1,53 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-10-19T22:22:45Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:gitlab-plugin"
+  },
+  "Advisory": {
+    "DatabaseId": 194394,
+    "Id": "GSA_kwCzR0hTQS1mOWY5LTRyNjMtNHFjY84AAvda",
+    "GhsaId": "GHSA-f9f9-4r63-4qcc",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43411"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2877"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-f9f9-4r63-4qcc"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-f9f9-4r63-4qcc"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-43411"
+      }
+    ],
+    "Description": "Jenkins GitLab Plugin 1.5.35 and earlier uses a non-constant time comparison function when checking whether the provided and expected webhook token are equal, potentially allowing attackers to use statistical methods to obtain a valid webhook token. GitLab Plugin 1.5.36 uses a constant-time comparison when validating the webhook token.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-10-19T19:00:22Z",
+    "Severity": "MODERATE",
+    "Summary": "Jenkins GitLab Plugin potentially allows attackers to use statistical methods to obtain valid webhook token",
+    "UpdatedAt": "2022-10-19T22:22:45Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 0,
+      "VectorString": ""
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.5.36"
+      },
+      "VulnerableVersionRange": "\u003c= 1.5.35"
+    }
+  ]
+}

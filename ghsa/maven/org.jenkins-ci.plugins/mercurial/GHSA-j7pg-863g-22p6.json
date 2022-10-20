@@ -1,0 +1,56 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-10-19T20:27:32Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "org.jenkins-ci.plugins:mercurial"
+  },
+  "Advisory": {
+    "DatabaseId": 194387,
+    "Id": "GSA_kwCzR0hTQS1qN3BnLTg2M2ctMjJwNs4AAvdT",
+    "GhsaId": "GHSA-j7pg-863g-22p6",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43410"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2831"
+      },
+      {
+        "Url": "http://www.openwall.com/lists/oss-security/2022/10/19/3"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-j7pg-863g-22p6"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-j7pg-863g-22p6"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-43410"
+      }
+    ],
+    "Description": "Jenkins Mercurial Plugin 1251.va_b_121f184902 and earlier provides information about which jobs were triggered or scheduled for polling through its webhook endpoint, including jobs the user has no permission to access. Mercurial Plugin 1260.vdfb_723cdcc81 does not provide the names of jobs for which polling is triggered unless the user has the appropriate Item/Read permission.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-10-19T19:00:18Z",
+    "Severity": "MODERATE",
+    "Summary": "Jenkins Mercurial Plugin provides info about jobs triggered or scheduled for polling through webhook endpoint",
+    "UpdatedAt": "2022-10-19T20:27:32Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 0,
+      "VectorString": ""
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1260.vdfb_723cdcc81"
+      },
+      "VulnerableVersionRange": "\u003c 1260.vdfb"
+    }
+  ]
+}

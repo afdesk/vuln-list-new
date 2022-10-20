@@ -27,8 +27,8 @@
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-06-02T14:23:29Z",
     "Severity": "HIGH",
-    "Summary": "All source code and data in extensions folder is publicly available",
-    "UpdatedAt": "2022-06-02T14:23:30Z",
+    "Summary": "Phoenix-ws source code and data in extensions folder is publicly available",
+    "UpdatedAt": "2022-10-19T20:54:10Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.5,

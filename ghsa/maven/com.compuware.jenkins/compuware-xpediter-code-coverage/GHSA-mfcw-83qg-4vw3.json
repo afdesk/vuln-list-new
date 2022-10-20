@@ -1,0 +1,53 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-10-19T22:20:50Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "com.compuware.jenkins:compuware-xpediter-code-coverage"
+  },
+  "Advisory": {
+    "DatabaseId": 194349,
+    "Id": "GSA_kwCzR0hTQS1tZmN3LTgzcWctNHZ3M84AAvct",
+    "GhsaId": "GHSA-mfcw-83qg-4vw3",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43424"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2627"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-mfcw-83qg-4vw3"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-mfcw-83qg-4vw3"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-43424"
+      }
+    ],
+    "Description": "Jenkins Compuware Xpediter Code Coverage Plugin 1.0.7 and earlier implements an agent/controller message that does not limit where it can be executed, allowing attackers able to control agent processes to obtain the values of Java system properties from the Jenkins controller process. Compuware Xpediter Code Coverage Plugin 1.0.8 restricts execution of the agent/controller message to agents.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-10-19T19:00:22Z",
+    "Severity": "MODERATE",
+    "Summary": "Jenkins Compuware Xpediter Code Coverage Plugin vulnerable to Protection Mechanism Failure",
+    "UpdatedAt": "2022-10-19T22:20:50Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 0,
+      "VectorString": ""
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": "1.0.8"
+      },
+      "VulnerableVersionRange": "\u003c 1.0.8"
+    }
+  ]
+}

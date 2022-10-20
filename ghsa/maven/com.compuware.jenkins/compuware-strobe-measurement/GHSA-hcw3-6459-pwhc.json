@@ -1,0 +1,53 @@
+{
+  "Severity": "MODERATE",
+  "UpdatedAt": "2022-10-19T22:02:53Z",
+  "Package": {
+    "Ecosystem": "MAVEN",
+    "Name": "com.compuware.jenkins:compuware-strobe-measurement"
+  },
+  "Advisory": {
+    "DatabaseId": 194353,
+    "Id": "GSA_kwCzR0hTQS1oY3czLTY0NTktcHdoY84AAvcx",
+    "GhsaId": "GHSA-hcw3-6459-pwhc",
+    "References": [
+      {
+        "Url": "https://nvd.nist.gov/vuln/detail/CVE-2022-43431"
+      },
+      {
+        "Url": "https://www.jenkins.io/security/advisory/2022-10-19/#SECURITY-2631"
+      },
+      {
+        "Url": "https://github.com/advisories/GHSA-hcw3-6459-pwhc"
+      }
+    ],
+    "Identifiers": [
+      {
+        "Type": "GHSA",
+        "Value": "GHSA-hcw3-6459-pwhc"
+      },
+      {
+        "Type": "CVE",
+        "Value": "CVE-2022-43431"
+      }
+    ],
+    "Description": "Jenkins Compuware Strobe Measurement Plugin 1.0.1 and earlier does not perform a permission check in an HTTP endpoint, allowing attackers with Overall/Read permission to enumerate credentials IDs of credentials stored in Jenkins.",
+    "Origin": "UNSPECIFIED",
+    "PublishedAt": "2022-10-19T19:00:22Z",
+    "Severity": "MODERATE",
+    "Summary": "Jenkins Compuware Strobe Measurement Plugin Missing Authorization vulnerability",
+    "UpdatedAt": "2022-10-19T22:02:53Z",
+    "WithdrawnAt": "",
+    "CVSS": {
+      "Score": 0,
+      "VectorString": ""
+    }
+  },
+  "Versions": [
+    {
+      "FirstPatchedVersion": {
+        "Identifier": ""
+      },
+      "VulnerableVersionRange": "\u003c= 1.0.1"
+    }
+  ]
+}
