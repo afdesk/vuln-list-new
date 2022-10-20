@@ -3889,6 +3889,68 @@
     "Architecture": [
       "all"
     ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "python3-hijra, hijra-applet"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 12)"
+    ],
+    "Build-Depends-Indep": [
+      "python3-all, gettext, dh-python"
+    ],
+    "Checksums-Sha256": [
+      "cf06f259dcf030deb70d90d610d85f17191fb36e901c9635a6f78139f8536025 2116 hijra_1.0-2.dsc 65be44852d08cf6b13ca4d6b6be4f5623cb930306b935fdefebcd6b98316042f 96612 hijra_1.0.orig.tar.gz 1dd8e2c57ea9d7ef1baa733d02257b1671705bb5c424ac4f2ec212125f6b100b 12624 hijra_1.0-2.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/non-free/h/hijra"
+    ],
+    "Files": [
+      "cc4bb4f5386cc0ab2c72cf0f88781afe 2116 hijra_1.0-2.dsc d014aa101eb13321913eeaa353e50db6 96612 hijra_1.0.orig.tar.gz df697490192c8b9e5b3e23a0b853dd4f 12624 hijra_1.0-2.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://ojuba.org/hijra:%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D8%A9"
+    ],
+    "Maintainer": [
+      "Debian Islamic Maintainers \u003cdebian-islamic-maintainers@lists.alioth.debian.org\u003e"
+    ],
+    "Package": [
+      "hijra"
+    ],
+    "Package-List": [
+      "hijra-applet deb non-free/misc optional arch=all python3-hijra deb non-free/python optional arch=all"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "non-free/misc"
+    ],
+    "Standards-Version": [
+      "4.4.1"
+    ],
+    "Uploaders": [
+      "أحمد المحمودي (Ahmed El-Mahmoudy) \u003caelmahmoudy@users.sourceforge.net\u003e"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/islamic-team/hijra"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/islamic-team/hijra.git"
+    ],
+    "Version": [
+      "1.0-2"
+    ]
+  },
+  {
+    "Architecture": [
+      "all"
+    ],
     "Binary": [
       "hwb"
     ],
@@ -10538,16 +10600,16 @@
       "nvidia-cudnn"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13)"
+      "debhelper-compat (= 13), po-debconf"
     ],
     "Checksums-Sha256": [
-      "d7c45904c49c305eaff6608f84bbc33073b8d17b295fa277aa862c801f429556 1782 nvidia-cudnn_8.2.4.15~cuda11.4.dsc 1454514dfbb5f9db9e027f639851d1b21f107d2846d672895cfedb845f207fef 13372 nvidia-cudnn_8.2.4.15~cuda11.4.tar.xz"
+      "1a99245b4dc0a0cc94a87d579502727e247cdea74c6e51ab30db4e6871b03a22 1794 nvidia-cudnn_8.3.2.44~cuda11.5.dsc e0c6c3503c61e4a99c0f2103c3f975fe2ebe963813a87834f4d7f34332e6b637 14712 nvidia-cudnn_8.3.2.44~cuda11.5.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-cudnn"
     ],
     "Files": [
-      "d06510561fa8c8fe0b11092309199ac0 1782 nvidia-cudnn_8.2.4.15~cuda11.4.dsc 6a994aae78568cd75931a00a68b05b7f 13372 nvidia-cudnn_8.2.4.15~cuda11.4.tar.xz"
+      "b5b1627e458a8025792685590213d3ea 1794 nvidia-cudnn_8.3.2.44~cuda11.5.dsc 21a232a771746c0d5b0d2f21883d19ed 14712 nvidia-cudnn_8.3.2.44~cuda11.5.tar.xz"
     ],
     "Format": [
       "3.0 (native)"
@@ -10583,7 +10645,7 @@
       "https://salsa.debian.org/nvidia-team/nvidia-cudnn.git"
     ],
     "Version": [
-      "8.2.4.15~cuda11.4"
+      "8.3.2.44~cuda11.5"
     ]
   },
   {
