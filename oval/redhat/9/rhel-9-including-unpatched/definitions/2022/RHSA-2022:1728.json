@@ -168,7 +168,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618024"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068020"
                   }
                 ]
               },
@@ -181,7 +181,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-demo is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618008"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068046"
                   }
                 ]
               },
@@ -194,7 +194,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-demo-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618026"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068048"
                   }
                 ]
               },
@@ -207,7 +207,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-demo-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618070"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068018"
                   }
                 ]
               },
@@ -220,7 +220,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-devel is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618028"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068036"
                   }
                 ]
               },
@@ -233,7 +233,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-devel-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618034"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068022"
                   }
                 ]
               },
@@ -246,7 +246,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-devel-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618012"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068038"
                   }
                 ]
               },
@@ -259,7 +259,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618058"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068040"
                   }
                 ]
               },
@@ -272,7 +272,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-headless is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618004"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068030"
                   }
                 ]
               },
@@ -285,7 +285,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-headless-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618046"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068006"
                   }
                 ]
               },
@@ -298,7 +298,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-headless-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618036"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068044"
                   }
                 ]
               },
@@ -311,7 +311,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618056"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068002"
                   }
                 ]
               },
@@ -324,7 +324,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618030"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068024"
                   }
                 ]
               },
@@ -337,7 +337,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-jmods is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618076"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068012"
                   }
                 ]
               },
@@ -350,7 +350,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-jmods-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618038"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068054"
                   }
                 ]
               },
@@ -363,7 +363,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-jmods-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618068"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068026"
                   }
                 ]
               },
@@ -376,7 +376,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618060"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068016"
                   }
                 ]
               },
@@ -389,7 +389,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-src is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618082"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068052"
                   }
                 ]
               },
@@ -402,7 +402,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-src-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618054"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068032"
                   }
                 ]
               },
@@ -415,7 +415,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-src-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618032"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068050"
                   }
                 ]
               },
@@ -428,7 +428,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-static-libs is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618080"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068004"
                   }
                 ]
               },
@@ -441,7 +441,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-static-libs-fastdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618084"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068008"
                   }
                 ]
               },
@@ -454,7 +454,7 @@
                   },
                   {
                     "Comment": "java-11-openjdk-static-libs-slowdebug is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.cve:tst:202221618050"
+                    "TestRef": "oval:com.redhat.cve:tst:202233068010"
                   }
                 ]
               }

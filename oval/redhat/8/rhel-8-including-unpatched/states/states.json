@@ -47115,7 +47115,7 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:ste:20226820001",
-      "Version": "635",
+      "Version": "636",
       "Arch": {},
       "Evr": {
         "Text": "0:0.12.0-8.el8_6",

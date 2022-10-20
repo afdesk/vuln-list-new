@@ -25104,1458 +25104,6 @@
     },
     {
       "Check": "at least one",
-      "Comment": "java-11-openjdk-debugsource is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-debugsource is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-headless is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618003",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-headless is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618004",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618005",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618006",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-demo is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618007",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618004"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-demo is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618008",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618004"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-demo is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618005"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-demo is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618010",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-devel-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618011",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618006"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-devel-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618012",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618006"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-demo-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618013",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618007"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-demo-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618014",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618007"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-demo-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618015",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-demo-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618016",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618008"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-static-libs-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618017",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618009"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-static-libs-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618018",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618009"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-jmods is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618019",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618010"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-jmods is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618020",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618010"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-jmods-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618021",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618011"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-jmods-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618022",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618011"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618023",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618012"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618024",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618012"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-demo-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618025",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618013"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-demo-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618026",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618013"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-devel is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618027",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618014"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618028",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618014"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-javadoc-zip is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618029",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618015"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618030",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618015"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-src-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618031",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618016"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-src-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618032",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618016"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-devel-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618033",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618017"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-devel-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618034",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618017"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-headless-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618035",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618018"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-headless-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618036",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618018"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-jmods-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618037",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618019"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-jmods-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618038",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618019"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-static-libs is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618039",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618020"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-static-libs is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618040",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618020"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-javadoc-zip is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618041",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618021"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618042",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618021"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618043",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618022"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618044",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618022"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-headless-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618045",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618023"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-headless-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618046",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618023"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-src is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618047",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618024"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-src is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618048",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618024"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-static-libs-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618049",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618025"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-static-libs-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618050",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618025"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-debugsource is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618051",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618026"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-debugsource is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618052",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618026"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-src-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618053",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618027"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-src-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618054",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618027"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-javadoc is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618055",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618028"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618056",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618028"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618057",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618029"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618058",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618029"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618059",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618030"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618060",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618030"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-jmods-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618061",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618031"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-jmods-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618062",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618031"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-src-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618063",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618032"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-src-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618064",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618032"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-devel-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618065",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618033"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-devel-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618066",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618033"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-jmods-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618067",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618034"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-jmods-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618068",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618034"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-demo-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618069",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618035"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-demo-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618070",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618035"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-devel-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618071",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618036"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-devel-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618072",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618036"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618073",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618037"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618074",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618037"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-jmods is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618075",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618038"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-jmods is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618076",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618038"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-devel is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618077",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618039"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618078",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618039"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-static-libs is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618079",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618040"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-static-libs is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618080",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618040"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-src is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618081",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618041"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-src is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618082",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618041"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-static-libs-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618083",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618042"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-11-openjdk-static-libs-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618084",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618042"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-static-libs-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618085",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618043"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-static-libs-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618086",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618043"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-headless is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618087",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618044"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-headless is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618088",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618044"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-headless-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618089",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618045"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-headless-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618090",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618045"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-headless-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618091",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618046"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-headless-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618092",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618046"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-src-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618093",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618047"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-src-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618094",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618047"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-javadoc is installed",
-      "ID": "oval:com.redhat.cve:tst:202221618095",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618048"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-17-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221618096",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618048"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-demo is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619001",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619001"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-demo is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619002",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-headless is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619009",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619005"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-headless is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619010",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619005"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-src-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619015",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619008"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-src-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619016",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619008"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619017",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619009"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619018",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619009"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619025",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619013"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619026",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619013"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-javadoc is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619043",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619022"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619044",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619022"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-demo-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619045",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619023"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-demo-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619046",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619023"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-debugsource is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619061",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619031"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-debugsource is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619062",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619031"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-headless-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619063",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619032"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-headless-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619064",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619032"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-javadoc-zip is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619067",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619034"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619068",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619034"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-demo-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619087",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619044"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-demo-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619088",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619044"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-src-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619095",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619048"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-src-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619096",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619048"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-devel-slowdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619099",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619050"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-devel-slowdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619100",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619050"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619103",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619052"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619104",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619052"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-headless-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619109",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619055"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-headless-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619110",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619055"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-devel is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619115",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619058"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619116",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619058"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-src is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619119",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619060"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-src is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619120",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619060"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-devel-fastdebug is installed",
-      "ID": "oval:com.redhat.cve:tst:202221619123",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619062"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "java-1.8.0-openjdk-devel-fastdebug is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.cve:tst:202221619124",
-      "Version": "636",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619062"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
-      }
-    },
-    {
-      "Check": "at least one",
       "Comment": "stratisd is installed",
       "ID": "oval:com.redhat.cve:tst:202221658001",
       "Version": "636",
@@ -31352,6 +29900,292 @@
     },
     {
       "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless-fastdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs-fastdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs-slowdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068012",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-debugsource is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-debugsource is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068014",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-slowdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068015",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068016",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo-slowdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068017",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068009"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068018",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068019",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068020",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel-fastdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068021",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068022",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc-zip is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068023",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068012"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068024",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods-slowdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068025",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068013"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068026",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "harfbuzz-devel is installed",
       "ID": "oval:com.redhat.cve:tst:202233068027",
       "Version": "636",
@@ -31367,6 +30201,50 @@
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202233068014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068029",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068015"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068030",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src-fastdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068031",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068016"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068032",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068016"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -31396,6 +30274,72 @@
     },
     {
       "Check": "at least one",
+      "Comment": "java-11-openjdk-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068035",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068018"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068036",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel-slowdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068037",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068019"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068038",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-fastdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068039",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068020"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068040",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "harfbuzz is installed",
       "ID": "oval:com.redhat.cve:tst:202233068041",
       "Version": "636",
@@ -31411,6 +30355,138 @@
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:202233068021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless-slowdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068043",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068022"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068044",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068045",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068023"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068046",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068023"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo-fastdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068047",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068024"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068048",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068024"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src-slowdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068049",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068025"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068050",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068025"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068051",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068026"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068052",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068026"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods-fastdebug is installed",
+      "ID": "oval:com.redhat.cve:tst:202233068053",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068027"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202233068054",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068027"
       },
       "State": {
         "StateRef": "oval:com.redhat.cve:ste:20052541001"
@@ -33072,7 +32148,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618012"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33084,7 +32160,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068023"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33096,7 +32172,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618013"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068024"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728003"
@@ -33108,7 +32184,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618035"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33120,7 +32196,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728009",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618014"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068018"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33132,7 +32208,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728011",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618017"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728003"
@@ -33144,7 +32220,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728013",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618006"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068019"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33156,7 +32232,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728015",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618029"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068020"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728003"
@@ -33168,7 +32244,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728017",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33180,7 +32256,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728019",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618023"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728003"
@@ -33192,7 +32268,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728021",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618018"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068022"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33204,7 +32280,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728023",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618028"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33216,7 +32292,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728025",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618015"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33228,7 +32304,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728027",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618038"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33240,7 +32316,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728029",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618019"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068027"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728003"
@@ -33252,7 +32328,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728031",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618034"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33264,7 +32340,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728033",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618030"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33276,7 +32352,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728035",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618041"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068026"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33288,7 +32364,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728037",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618027"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728003"
@@ -33300,7 +32376,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728039",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618016"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068025"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33312,7 +32388,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728041",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618040"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33324,7 +32400,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728043",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618042"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728003"
@@ -33336,7 +32412,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20221728045",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618025"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221728001"
@@ -33348,10 +32424,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618037"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33360,10 +32448,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618005"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-demo is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33372,10 +32472,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-demo-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33384,10 +32496,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618007"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-demo-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33396,10 +32520,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729009",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618039"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33408,10 +32544,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729011",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618033"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-devel-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729012",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33420,10 +32568,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729013",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618036"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-devel-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729014",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33432,10 +32592,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729015",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618022"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729016",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33444,10 +32616,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729017",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618044"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-headless is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729018",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33456,10 +32640,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729019",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618046"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-headless-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729020",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33468,10 +32664,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729021",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618045"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-headless-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729022",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33480,10 +32688,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729023",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618048"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729024",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33492,10 +32712,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729025",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618021"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729026",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33504,10 +32736,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729027",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618010"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-jmods is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729028",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33516,10 +32760,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729029",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618031"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-jmods-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729030",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33528,10 +32784,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729031",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618011"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-jmods-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729032",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33540,10 +32808,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729033",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618003"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729034",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33552,10 +32832,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729035",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618024"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729018"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-src is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729036",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33564,10 +32856,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729037",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618047"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729019"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-src-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729038",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33576,10 +32880,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729039",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618032"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729020"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-src-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729040",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33588,10 +32904,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729041",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618020"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729021"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-static-libs is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729042",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33600,10 +32928,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729043",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618043"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729022"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-static-libs-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729044",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33612,10 +32952,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20221729045",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618009"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729023"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20221729001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-static-libs-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20221729046",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729023"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33624,10 +32976,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619013"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137002",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33636,10 +33000,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619001"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137004",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33648,10 +33024,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619044"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137006",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33660,10 +33048,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619023"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137008",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33672,10 +33072,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137009",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619058"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137010",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33684,10 +33096,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137011",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619062"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137012",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33696,10 +33120,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137013",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619050"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137014",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33708,10 +33144,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137015",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619052"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137016",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33720,10 +33168,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137017",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619005"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137018",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33732,10 +33192,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137019",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619055"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137020",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33744,10 +33216,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137021",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619032"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137022",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33756,10 +33240,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137023",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619022"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-javadoc is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137024",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33768,10 +33264,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137025",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619034"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-javadoc-zip is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137026",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33780,10 +33288,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137027",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619009"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137028",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33792,10 +33312,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137029",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619060"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137030",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33804,10 +33336,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137031",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619048"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src-fastdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137032",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -33816,10 +33360,22 @@
       "ID": "oval:com.redhat.rhsa:tst:20222137033",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20222137003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src-slowdebug is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.rhsa:tst:20222137034",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -36659,7 +36215,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618012"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36671,7 +36227,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068023"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36683,7 +36239,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618013"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068024"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695003"
@@ -36695,7 +36251,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618035"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36707,7 +36263,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695009",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618014"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068018"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36719,7 +36275,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695011",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618017"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695003"
@@ -36731,7 +36287,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695013",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618006"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068019"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36743,7 +36299,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695015",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618029"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068020"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695003"
@@ -36755,7 +36311,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695017",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36767,7 +36323,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695019",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618023"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695003"
@@ -36779,7 +36335,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695021",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618018"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068022"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36791,7 +36347,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695023",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618028"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36803,7 +36359,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695025",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618015"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36815,7 +36371,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695027",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618038"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36827,7 +36383,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695029",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618019"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068027"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695003"
@@ -36839,7 +36395,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695031",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618034"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36851,7 +36407,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695033",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618030"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36863,7 +36419,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695035",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618041"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068026"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36875,7 +36431,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695037",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618027"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695003"
@@ -36887,7 +36443,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695039",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618016"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068025"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36899,7 +36455,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695041",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618040"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36911,7 +36467,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695043",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618042"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695003"
@@ -36923,7 +36479,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225695045",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618025"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225695001"
@@ -36935,7 +36491,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709001",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619013"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709001"
@@ -36947,7 +36503,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709003",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619001"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709001"
@@ -36959,7 +36515,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709005",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619044"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -36971,7 +36527,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709007",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619023"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -36983,7 +36539,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709009",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619058"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709001"
@@ -36995,7 +36551,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709011",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619062"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -37007,7 +36563,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709013",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619050"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -37019,7 +36575,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709015",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619052"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -37031,7 +36587,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709017",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619005"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709001"
@@ -37043,7 +36599,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709019",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619055"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -37055,7 +36611,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709021",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619032"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -37067,7 +36623,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709023",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619022"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709004"
@@ -37079,7 +36635,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709025",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619034"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709004"
@@ -37091,7 +36647,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709027",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619009"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -37103,7 +36659,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709029",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619060"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709001"
@@ -37115,7 +36671,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709031",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619048"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -37127,7 +36683,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225709033",
       "Version": "635",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225709003"
@@ -37151,7 +36707,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736001",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618037"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37163,7 +36719,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736003",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618005"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37175,7 +36731,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736005",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736003"
@@ -37187,7 +36743,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736007",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618007"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37199,7 +36755,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736009",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618039"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37211,7 +36767,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736011",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618033"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736003"
@@ -37223,7 +36779,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736013",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618036"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37235,7 +36791,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736015",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618022"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736003"
@@ -37247,7 +36803,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736017",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618044"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37259,7 +36815,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736019",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618046"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736003"
@@ -37271,7 +36827,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736021",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618045"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729011"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37283,7 +36839,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736023",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618048"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37295,7 +36851,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736025",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618021"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37307,7 +36863,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736027",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618010"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37319,7 +36875,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736029",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618031"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736003"
@@ -37331,7 +36887,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736031",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618011"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729016"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37343,7 +36899,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736033",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618003"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729017"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37355,7 +36911,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736035",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618024"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729018"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37367,7 +36923,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736037",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618047"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729019"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736003"
@@ -37379,7 +36935,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736039",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618032"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729020"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37391,7 +36947,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736041",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618020"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729021"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -37403,7 +36959,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736043",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618043"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729022"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736003"
@@ -37415,7 +36971,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225736045",
       "Version": "637",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618009"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729023"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225736001"
@@ -41113,6 +40669,762 @@
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226963005"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-demo is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-demo-fastdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-demo-slowdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-devel is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-devel-fastdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-devel-slowdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-fastdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-headless is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-headless-fastdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-headless-slowdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-javadoc is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999023",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-javadoc-zip is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999025",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-jmods is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999027",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-jmods-fastdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999029",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-jmods-slowdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999031",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-slowdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999033",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-src is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999035",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-src-fastdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999037",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-src-slowdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999039",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-static-libs is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999041",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729021"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-static-libs-fastdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999043",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-17-openjdk-static-libs-slowdebug is earlier than 1:17.0.5.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20226999045",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20221729023"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20226999001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo-fastdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo-slowdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel-fastdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel-slowdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-fastdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless-fastdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless-slowdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-javadoc is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007023",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-javadoc-zip is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007025",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007004"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-slowdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007027",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007029",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src-fastdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007031",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src-slowdebug is earlier than 1:1.8.0.352.b08-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227007033",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137017"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227007003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013003",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068023"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo-fastdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013005",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068024"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-demo-slowdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068018"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel-fastdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-devel-slowdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013013",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068019"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-fastdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068020"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless-fastdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013019",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-headless-slowdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068022"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013023",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-javadoc-zip is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013025",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013027",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods-fastdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013029",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068027"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-jmods-slowdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013031",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-slowdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013033",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013035",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068026"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src-fastdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013037",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068016"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-src-slowdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013039",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068025"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013041",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs-fastdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013043",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-11-openjdk-static-libs-slowdebug is earlier than 1:11.0.17.0.8-2.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227013045",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227013001"
       }
     },
     {
@@ -68216,7 +68528,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618038"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068006"
       },
       "State": {}
     },
@@ -68227,7 +68539,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068015"
       },
       "State": {}
     },
@@ -68238,7 +68550,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618042"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449007",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137009"
       },
       "State": {}
     },
@@ -68249,7 +68571,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619005"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137009"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless-slowdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449009",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137011"
       },
       "State": {}
     },
@@ -68260,7 +68592,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619032"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449011",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137002"
       },
       "State": {}
     },
@@ -68271,7 +68613,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619001"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137002"
       },
       "State": {}
     },
@@ -68282,7 +68624,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618006"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068019"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-fastdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449015",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137008"
       },
       "State": {}
     },
@@ -68293,7 +68645,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619052"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-headless-fastdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449017",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137010"
       },
       "State": {}
     },
@@ -68304,7 +68666,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619055"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137010"
       },
       "State": {}
     },
@@ -68315,7 +68677,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618023"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449021",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137001"
       },
       "State": {}
     },
@@ -68326,7 +68698,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619013"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel-slowdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449023",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137007"
       },
       "State": {}
     },
@@ -68337,7 +68719,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619050"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449025",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137015"
       },
       "State": {}
     },
@@ -68348,7 +68740,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619060"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137015"
       },
       "State": {}
     },
@@ -68359,7 +68751,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068007"
       },
       "State": {}
     },
@@ -68370,7 +68762,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618041"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068026"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-debugsource is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449031",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202221449016"
       },
       "State": {}
     },
@@ -68381,7 +68783,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619031"
+        "ObjectRef": "oval:com.redhat.unaffected:obj:202221449016"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo-fastdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449033",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137003"
       },
       "State": {}
     },
@@ -68392,7 +68804,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619044"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-javadoc-zip is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449035",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137013"
       },
       "State": {}
     },
@@ -68403,7 +68825,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619034"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137013"
       },
       "State": {}
     },
@@ -68414,7 +68836,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618014"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068018"
       },
       "State": {}
     },
@@ -68425,7 +68847,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618029"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068020"
       },
       "State": {}
     },
@@ -68436,7 +68858,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618034"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068013"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src-slowdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449043",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137017"
       },
       "State": {}
     },
@@ -68447,7 +68879,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619008"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137017"
       },
       "State": {}
     },
@@ -68458,7 +68890,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618030"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068008"
       },
       "State": {}
     },
@@ -68469,7 +68901,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618019"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068027"
       },
       "State": {}
     },
@@ -68480,7 +68912,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068023"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-src-fastdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449051",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137016"
       },
       "State": {}
     },
@@ -68491,7 +68933,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619048"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137016"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-javadoc is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449053",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137012"
       },
       "State": {}
     },
@@ -68502,7 +68954,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619022"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137012"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449055",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137005"
       },
       "State": {}
     },
@@ -68513,7 +68975,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619058"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137005"
       },
       "State": {}
     },
@@ -68524,7 +68986,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618016"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068025"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-demo-slowdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449059",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137004"
       },
       "State": {}
     },
@@ -68535,7 +69007,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619023"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-devel-fastdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449061",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137006"
       },
       "State": {}
     },
@@ -68546,7 +69028,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619062"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137006"
       },
       "State": {}
     },
@@ -68557,7 +69039,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618035"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068009"
       },
       "State": {}
     },
@@ -68568,7 +69050,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618013"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068024"
       },
       "State": {}
     },
@@ -68579,7 +69061,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618040"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068002"
       },
       "State": {}
     },
@@ -68590,7 +69072,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618017"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068011"
       },
       "State": {}
     },
@@ -68601,7 +69083,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618028"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068001"
       },
       "State": {}
     },
@@ -68612,7 +69094,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618025"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068005"
       },
       "State": {}
     },
@@ -68623,7 +69105,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618027"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068016"
       },
       "State": {}
     },
@@ -68634,7 +69116,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618015"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068012"
       },
       "State": {}
     },
@@ -68645,7 +69127,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618012"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068010"
       },
       "State": {}
     },
@@ -68656,7 +69138,17 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221618018"
+        "ObjectRef": "oval:com.redhat.cve:obj:202233068022"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "java-1.8.0-openjdk-slowdebug is installed",
+      "ID": "oval:com.redhat.unaffected:tst:202221449083",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137014"
       },
       "State": {}
     },
@@ -68667,7 +69159,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202221619009"
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20222137014"
       },
       "State": {}
     },

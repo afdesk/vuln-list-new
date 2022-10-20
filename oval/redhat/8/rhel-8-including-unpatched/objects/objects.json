@@ -16537,8 +16537,18 @@
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20226820002",
-      "Version": "635",
+      "Version": "636",
       "Name": "prometheus-jmx-exporter-openjdk11"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226820003",
+      "Version": "636",
+      "Name": "prometheus-jmx-exporter-openjdk17"
+    },
+    {
+      "ID": "oval:com.redhat.rhsa:obj:20226820004",
+      "Version": "636",
+      "Name": "prometheus-jmx-exporter-openjdk8"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20030367001",

@@ -1,7 +1,7 @@
 {
   "Class": "patch",
   "ID": "oval:com.redhat.rhsa:def:20226820",
-  "Version": "635",
+  "Version": "636",
   "Metadata": {
     "Title": "RHSA-2022:6820: prometheus-jmx-exporter security update (Moderate)",
     "AffectedList": [
@@ -33,7 +33,7 @@
         "Date": "2022-10-06"
       },
       "Updated": {
-        "Date": "2022-10-06"
+        "Date": "2022-10-20"
       },
       "Cves": [
         {
@@ -116,6 +116,32 @@
                   {
                     "Comment": "prometheus-jmx-exporter-openjdk11 is signed with Red Hat redhatrelease2 key",
                     "TestRef": "oval:com.redhat.rhsa:tst:20226820004"
+                  }
+                ]
+              },
+              {
+                "Operator": "AND",
+                "Criterions": [
+                  {
+                    "Comment": "prometheus-jmx-exporter-openjdk17 is earlier than 0:0.12.0-8.el8_6",
+                    "TestRef": "oval:com.redhat.rhsa:tst:20226820005"
+                  },
+                  {
+                    "Comment": "prometheus-jmx-exporter-openjdk17 is signed with Red Hat redhatrelease2 key",
+                    "TestRef": "oval:com.redhat.rhsa:tst:20226820006"
+                  }
+                ]
+              },
+              {
+                "Operator": "AND",
+                "Criterions": [
+                  {
+                    "Comment": "prometheus-jmx-exporter-openjdk8 is earlier than 0:0.12.0-8.el8_6",
+                    "TestRef": "oval:com.redhat.rhsa:tst:20226820007"
+                  },
+                  {
+                    "Comment": "prometheus-jmx-exporter-openjdk8 is signed with Red Hat redhatrelease2 key",
+                    "TestRef": "oval:com.redhat.rhsa:tst:20226820008"
                   }
                 ]
               }
