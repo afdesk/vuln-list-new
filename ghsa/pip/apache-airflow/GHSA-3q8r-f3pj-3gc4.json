@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2022-10-07T21:57:38Z",
   "Package": {
     "Ecosystem": "PIP",
@@ -36,13 +36,13 @@
     "Description": "In Apache Airflow, prior to version 2.4.1, deactivating a user wouldn't prevent an already authenticated user from being able to continue using the UI or API.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-10-07T18:16:01Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Apache Airflow may allow authenticated users who have been deactivated to continue using the UI or API",
-    "UpdatedAt": "2022-10-10T16:54:10Z",
+    "UpdatedAt": "2022-10-20T03:01:59Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 8.1,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
     }
   },
   "Versions": [
