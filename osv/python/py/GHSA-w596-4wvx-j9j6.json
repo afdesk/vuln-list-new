@@ -1,12 +1,12 @@
 {
   "id": "GHSA-w596-4wvx-j9j6",
-  "modified": "2022-10-18T20:20:33.837746Z",
+  "modified": "2022-10-19T18:48:36.761325Z",
   "published": "2022-10-16T12:00:23Z",
   "aliases": [
     "CVE-2022-42969"
   ],
-  "summary": "ReDoS in py library",
-  "details": "The py library through 1.11.0 for Python allows remote attackers to conduct a ReDoS (Regular expression Denial of Service) attack via a Subversion repository with crafted info data, because the InfoSvnCommand argument is mishandled.",
+  "summary": "ReDoS in py library when used with subversion ",
+  "details": "The py library through 1.11.0 for Python allows remote attackers to conduct a ReDoS (Regular expression Denial of Service) attack via a Subversion repository with crafted info data, because the InfoSvnCommand argument is mishandled.\n\nThe particular codepath in question is the regular expression at `py._path.svnurl.InfoSvnCommand.lspattern` and is only relevant when dealing with subversion (svn) projects. Notablely the codepath is not used in the popular pytest project.",
   "affected": [
     {
       "package": {
@@ -92,6 +92,12 @@
         "1.8.2",
         "1.9.0"
       ],
+      "ecosystem_specific": {
+        "affected_functions": [
+          "py._path.svnurl.InfoSvnCommand.lspattern",
+          "py._path.svnurl.InfoSvnCommand"
+        ]
+      },
       "database_specific": {
         "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/10/GHSA-w596-4wvx-j9j6/GHSA-w596-4wvx-j9j6.json"
       }
@@ -107,16 +113,20 @@
       "url": "https://github.com/pytest-dev/py/issues/287"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/pytest-dev/py/issues/288"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pytest-dev/pytest/issues/10392"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/pytest-dev/py"
     },
     {
       "type": "WEB",
       "url": "https://github.com/pytest-dev/py/blob/cb87a83960523a2367d0f19226a73aed4ce4291d/py/_path/svnurl.py#L316"
-    },
-    {
-      "type": "WEB",
-      "url": "https://pypi.org/project/py"
     }
   ]
 }
