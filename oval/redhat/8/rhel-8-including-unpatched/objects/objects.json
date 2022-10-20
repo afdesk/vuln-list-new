@@ -3251,16 +3251,6 @@
       "Name": "edk2-aarch64"
     },
     {
-      "ID": "oval:com.redhat.cve:obj:201911358001",
-      "Version": "636",
-      "Name": "pcs-snmp"
-    },
-    {
-      "ID": "oval:com.redhat.cve:obj:201911358002",
-      "Version": "636",
-      "Name": "pcs"
-    },
-    {
       "ID": "oval:com.redhat.cve:obj:201911460001",
       "Version": "636",
       "Name": "gnome-desktop3-devel"
@@ -6019,6 +6009,16 @@
       "ID": "oval:com.redhat.cve:obj:202036242002",
       "Version": "636",
       "Name": "python3-cryptography"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202036604001",
+      "Version": "636",
+      "Name": "pcs-snmp"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202036604002",
+      "Version": "636",
+      "Name": "pcs"
     },
     {
       "ID": "oval:com.redhat.cve:obj:20208908001",

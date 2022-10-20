@@ -55271,6 +55271,54 @@
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226856020"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-nodejs14-nodejs is earlier than 0:14.20.1-2.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20227044001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20210421001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227044001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-nodejs14-nodejs-devel is earlier than 0:14.20.1-2.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20227044003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20210421002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227044001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-nodejs14-nodejs-docs is earlier than 0:14.20.1-2.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20227044005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20210421003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227044003"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "rh-nodejs14-npm is earlier than 0:6.14.17-14.20.1.2.el7",
+      "ID": "oval:com.redhat.rhsa:tst:20227044007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20210421004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227044004"
+      }
     }
   ],
   "RpmverifyfileTests": [

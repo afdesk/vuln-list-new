@@ -7411,6 +7411,26 @@
       "Name": "python3-mako"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:202240303001",
+      "Version": "636",
+      "Name": "python3-libxml2"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202240303002",
+      "Version": "636",
+      "Name": "libxml2-debugsource"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202240303003",
+      "Version": "636",
+      "Name": "libxml2-devel"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:202240303004",
+      "Version": "636",
+      "Name": "libxml2"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202240674007",
       "Version": "636",
       "Name": "expat-debugsource"
@@ -7584,21 +7604,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20225214002",
       "Version": "635",
       "Name": "kpatch-patch-5_14_0-70_13_1"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225250001",
-      "Version": "634",
-      "Name": "libxml2"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225250002",
-      "Version": "634",
-      "Name": "libxml2-devel"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20225250003",
-      "Version": "634",
-      "Name": "python3-libxml2"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20225251001",
@@ -7899,11 +7904,6 @@
       "ID": "oval:com.redhat.unaffected:obj:20162338015",
       "Version": "635",
       "Name": "ruby-debugsource"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20163709002",
-      "Version": "635",
-      "Name": "libxml2-debugsource"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:201717840001",

@@ -32606,6 +32606,94 @@
     },
     {
       "Check": "at least one",
+      "Comment": "python3-libxml2 is installed",
+      "ID": "oval:com.redhat.cve:tst:202240303001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python3-libxml2 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202240303002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libxml2-debugsource is installed",
+      "ID": "oval:com.redhat.cve:tst:202240303003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libxml2-debugsource is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202240303004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libxml2-devel is installed",
+      "ID": "oval:com.redhat.cve:tst:202240303005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libxml2-devel is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202240303006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libxml2 is installed",
+      "ID": "oval:com.redhat.cve:tst:202240303007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "libxml2 is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:202240303008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20052541001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "expat-debugsource is installed",
       "ID": "oval:com.redhat.cve:tst:202240674013",
       "Version": "636",
@@ -35827,22 +35915,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20225250001",
       "Version": "634",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225250001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libxml2 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20225250002",
-      "Version": "634",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -35851,22 +35927,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20225250003",
       "Version": "634",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225250001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libxml2-devel is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20225250004",
-      "Version": "634",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250002"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -35875,22 +35939,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20225250005",
       "Version": "634",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225250003"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python3-libxml2 is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20225250006",
-      "Version": "634",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250003"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20052541001"
       }
     },
     {
@@ -42065,32 +42117,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libxml2-devel is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20163709001",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "libxml2-devel is not installed",
       "ID": "oval:com.redhat.unaffected:tst:20163709002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libxml2-debugsource is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20163709003",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20163709002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303003"
       },
       "State": {}
     },
@@ -42101,17 +42133,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20163709002"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python3-libxml2 is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20163709005",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303002"
       },
       "State": {}
     },
@@ -42122,17 +42144,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250003"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "libxml2 is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20163709007",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303001"
       },
       "State": {}
     },
@@ -42143,7 +42155,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20225250001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303004"
       },
       "State": {}
     },
