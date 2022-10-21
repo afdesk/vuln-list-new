@@ -31682,7 +31682,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "python3-libxml2 is installed",
+      "Comment": "libxml2-devel is installed",
       "ID": "oval:com.redhat.cve:tst:202240303001",
       "Version": "636",
       "Object": {
@@ -31692,7 +31692,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "python3-libxml2 is signed with Red Hat redhatrelease2 key",
+      "Comment": "libxml2-devel is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202240303002",
       "Version": "636",
       "Object": {
@@ -31704,7 +31704,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libxml2-debugsource is installed",
+      "Comment": "libxml2 is installed",
       "ID": "oval:com.redhat.cve:tst:202240303003",
       "Version": "636",
       "Object": {
@@ -31714,7 +31714,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libxml2-debugsource is signed with Red Hat redhatrelease2 key",
+      "Comment": "libxml2 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202240303004",
       "Version": "636",
       "Object": {
@@ -31726,7 +31726,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libxml2-devel is installed",
+      "Comment": "libxml2-debugsource is installed",
       "ID": "oval:com.redhat.cve:tst:202240303005",
       "Version": "636",
       "Object": {
@@ -31736,7 +31736,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libxml2-devel is signed with Red Hat redhatrelease2 key",
+      "Comment": "libxml2-debugsource is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202240303006",
       "Version": "636",
       "Object": {
@@ -31748,7 +31748,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libxml2 is installed",
+      "Comment": "python3-libxml2 is installed",
       "ID": "oval:com.redhat.cve:tst:202240303007",
       "Version": "636",
       "Object": {
@@ -31758,7 +31758,7 @@
     },
     {
       "Check": "at least one",
-      "Comment": "libxml2 is signed with Red Hat redhatrelease2 key",
+      "Comment": "python3-libxml2 is signed with Red Hat redhatrelease2 key",
       "ID": "oval:com.redhat.cve:tst:202240303008",
       "Version": "636",
       "Object": {
@@ -35471,7 +35471,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225250001",
       "Version": "634",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202240303004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225250001"
@@ -35483,7 +35483,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225250003",
       "Version": "634",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202240303003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225250001"
@@ -35495,7 +35495,7 @@
       "ID": "oval:com.redhat.rhsa:tst:20225250005",
       "Version": "634",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202240303001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20225250003"
@@ -42446,7 +42446,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202240303003"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303001"
       },
       "State": {}
     },
@@ -42457,7 +42457,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202240303002"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303003"
       },
       "State": {}
     },
@@ -42468,7 +42468,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202240303001"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303004"
       },
       "State": {}
     },
@@ -42479,7 +42479,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.cve:obj:202240303004"
+        "ObjectRef": "oval:com.redhat.cve:obj:202240303002"
       },
       "State": {}
     },
