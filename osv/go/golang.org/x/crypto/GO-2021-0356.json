@@ -1,6 +1,6 @@
 {
   "id": "GO-2021-0356",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T14:43:38Z",
   "published": "2022-04-25T20:38:40Z",
   "aliases": [
     "CVE-2022-27191",
@@ -32,7 +32,6 @@
           {
             "path": "golang.org/x/crypto/ssh",
             "symbols": [
-              "ServerConfig.AddHostKey",
               "ServerConfig.AddHostKey"
             ]
           }
