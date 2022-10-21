@@ -6617,7 +6617,7 @@
                   },
                   {
                     "Comment": "pulp-admin-client is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313964"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644016"
                   }
                 ]
               },
@@ -6630,7 +6630,7 @@
                   },
                   {
                     "Comment": "pulp-maintenance is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313966"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644020"
                   }
                 ]
               },
@@ -6643,7 +6643,7 @@
                   },
                   {
                     "Comment": "pulp-nodes-child is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313968"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644010"
                   }
                 ]
               },
@@ -6656,7 +6656,7 @@
                   },
                   {
                     "Comment": "pulp-nodes-common is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313970"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644012"
                   }
                 ]
               },
@@ -6669,7 +6669,7 @@
                   },
                   {
                     "Comment": "pulp-nodes-parent is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313972"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644024"
                   }
                 ]
               },
@@ -6682,7 +6682,7 @@
                   },
                   {
                     "Comment": "pulp-selinux is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313974"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644014"
                   }
                 ]
               },
@@ -6695,7 +6695,7 @@
                   },
                   {
                     "Comment": "pulp-server is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313976"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644008"
                   }
                 ]
               },
@@ -6708,7 +6708,7 @@
                   },
                   {
                     "Comment": "python-pulp-agent-lib is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313978"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644028"
                   }
                 ]
               },
@@ -6721,7 +6721,7 @@
                   },
                   {
                     "Comment": "python-pulp-bindings is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313980"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644030"
                   }
                 ]
               },
@@ -6734,7 +6734,7 @@
                   },
                   {
                     "Comment": "python-pulp-client-lib is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313982"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644026"
                   }
                 ]
               },
@@ -6747,7 +6747,7 @@
                   },
                   {
                     "Comment": "python-pulp-common is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313984"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644018"
                   }
                 ]
               },
@@ -6760,7 +6760,7 @@
                   },
                   {
                     "Comment": "python-pulp-oid_validation is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313986"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644006"
                   }
                 ]
               },
@@ -6773,7 +6773,7 @@
                   },
                   {
                     "Comment": "python-pulp-repoauth is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313988"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644004"
                   }
                 ]
               },
@@ -6786,7 +6786,7 @@
                   },
                   {
                     "Comment": "python-pulp-streamer is signed with Red Hat redhatrelease2 key",
-                    "TestRef": "oval:com.redhat.rhsa:tst:20211313990"
+                    "TestRef": "oval:com.redhat.cve:tst:20223644002"
                   }
                 ]
               },

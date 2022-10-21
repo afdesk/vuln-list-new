@@ -2092,6 +2092,336 @@
     },
     {
       "Check": "at least one",
+      "Comment": "python-pulp-streamer is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-streamer is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-repoauth is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644003",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644002"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-repoauth is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644004",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644002"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-oid_validation is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644005",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644003"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-oid_validation is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644006",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644003"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-server is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644007",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644004"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-server is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644008",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644004"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-nodes-child is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644009",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644005"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-nodes-child is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644010",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644005"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-nodes-common is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644011",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644006"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-nodes-common is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644012",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644006"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-selinux is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644013",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644007"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-selinux is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644014",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644007"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-admin-client is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644015",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644008"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-admin-client is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644016",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644008"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-common is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644017",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644009"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-common is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644018",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644009"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-maintenance is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644019",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644010"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-maintenance is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644020",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644010"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644021",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644011"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644022",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644011"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-nodes-parent is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644023",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644012"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "pulp-nodes-parent is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644024",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644012"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-client-lib is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644025",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644013"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-client-lib is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644026",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644013"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-agent-lib is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644027",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644014"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-agent-lib is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644028",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644014"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-bindings is installed",
+      "ID": "oval:com.redhat.cve:tst:20223644029",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644015"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "python-pulp-bindings is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223644030",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644015"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:20134120001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "commons-text is installed",
       "ID": "oval:com.redhat.cve:tst:202242889001",
       "Version": "636",
@@ -13866,22 +14196,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313963",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313482"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644008"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-admin-client is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313964",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313482"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -13890,22 +14208,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313965",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313483"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644010"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-maintenance is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313966",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313483"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -13914,22 +14220,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313967",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313484"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644005"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-nodes-child is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313968",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313484"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -13938,22 +14232,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313969",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313485"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644006"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-nodes-common is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313970",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313485"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -13962,22 +14244,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313971",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313486"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644012"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-nodes-parent is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313972",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313486"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -13986,22 +14256,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313973",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313487"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644007"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-selinux is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313974",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313487"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -14010,22 +14268,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313975",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313488"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644004"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-server is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313976",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313488"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -14034,22 +14280,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313977",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313489"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644014"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-agent-lib is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313978",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313489"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -14058,22 +14292,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313979",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313490"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644015"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-bindings is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313980",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313490"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -14082,22 +14304,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313981",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313491"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644013"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-client-lib is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313982",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313491"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -14106,22 +14316,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313983",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313492"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644009"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-common is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313984",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313492"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -14130,22 +14328,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313985",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313493"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644003"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-oid_validation is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313986",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313493"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -14154,22 +14340,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313987",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313494"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644002"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-repoauth is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313988",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313494"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -14178,22 +14352,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20211313989",
       "Version": "639",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313495"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20211313383"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-streamer is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20211313990",
-      "Version": "639",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313495"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20134120001"
       }
     },
     {
@@ -14678,32 +14840,12 @@
     },
     {
       "Check": "at least one",
-      "Comment": "pulp-selinux is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450001",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313487"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
       "Comment": "pulp-selinux is not installed",
       "ID": "oval:com.redhat.unaffected:tst:20137450002",
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313487"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-maintenance is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450003",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313483"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644007"
       },
       "State": {}
     },
@@ -14714,17 +14856,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313483"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-common is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450005",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313492"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644010"
       },
       "State": {}
     },
@@ -14735,17 +14867,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313492"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-nodes-common is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450007",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313485"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644009"
       },
       "State": {}
     },
@@ -14756,17 +14878,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313485"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-oid_validation is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450009",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313493"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644006"
       },
       "State": {}
     },
@@ -14777,17 +14889,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313493"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-client-lib is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450011",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313491"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644003"
       },
       "State": {}
     },
@@ -14798,17 +14900,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313491"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-agent-lib is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450013",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313489"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644013"
       },
       "State": {}
     },
@@ -14819,17 +14911,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313489"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-repoauth is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450015",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313494"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644014"
       },
       "State": {}
     },
@@ -14840,17 +14922,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313494"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-server is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450017",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313488"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644002"
       },
       "State": {}
     },
@@ -14861,17 +14933,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313488"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-nodes-parent is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450019",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313486"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644004"
       },
       "State": {}
     },
@@ -14882,17 +14944,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313486"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-nodes-child is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450021",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313484"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644012"
       },
       "State": {}
     },
@@ -14903,17 +14955,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313484"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp-admin-client is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450023",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313482"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644005"
       },
       "State": {}
     },
@@ -14924,17 +14966,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313482"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "pulp is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450025",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20137450013"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644008"
       },
       "State": {}
     },
@@ -14945,17 +14977,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.unaffected:obj:20137450013"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-bindings is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450027",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313490"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644011"
       },
       "State": {}
     },
@@ -14966,17 +14988,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313490"
-      },
-      "State": {}
-    },
-    {
-      "Check": "at least one",
-      "Comment": "python-pulp-streamer is installed",
-      "ID": "oval:com.redhat.unaffected:tst:20137450029",
-      "Version": "635",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313495"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644015"
       },
       "State": {}
     },
@@ -14987,7 +14999,7 @@
       "Version": "635",
       "CheckExistence": "none_exist",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20211313495"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223644001"
       },
       "State": {}
     },

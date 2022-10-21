@@ -476,6 +476,81 @@
       "Name": "commons-configuration2"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20223644001",
+      "Version": "636",
+      "Name": "python-pulp-streamer"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644002",
+      "Version": "636",
+      "Name": "python-pulp-repoauth"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644003",
+      "Version": "636",
+      "Name": "python-pulp-oid_validation"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644004",
+      "Version": "636",
+      "Name": "pulp-server"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644005",
+      "Version": "636",
+      "Name": "pulp-nodes-child"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644006",
+      "Version": "636",
+      "Name": "pulp-nodes-common"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644007",
+      "Version": "636",
+      "Name": "pulp-selinux"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644008",
+      "Version": "636",
+      "Name": "pulp-admin-client"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644009",
+      "Version": "636",
+      "Name": "python-pulp-common"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644010",
+      "Version": "636",
+      "Name": "pulp-maintenance"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644011",
+      "Version": "636",
+      "Name": "pulp"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644012",
+      "Version": "636",
+      "Name": "pulp-nodes-parent"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644013",
+      "Version": "636",
+      "Name": "python-pulp-client-lib"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644014",
+      "Version": "636",
+      "Name": "python-pulp-agent-lib"
+    },
+    {
+      "ID": "oval:com.redhat.cve:obj:20223644015",
+      "Version": "636",
+      "Name": "python-pulp-bindings"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:202242889001",
       "Version": "636",
       "Name": "commons-text"
@@ -2601,76 +2676,6 @@
       "Name": "foreman-installer-katello"
     },
     {
-      "ID": "oval:com.redhat.rhsa:obj:20211313482",
-      "Version": "639",
-      "Name": "pulp-admin-client"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313483",
-      "Version": "639",
-      "Name": "pulp-maintenance"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313484",
-      "Version": "639",
-      "Name": "pulp-nodes-child"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313485",
-      "Version": "639",
-      "Name": "pulp-nodes-common"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313486",
-      "Version": "639",
-      "Name": "pulp-nodes-parent"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313487",
-      "Version": "639",
-      "Name": "pulp-selinux"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313488",
-      "Version": "639",
-      "Name": "pulp-server"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313489",
-      "Version": "639",
-      "Name": "python-pulp-agent-lib"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313490",
-      "Version": "639",
-      "Name": "python-pulp-bindings"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313491",
-      "Version": "639",
-      "Name": "python-pulp-client-lib"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313492",
-      "Version": "639",
-      "Name": "python-pulp-common"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313493",
-      "Version": "639",
-      "Name": "python-pulp-oid_validation"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313494",
-      "Version": "639",
-      "Name": "python-pulp-repoauth"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20211313495",
-      "Version": "639",
-      "Name": "python-pulp-streamer"
-    },
-    {
       "ID": "oval:com.redhat.rhsa:obj:20211313496",
       "Version": "639",
       "Name": "pulp-docker-admin-extensions"
@@ -2854,11 +2859,6 @@
       "ID": "oval:com.redhat.rhsa:obj:20211313540",
       "Version": "639",
       "Name": "foreman-discovery-image"
-    },
-    {
-      "ID": "oval:com.redhat.unaffected:obj:20137450013",
-      "Version": "635",
-      "Name": "pulp"
     },
     {
       "ID": "oval:com.redhat.unaffected:obj:20164800001",
