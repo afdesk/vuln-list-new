@@ -76,18 +76,6 @@
         "version": "5.33",
         "release": "20.el8",
         "epoch": "0",
-        "arch": "i686",
-        "src": "file-5.33-20.el8.src.rpm",
-        "filename": "file-devel-5.33-20.el8.i686.rpm",
-        "sum": "7c7c8e69ec1d3002bc851c1bce409904035d192f425af44f51e44d0e7638385c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "file-devel",
-        "version": "5.33",
-        "release": "20.el8",
-        "epoch": "0",
         "arch": "aarch64",
         "src": "file-5.33-20.el8.src.rpm",
         "filename": "file-devel-5.33-20.el8.aarch64.rpm",
@@ -116,6 +104,18 @@
         "src": "file-5.33-20.el8.src.rpm",
         "filename": "file-libs-5.33-20.el8.aarch64.rpm",
         "sum": "b4c16671a545a9f066105acd1065c7434618de9fdafeb2601fc480365c7f8760",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "file-devel",
+        "version": "5.33",
+        "release": "20.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "file-5.33-20.el8.src.rpm",
+        "filename": "file-devel-5.33-20.el8.i686.rpm",
+        "sum": "7c7c8e69ec1d3002bc851c1bce409904035d192f425af44f51e44d0e7638385c",
         "sum_type": 5,
         "reboot_suggested": 0
       },

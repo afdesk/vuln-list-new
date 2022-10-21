@@ -8,8 +8,8 @@
     "$date": 1636448465000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "lasso",
@@ -32,18 +32,6 @@
         "src": "lasso-2.6.0-12.el8.src.rpm",
         "filename": "lasso-devel-2.6.0-12.el8.x86_64.rpm",
         "sum": "15a8b753274f639801b8813ae80b50d190518c6b5d4e8c5ff89b9e270734def7",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "lasso",
-        "version": "2.6.0",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "lasso-2.6.0-12.el8.src.rpm",
-        "filename": "lasso-2.6.0-12.el8.i686.rpm",
-        "sum": "3d3f0070071bebb9845c5cb37ce5c91fa14977d0e1812da6c91a5213e2d387e8",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -106,6 +94,18 @@
         "sum": "fa6797c4d4b1a555e613842cabf3c54f63fc6c089c89eaa2c6045147ed7d066a",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "lasso",
+        "version": "2.6.0",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "lasso-2.6.0-12.el8.src.rpm",
+        "filename": "lasso-2.6.0-12.el8.i686.rpm",
+        "sum": "3d3f0070071bebb9845c5cb37ce5c91fa14977d0e1812da6c91a5213e2d387e8",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -128,7 +128,7 @@
   "title": "Moderate: lasso security and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1636712461000
   },
   "version": "2"
 }

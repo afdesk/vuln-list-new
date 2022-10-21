@@ -256,6 +256,18 @@
         "version": "3.7.6",
         "release": "12.el9_0",
         "epoch": "0",
+        "arch": "x86_64",
+        "src": "gnutls-3.7.6-12.el9_0.src.rpm",
+        "filename": "gnutls-3.7.6-12.el9_0.x86_64.rpm",
+        "sum": "e549e08518f6f5653027ff8be769ae3db7168f2449c4cc5b893419b9a8ab7136",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gnutls",
+        "version": "3.7.6",
+        "release": "12.el9_0",
+        "epoch": "0",
         "arch": "ppc64le",
         "src": "gnutls-3.7.6-12.el9_0.src.rpm",
         "filename": "gnutls-3.7.6-12.el9_0.ppc64le.rpm",

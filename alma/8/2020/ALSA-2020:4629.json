@@ -8,18 +8,18 @@
     "$date": 1604406110000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
-        "name": "libvpx",
+        "name": "libvpx-devel",
         "version": "1.7.0",
         "release": "8.el8",
         "epoch": "0",
         "arch": "i686",
         "src": "libvpx-1.7.0-8.el8.src.rpm",
-        "filename": "libvpx-1.7.0-8.el8.i686.rpm",
-        "sum": "1daf04ee9a9df39a611b07a4e8dcc5d175a434bbfdac16a44f2d19cee2bac1f2",
+        "filename": "libvpx-devel-1.7.0-8.el8.i686.rpm",
+        "sum": "7ff3c2e21763535f4e3a5d0a1fdeb7ada2b37d40af87dd54232691cfe995aad0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,18 +44,6 @@
         "src": "libvpx-1.7.0-8.el8.src.rpm",
         "filename": "libvpx-devel-1.7.0-8.el8.x86_64.rpm",
         "sum": "af58c619943e005029109a546899dff3321121281940c2b526eab0a1e04abfb5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libvpx-devel",
-        "version": "1.7.0",
-        "release": "8.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libvpx-1.7.0-8.el8.src.rpm",
-        "filename": "libvpx-devel-1.7.0-8.el8.i686.rpm",
-        "sum": "7ff3c2e21763535f4e3a5d0a1fdeb7ada2b37d40af87dd54232691cfe995aad0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -106,6 +94,18 @@
         "sum": "a737e72648552feb8d400f22e9685558d3a16de1549bba90614de50b17bd693c",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "libvpx",
+        "version": "1.7.0",
+        "release": "8.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libvpx-1.7.0-8.el8.src.rpm",
+        "filename": "libvpx-1.7.0-8.el8.i686.rpm",
+        "sum": "1daf04ee9a9df39a611b07a4e8dcc5d175a434bbfdac16a44f2d19cee2bac1f2",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -146,7 +146,7 @@
   "title": "Moderate: libvpx security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1628672040000
   },
   "version": "2"
 }

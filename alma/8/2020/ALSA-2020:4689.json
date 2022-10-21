@@ -8,8 +8,8 @@
     "$date": 1604406428000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "openwsman-server",
@@ -40,22 +40,22 @@
         "version": "2.6.5",
         "release": "7.el8",
         "epoch": "0",
-        "arch": "x86_64",
+        "arch": "i686",
         "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "libwsman-devel-2.6.5-7.el8.x86_64.rpm",
-        "sum": "94f1ecbe2d620167ed52ca0870be5176556bc4ff241cfbb1589241755e6a4467",
+        "filename": "libwsman-devel-2.6.5-7.el8.i686.rpm",
+        "sum": "5534335bc469c5924b10f4414306b59a752a7c9b74d77c527e33081444c6434b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
       {
-        "name": "openwsman-client",
+        "name": "libwsman-devel",
         "version": "2.6.5",
         "release": "7.el8",
         "epoch": "0",
-        "arch": "i686",
+        "arch": "x86_64",
         "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "openwsman-client-2.6.5-7.el8.i686.rpm",
-        "sum": "9586dc6bfed5840be039182f1a65db1881a3632885d5e23ffb21e8455249e5a8",
+        "filename": "libwsman-devel-2.6.5-7.el8.x86_64.rpm",
+        "sum": "94f1ecbe2d620167ed52ca0870be5176556bc4ff241cfbb1589241755e6a4467",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -76,46 +76,10 @@
         "version": "2.6.5",
         "release": "7.el8",
         "epoch": "0",
-        "arch": "i686",
-        "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "libwsman1-2.6.5-7.el8.i686.rpm",
-        "sum": "b8b7739c9f694188121d0810a48f699a06ff0ef9730c1182a0b51a1837f3be0e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "openwsman-server",
-        "version": "2.6.5",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "openwsman-server-2.6.5-7.el8.i686.rpm",
-        "sum": "e463bf536cf3cb77034cd3cb7fce429c4a7917612747aefb6564cdc909aaeaf9",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwsman1",
-        "version": "2.6.5",
-        "release": "7.el8",
-        "epoch": "0",
         "arch": "x86_64",
         "src": "openwsman-2.6.5-7.el8.src.rpm",
         "filename": "libwsman1-2.6.5-7.el8.x86_64.rpm",
         "sum": "f49950e42d22a6ccc623f0b0c5862b9da578ef176bcff240816175b9a7ba699e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwsman-devel",
-        "version": "2.6.5",
-        "release": "7.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "openwsman-2.6.5-7.el8.src.rpm",
-        "filename": "libwsman-devel-2.6.5-7.el8.i686.rpm",
-        "sum": "5534335bc469c5924b10f4414306b59a752a7c9b74d77c527e33081444c6434b",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -238,6 +202,42 @@
         "sum": "f126b652d41efc8f4c46123a944572a8d5e53a8cbf5151d811a5f9405d26d9cc",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "openwsman-client",
+        "version": "2.6.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "openwsman-2.6.5-7.el8.src.rpm",
+        "filename": "openwsman-client-2.6.5-7.el8.i686.rpm",
+        "sum": "9586dc6bfed5840be039182f1a65db1881a3632885d5e23ffb21e8455249e5a8",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwsman1",
+        "version": "2.6.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "openwsman-2.6.5-7.el8.src.rpm",
+        "filename": "libwsman1-2.6.5-7.el8.i686.rpm",
+        "sum": "b8b7739c9f694188121d0810a48f699a06ff0ef9730c1182a0b51a1837f3be0e",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "openwsman-server",
+        "version": "2.6.5",
+        "release": "7.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "openwsman-2.6.5-7.el8.src.rpm",
+        "filename": "openwsman-server-2.6.5-7.el8.i686.rpm",
+        "sum": "e463bf536cf3cb77034cd3cb7fce429c4a7917612747aefb6564cdc909aaeaf9",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -260,7 +260,7 @@
   "title": "Moderate: openwsman security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1628672040000
   },
   "version": "2"
 }

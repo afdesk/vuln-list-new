@@ -8,8 +8,8 @@
     "$date": 1588064711000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "libmspack",
@@ -20,18 +20,6 @@
         "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
         "filename": "libmspack-0.7-0.3.alpha.el8.4.x86_64.rpm",
         "sum": "0b4af4cd843761ee776be0a08b8716e60e3636541554facacb8cb838ece133c4",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libmspack",
-        "version": "0.7",
-        "release": "0.3.alpha.el8.4",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
-        "filename": "libmspack-0.7-0.3.alpha.el8.4.i686.rpm",
-        "sum": "23805bddb17b3577f7c3a98895266cbca96e5739b7d85cc0797a22bd2003402f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -106,6 +94,18 @@
         "sum": "7267bda4330688afe5c99661ad142ee057acb9729f4a5428055430bdafa4533b",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "libmspack",
+        "version": "0.7",
+        "release": "0.3.alpha.el8.4",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libmspack-0.7-0.3.alpha.el8.4.src.rpm",
+        "filename": "libmspack-0.7-0.3.alpha.el8.4.i686.rpm",
+        "sum": "23805bddb17b3577f7c3a98895266cbca96e5739b7d85cc0797a22bd2003402f",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -128,7 +128,7 @@
   "title": "Low: libmspack security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712455000
+    "$date": 1628672040000
   },
   "version": "1"
 }

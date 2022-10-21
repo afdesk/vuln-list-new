@@ -8,8 +8,8 @@
     "$date": 1645550731000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "python3-pillow-tk",
@@ -20,6 +20,18 @@
         "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
         "filename": "python3-pillow-tk-5.1.1-18.el8_5.x86_64.rpm",
         "sum": "233441ce841bb155e018796a576fcec001cc071aa3e071bceceae2d6f182c713",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "python3-pillow-devel",
+        "version": "5.1.1",
+        "release": "18.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
+        "filename": "python3-pillow-devel-5.1.1-18.el8_5.i686.rpm",
+        "sum": "2adb3d2df8b01316fe2e238ee660ec21eeefe5f0f5367a29d5b07cdf58a84577",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -56,18 +68,6 @@
         "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
         "filename": "python3-pillow-doc-5.1.1-18.el8_5.noarch.rpm",
         "sum": "77fcdc9fd93c5f375179289519ef43064b05c10f2143c390fd08af864328395b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "python3-pillow-devel",
-        "version": "5.1.1",
-        "release": "18.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "python-pillow-5.1.1-18.el8_5.src.rpm",
-        "filename": "python3-pillow-devel-5.1.1-18.el8_5.i686.rpm",
-        "sum": "2adb3d2df8b01316fe2e238ee660ec21eeefe5f0f5367a29d5b07cdf58a84577",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -182,7 +182,7 @@
   "title": "Important: python-pillow security update",
   "type": "security",
   "updated_date": {
-    "$date": 1645622795000
+    "$date": 1645622689000
   },
   "version": "1"
 }

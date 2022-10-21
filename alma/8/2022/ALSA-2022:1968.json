@@ -8,8 +8,8 @@
     "$date": 1652170212000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "libsndfile-devel",
@@ -24,14 +24,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libsndfile",
+        "name": "libsndfile-devel",
         "version": "1.0.28",
         "release": "12.el8",
         "epoch": "0",
         "arch": "x86_64",
         "src": "libsndfile-1.0.28-12.el8.src.rpm",
-        "filename": "libsndfile-1.0.28-12.el8.x86_64.rpm",
-        "sum": "b8981af35c6927a03c754379620a56904995e6b301c8b68f9d2366f2763803bb",
+        "filename": "libsndfile-devel-1.0.28-12.el8.x86_64.rpm",
+        "sum": "721afc0fa3e04133a4618e323672f83a39e9a88932189cb029cd783bd8a90663",
         "sum_type": 5,
         "reboot_suggested": 0
       },

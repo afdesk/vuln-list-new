@@ -8,8 +8,8 @@
     "$date": 1636533102000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "gcc-toolset-10-libubsan-devel",
@@ -24,30 +24,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "gcc-toolset-10-libstdc++-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libstdc++-devel-10.3.1-1.2.el8_5.i686.rpm",
-        "sum": "2fb2aba085a2ddc75479df4a4df2f718854629dc8b86b8f27a124d610b8f1bcf",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libasan-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libasan-devel-10.3.1-1.2.el8_5.i686.rpm",
-        "sum": "368341ffa8a1cce218bfeb90f2593b4937f8e8decec0153db65ba4d6c1a60c1f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "gcc-toolset-10-gcc-gfortran",
         "version": "10.3.1",
         "release": "1.2.el8_5",
@@ -56,30 +32,6 @@
         "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
         "filename": "gcc-toolset-10-gcc-gfortran-10.3.1-1.2.el8_5.x86_64.rpm",
         "sum": "466a5a06090b791a1d461fa39d74c70a7a677399fef04fdc071635e5cd92bf4e",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libasan6",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "libasan6-10.3.1-1.2.el8_5.i686.rpm",
-        "sum": "4872ca478ad690c870fe40976f268096d5330a60d201a2c65756f27d2c24fb1b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libitm-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libitm-devel-10.3.1-1.2.el8_5.i686.rpm",
-        "sum": "4c52b36e9dda56727455de345ef7610bb2d92cc3ab0b0b1b2a577e933fb94c4d",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,18 +68,6 @@
         "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
         "filename": "gcc-toolset-10-gcc-plugin-devel-10.3.1-1.2.el8_5.x86_64.rpm",
         "sum": "624886a881fb6c427e55f233ea7a5b0c10c83f22b45da5304d086ba432ad4f86",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libubsan-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libubsan-devel-10.3.1-1.2.el8_5.i686.rpm",
-        "sum": "6c21c169ed4aeeeaf3cd997f07a874a9ee585f5b444cb4ca843152cc19a82220",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -192,18 +132,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libasan6",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "libasan6-10.3.1-1.2.el8_5.x86_64.rpm",
-        "sum": "942c052756f5d5a5f4e5593b9705c20ccee868875777e19cb586a6c2c46b3f75",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "gcc-toolset-10-libasan-devel",
         "version": "10.3.1",
         "release": "1.2.el8_5",
@@ -212,18 +140,6 @@
         "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
         "filename": "gcc-toolset-10-libasan-devel-10.3.1-1.2.el8_5.x86_64.rpm",
         "sum": "96aaf5cdc75e68db3b05ec57ded309dc7281fc8b1a7f943ac632a8cfb3d5f0d5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libatomic-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libatomic-devel-10.3.1-1.2.el8_5.i686.rpm",
-        "sum": "aaaec114c30505ab566f74dd8f99aecbb40b28511fd26b959dc51524c0e27116",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -248,18 +164,6 @@
         "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
         "filename": "gcc-toolset-10-libatomic-devel-10.3.1-1.2.el8_5.x86_64.rpm",
         "sum": "d4ce796403fada923c85f7d03795ce947610681743685648fbb1b1872132cb45",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gcc-toolset-10-libquadmath-devel",
-        "version": "10.3.1",
-        "release": "1.2.el8_5",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
-        "filename": "gcc-toolset-10-libquadmath-devel-10.3.1-1.2.el8_5.i686.rpm",
-        "sum": "f326424064c3fa2ece31e4c1c9139bdd1b502a3ccb895b20ba593cca48b3779f",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -598,6 +502,102 @@
         "sum": "f876b79a254cecf29f24e70a67b00cf71bd2082378c2ed765ca54816b343a2ef",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libstdc++-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libstdc++-devel-10.3.1-1.2.el8_5.i686.rpm",
+        "sum": "2fb2aba085a2ddc75479df4a4df2f718854629dc8b86b8f27a124d610b8f1bcf",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libasan-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libasan-devel-10.3.1-1.2.el8_5.i686.rpm",
+        "sum": "368341ffa8a1cce218bfeb90f2593b4937f8e8decec0153db65ba4d6c1a60c1f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libasan6",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "libasan6-10.3.1-1.2.el8_5.i686.rpm",
+        "sum": "4872ca478ad690c870fe40976f268096d5330a60d201a2c65756f27d2c24fb1b",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libitm-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libitm-devel-10.3.1-1.2.el8_5.i686.rpm",
+        "sum": "4c52b36e9dda56727455de345ef7610bb2d92cc3ab0b0b1b2a577e933fb94c4d",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libubsan-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libubsan-devel-10.3.1-1.2.el8_5.i686.rpm",
+        "sum": "6c21c169ed4aeeeaf3cd997f07a874a9ee585f5b444cb4ca843152cc19a82220",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libasan6",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "libasan6-10.3.1-1.2.el8_5.x86_64.rpm",
+        "sum": "942c052756f5d5a5f4e5593b9705c20ccee868875777e19cb586a6c2c46b3f75",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libatomic-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libatomic-devel-10.3.1-1.2.el8_5.i686.rpm",
+        "sum": "aaaec114c30505ab566f74dd8f99aecbb40b28511fd26b959dc51524c0e27116",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gcc-toolset-10-libquadmath-devel",
+        "version": "10.3.1",
+        "release": "1.2.el8_5",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gcc-toolset-10-gcc-10.3.1-1.2.el8_5.src.rpm",
+        "filename": "gcc-toolset-10-libquadmath-devel-10.3.1-1.2.el8_5.i686.rpm",
+        "sum": "f326424064c3fa2ece31e4c1c9139bdd1b502a3ccb895b20ba593cca48b3779f",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -620,7 +620,7 @@
   "title": "Moderate: gcc-toolset-10-gcc security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636733859000
+    "$date": 1636734050000
   },
   "version": "1"
 }

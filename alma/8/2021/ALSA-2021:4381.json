@@ -828,6 +828,30 @@
         "reboot_suggested": 0
       },
       {
+        "name": "gnome-autoar",
+        "version": "0.2.3",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gnome-autoar-0.2.3-2.el8.src.rpm",
+        "filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
+        "sum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gsettings-desktop-schemas",
+        "version": "3.32.0",
+        "release": "6.el8",
+        "epoch": "0",
+        "arch": "aarch64",
+        "src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
+        "filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
+        "sum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
         "name": "gnome-software",
         "version": "3.36.1",
         "release": "10.el8",
@@ -924,26 +948,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "gnome-autoar",
-        "version": "0.2.3",
-        "release": "2.el8",
+        "name": "gnome-software-devel",
+        "version": "3.36.1",
+        "release": "10.el8",
         "epoch": "0",
         "arch": "aarch64",
-        "src": "gnome-autoar-0.2.3-2.el8.src.rpm",
-        "filename": "gnome-autoar-0.2.3-2.el8.aarch64.rpm",
-        "sum": "97e173e0846f518f95c83668d87859f4bb256e4bb1e6cd545226808378a8e57f",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gsettings-desktop-schemas",
-        "version": "3.32.0",
-        "release": "6.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gsettings-desktop-schemas-3.32.0-6.el8.src.rpm",
-        "filename": "gsettings-desktop-schemas-3.32.0-6.el8.aarch64.rpm",
-        "sum": "c8e07e7aa9b7be2b15d2beec5f396eed344abc04756f4b2b0a3a1720ff2fbe08",
+        "src": "gnome-software-3.36.1-10.el8.src.rpm",
+        "filename": "gnome-software-devel-3.36.1-10.el8.aarch64.rpm",
+        "sum": "9273b479534b2fedc6e525165e98bb31b708d0f1073c9a845368d539e95e3ab0",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1032,18 +1044,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "gnome-software-devel",
-        "version": "3.36.1",
-        "release": "10.el8",
-        "epoch": "0",
-        "arch": "aarch64",
-        "src": "gnome-software-3.36.1-10.el8.src.rpm",
-        "filename": "gnome-software-devel-3.36.1-10.el8.aarch64.rpm",
-        "sum": "9273b479534b2fedc6e525165e98bb31b708d0f1073c9a845368d539e95e3ab0",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "gnome-autoar",
         "version": "0.2.3",
         "release": "2.el8",
@@ -1088,6 +1088,18 @@
         "src": "LibRaw-0.19.5-3.el8.src.rpm",
         "filename": "LibRaw-0.19.5-3.el8.ppc64le.rpm",
         "sum": "eb69d47bd4c1f2cd2e5cf3e5ccd107f4f4fb6357b610af7c2819ff408b19dfb2",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gnome-software-devel",
+        "version": "3.36.1",
+        "release": "10.el8",
+        "epoch": "0",
+        "arch": "ppc64le",
+        "src": "gnome-software-3.36.1-10.el8.src.rpm",
+        "filename": "gnome-software-devel-3.36.1-10.el8.ppc64le.rpm",
+        "sum": "ebd63361115c81abd120214e63b480beb2737f9b1a98cb233562b6dfcb54787c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -1172,18 +1184,6 @@
         "src": "gnome-software-3.36.1-10.el8.src.rpm",
         "filename": "gnome-software-3.36.1-10.el8.ppc64le.rpm",
         "sum": "e1618ffd13ecf0d3af194c640ed4409a772a2c1a8ea94a2f14ff508c2dfd4615",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gnome-software-devel",
-        "version": "3.36.1",
-        "release": "10.el8",
-        "epoch": "0",
-        "arch": "ppc64le",
-        "src": "gnome-software-3.36.1-10.el8.src.rpm",
-        "filename": "gnome-software-devel-3.36.1-10.el8.ppc64le.rpm",
-        "sum": "ebd63361115c81abd120214e63b480beb2737f9b1a98cb233562b6dfcb54787c",
         "sum_type": 5,
         "reboot_suggested": 0
       }

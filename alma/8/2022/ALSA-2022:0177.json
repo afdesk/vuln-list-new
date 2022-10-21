@@ -8,33 +8,9 @@
     "$date": 1642585422000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "gegl04",
-        "version": "0.4.4",
-        "release": "6.el8_5.2",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "gegl04-0.4.4-6.el8_5.2.src.rpm",
-        "filename": "gegl04-0.4.4-6.el8_5.2.i686.rpm",
-        "sum": "cf7d36e03c3ff74f8226d38eda2d4a4d5f3d6078397169090538a3b48aa3d471",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "gegl04",
-        "version": "0.4.4",
-        "release": "6.el8_5.2",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "gegl04-0.4.4-6.el8_5.2.src.rpm",
-        "filename": "gegl04-0.4.4-6.el8_5.2.x86_64.rpm",
-        "sum": "ed23836fda0f6125f2d30aee3afc676c818d8d074ec68fb9035beebb8a03b657",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "gegl04-devel",
         "version": "0.4.4",
@@ -56,6 +32,30 @@
         "src": "gegl04-0.4.4-6.el8_5.2.src.rpm",
         "filename": "gegl04-devel-0.4.4-6.el8_5.2.i686.rpm",
         "sum": "deef0f3d2d3297d96e5bdc61b324fea8fd660252281c04fb72055a0116e436eb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gegl04",
+        "version": "0.4.4",
+        "release": "6.el8_5.2",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "gegl04-0.4.4-6.el8_5.2.src.rpm",
+        "filename": "gegl04-0.4.4-6.el8_5.2.i686.rpm",
+        "sum": "cf7d36e03c3ff74f8226d38eda2d4a4d5f3d6078397169090538a3b48aa3d471",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "gegl04",
+        "version": "0.4.4",
+        "release": "6.el8_5.2",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "gegl04-0.4.4-6.el8_5.2.src.rpm",
+        "filename": "gegl04-0.4.4-6.el8_5.2.x86_64.rpm",
+        "sum": "ed23836fda0f6125f2d30aee3afc676c818d8d074ec68fb9035beebb8a03b657",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -80,7 +80,7 @@
   "title": "Important: gegl04 security update",
   "type": "security",
   "updated_date": {
-    "$date": 1642681774000
+    "$date": 1642682019000
   },
   "version": "1"
 }

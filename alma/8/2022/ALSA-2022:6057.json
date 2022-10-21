@@ -8,8 +8,8 @@
     "$date": 1660521600000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_6_default",
+    "name": "almalinux-8-for-x86_64-powertools-rpms__8_6_default",
+    "shortname": "almalinux-8-for-x86_64-powertools-rpms__8_6_default",
     "packages": [
       {
         "name": "dotnet-apphost-pack-3.1",
@@ -158,7 +158,7 @@
   "title": "Moderate: .NET Core 3.1 security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1660734956000
+    "$date": 1660734954000
   },
   "version": "1"
 }

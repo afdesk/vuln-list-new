@@ -8,8 +8,8 @@
     "$date": 1652170136000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "dovecot-mysql",
@@ -60,14 +60,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "dovecot-pigeonhole",
+        "name": "dovecot-devel",
         "version": "2.3.16",
         "release": "2.el8",
         "epoch": "1",
         "arch": "x86_64",
         "src": "dovecot-2.3.16-2.el8.src.rpm",
-        "filename": "dovecot-pigeonhole-2.3.16-2.el8.x86_64.rpm",
-        "sum": "f5d57e9a916c603a2e853e3f21e41582b53f8a87255cb4d1c6a9eb54ac4f7c8c",
+        "filename": "dovecot-devel-2.3.16-2.el8.x86_64.rpm",
+        "sum": "a0844d80a7156ae5f9e4623ad0f2fb00d267475311c0f096e9cba7ecd47ad594",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -80,6 +80,18 @@
         "src": "dovecot-2.3.16-2.el8.src.rpm",
         "filename": "dovecot-2.3.16-2.el8.i686.rpm",
         "sum": "f0d1c17951cc180d3e2f8bbb82af2e4b0ca6f8a1b35b1981cea3b1e2d993bf62",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "dovecot-pigeonhole",
+        "version": "2.3.16",
+        "release": "2.el8",
+        "epoch": "1",
+        "arch": "x86_64",
+        "src": "dovecot-2.3.16-2.el8.src.rpm",
+        "filename": "dovecot-pigeonhole-2.3.16-2.el8.x86_64.rpm",
+        "sum": "f5d57e9a916c603a2e853e3f21e41582b53f8a87255cb4d1c6a9eb54ac4f7c8c",
         "sum_type": 5,
         "reboot_suggested": 0
       },

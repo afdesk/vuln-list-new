@@ -8,8 +8,8 @@
     "$date": 1621318495000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "ghostscript-tools-dvipdf",
@@ -20,6 +20,18 @@
         "src": "ghostscript-9.27-1.el8.src.rpm",
         "filename": "ghostscript-tools-dvipdf-9.27-1.el8.x86_64.rpm",
         "sum": "00d6e1acafca7f7eeeabc3f2b959fa73a74d13fc2a566b3fdb8524518ec766f4",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgs-devel",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "libgs-devel-9.27-1.el8.i686.rpm",
+        "sum": "34f5085bee4ab147c758ae2fe1b979f9bb1d976489b5d764ab1fcc487fe0cb8c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,18 +56,6 @@
         "src": "ghostscript-9.27-1.el8.src.rpm",
         "filename": "libgs-devel-9.27-1.el8.x86_64.rpm",
         "sum": "802e25447a5d2f929735cffce1d3870475f9b867b4a14d1013d1b6ecd5e5a90d",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgs",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "libgs-9.27-1.el8.i686.rpm",
-        "sum": "861f2eb35092b0e411a480ca42777e5d9e9bd2561c9dde6d6fb702972c2cad6e",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -116,18 +116,6 @@
         "src": "ghostscript-9.27-1.el8.src.rpm",
         "filename": "ghostscript-tools-fonts-9.27-1.el8.x86_64.rpm",
         "sum": "f5cc1797f6d71845d680d1ebf35599c34108307e271bd899467e20d8dc748afd",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libgs-devel",
-        "version": "9.27",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "ghostscript-9.27-1.el8.src.rpm",
-        "filename": "libgs-devel-9.27-1.el8.i686.rpm",
-        "sum": "34f5085bee4ab147c758ae2fe1b979f9bb1d976489b5d764ab1fcc487fe0cb8c",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -296,6 +284,18 @@
         "src": "ghostscript-9.27-1.el8.src.rpm",
         "filename": "ghostscript-tools-dvipdf-9.27-1.el8.ppc64le.rpm",
         "sum": "eb438c029674ea5122dfb05a14bd2e14ec12e3b8abc10b1487d9166e44488269",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libgs",
+        "version": "9.27",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "ghostscript-9.27-1.el8.src.rpm",
+        "filename": "libgs-9.27-1.el8.i686.rpm",
+        "sum": "861f2eb35092b0e411a480ca42777e5d9e9bd2561c9dde6d6fb702972c2cad6e",
         "sum_type": 5,
         "reboot_suggested": 0
       }
@@ -470,7 +470,7 @@
   "title": "Moderate: ghostscript security, bug fix, and enhancement update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1628672040000
   },
   "version": "1"
 }

@@ -60,18 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "trousers-devel",
-        "version": "0.3.15",
-        "release": "1.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "trousers-0.3.15-1.el8.src.rpm",
-        "filename": "trousers-devel-0.3.15-1.el8.i686.rpm",
-        "sum": "6caeaeb42292dcdeecace7d08cd46e28096f79028e4203a90abbec86055f1544",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "trousers",
         "version": "0.3.15",
         "release": "1.el8",
@@ -104,6 +92,18 @@
         "src": "trousers-0.3.15-1.el8.src.rpm",
         "filename": "trousers-devel-0.3.15-1.el8.aarch64.rpm",
         "sum": "ca6f1871fb3f3ad03ef57c20185c282dc74b9dabff65e8f72e250d98a3307f33",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "trousers-devel",
+        "version": "0.3.15",
+        "release": "1.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "trousers-0.3.15-1.el8.src.rpm",
+        "filename": "trousers-devel-0.3.15-1.el8.i686.rpm",
+        "sum": "6caeaeb42292dcdeecace7d08cd46e28096f79028e4203a90abbec86055f1544",
         "sum_type": 5,
         "reboot_suggested": 0
       },

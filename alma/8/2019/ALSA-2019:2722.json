@@ -8,8 +8,8 @@
     "$date": 1568129579000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "libwmf",
@@ -36,14 +36,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libwmf-lite",
+        "name": "libwmf-devel",
         "version": "0.2.9",
         "release": "8.el8_0",
         "epoch": "0",
         "arch": "i686",
         "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-lite-0.2.9-8.el8_0.i686.rpm",
-        "sum": "7c7886675e7ada94b5003fd0b8776705214b165114e0b312d376f1eb9202969c",
+        "filename": "libwmf-devel-0.2.9-8.el8_0.i686.rpm",
+        "sum": "b086c5f535735f48c11ecaea3234b930f13e5d72c5ad257283e2e46008a96173",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -56,30 +56,6 @@
         "src": "libwmf-0.2.9-8.el8_0.src.rpm",
         "filename": "libwmf-devel-0.2.9-8.el8_0.x86_64.rpm",
         "sum": "c4213f6736e692bab45dc9a989df50de6d46d6bfdc67750bf2acdaafc1f4e5ce",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwmf",
-        "version": "0.2.9",
-        "release": "8.el8_0",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-0.2.9-8.el8_0.i686.rpm",
-        "sum": "fb73daf306bd2fa2fee6c14da4718f4f56ed6d5e0ebcfce558b962f724c1280b",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libwmf-devel",
-        "version": "0.2.9",
-        "release": "8.el8_0",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
-        "filename": "libwmf-devel-0.2.9-8.el8_0.i686.rpm",
-        "sum": "b086c5f535735f48c11ecaea3234b930f13e5d72c5ad257283e2e46008a96173",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -154,6 +130,30 @@
         "sum": "d9e506677554cc03356aef0c4d67a3019bf2d7166971557e61aca42651e153a9",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "libwmf-lite",
+        "version": "0.2.9",
+        "release": "8.el8_0",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
+        "filename": "libwmf-lite-0.2.9-8.el8_0.i686.rpm",
+        "sum": "7c7886675e7ada94b5003fd0b8776705214b165114e0b312d376f1eb9202969c",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libwmf",
+        "version": "0.2.9",
+        "release": "8.el8_0",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libwmf-0.2.9-8.el8_0.src.rpm",
+        "filename": "libwmf-0.2.9-8.el8_0.i686.rpm",
+        "sum": "fb73daf306bd2fa2fee6c14da4718f4f56ed6d5e0ebcfce558b962f724c1280b",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -176,7 +176,7 @@
   "title": "Low: libwmf security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712455000
+    "$date": 1628672040000
   },
   "version": "1"
 }

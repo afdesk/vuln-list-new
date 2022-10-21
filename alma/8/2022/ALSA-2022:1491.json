@@ -8,8 +8,8 @@
     "$date": 1650899829000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "java-1.8.0-openjdk-headless",
@@ -728,7 +728,7 @@
   "title": "Important: java-1.8.0-openjdk security update",
   "type": "security",
   "updated_date": {
-    "$date": 1650977249000
+    "$date": 1650977088000
   },
   "version": "2"
 }

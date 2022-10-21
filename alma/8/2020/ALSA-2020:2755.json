@@ -60,18 +60,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libnghttp2-devel",
-        "version": "1.33.0",
-        "release": "3.el8_2.1",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
-        "filename": "libnghttp2-devel-1.33.0-3.el8_2.1.i686.rpm",
-        "sum": "65d8a5b2b3469b1408715d02b285d7700af5810d185de5c584db60db0b895423",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libnghttp2",
         "version": "1.33.0",
         "release": "3.el8_2.1",
@@ -104,6 +92,18 @@
         "src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
         "filename": "nghttp2-1.33.0-3.el8_2.1.aarch64.rpm",
         "sum": "f2182dddfa7152dbe742573c2d11d16e5ffd5859f4100af906fd100b5366cef6",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libnghttp2-devel",
+        "version": "1.33.0",
+        "release": "3.el8_2.1",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "nghttp2-1.33.0-3.el8_2.1.src.rpm",
+        "filename": "libnghttp2-devel-1.33.0-3.el8_2.1.i686.rpm",
+        "sum": "65d8a5b2b3469b1408715d02b285d7700af5810d185de5c584db60db0b895423",
         "sum_type": 5,
         "reboot_suggested": 0
       },

@@ -8,8 +8,8 @@
     "$date": 1652169739000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "libtiff",
@@ -20,30 +20,6 @@
         "src": "libtiff-4.0.9-21.el8.src.rpm",
         "filename": "libtiff-4.0.9-21.el8.x86_64.rpm",
         "sum": "226963968ae12b8fa89667589ce413e698c5c9678fb07e436173975a2d22c77c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libtiff",
-        "version": "4.0.9",
-        "release": "21.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libtiff-4.0.9-21.el8.src.rpm",
-        "filename": "libtiff-4.0.9-21.el8.x86_64.rpm",
-        "sum": "226963968ae12b8fa89667589ce413e698c5c9678fb07e436173975a2d22c77c",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libtiff-devel",
-        "version": "4.0.9",
-        "release": "21.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "libtiff-4.0.9-21.el8.src.rpm",
-        "filename": "libtiff-devel-4.0.9-21.el8.x86_64.rpm",
-        "sum": "6efe8ff0b3032e32a87383121899a28e61b905c023c654cd92ecb23903f124d4",
         "sum_type": 5,
         "reboot_suggested": 0
       },

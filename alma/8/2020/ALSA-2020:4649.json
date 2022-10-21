@@ -8,21 +8,9 @@
     "$date": 1604406221000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
-      {
-        "name": "bogofilter",
-        "version": "1.2.5",
-        "release": "2.el8",
-        "epoch": "0",
-        "arch": "x86_64",
-        "src": "bogofilter-1.2.5-2.el8.src.rpm",
-        "filename": "bogofilter-1.2.5-2.el8.x86_64.rpm",
-        "sum": "49830ba6466cad7f7e76a4f0cec989a9d04a275acbef1307a6f9299b1be9ff39",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
       {
         "name": "evolution-data-server-perl",
         "version": "3.28.5",
@@ -32,6 +20,18 @@
         "src": "evolution-data-server-3.28.5-14.el8.src.rpm",
         "filename": "evolution-data-server-perl-3.28.5-14.el8.x86_64.rpm",
         "sum": "2342e87c6ca2f5d306c34d22983a5bbb3f7876d281d7fd4a2d7cc94c21729055",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "bogofilter",
+        "version": "1.2.5",
+        "release": "2.el8",
+        "epoch": "0",
+        "arch": "x86_64",
+        "src": "bogofilter-1.2.5-2.el8.src.rpm",
+        "filename": "bogofilter-1.2.5-2.el8.x86_64.rpm",
+        "sum": "49830ba6466cad7f7e76a4f0cec989a9d04a275acbef1307a6f9299b1be9ff39",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -140,7 +140,7 @@
   "title": "Low: evolution security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712455000
+    "$date": 1628672040000
   },
   "version": "2"
 }

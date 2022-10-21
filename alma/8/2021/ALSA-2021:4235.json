@@ -8,8 +8,8 @@
     "$date": 1636447712000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
         "name": "jasper-devel",
@@ -24,14 +24,14 @@
         "reboot_suggested": 0
       },
       {
-        "name": "jasper-libs",
+        "name": "jasper-devel",
         "version": "2.0.14",
         "release": "5.el8",
         "epoch": "0",
         "arch": "i686",
         "src": "jasper-2.0.14-5.el8.src.rpm",
-        "filename": "jasper-libs-2.0.14-5.el8.i686.rpm",
-        "sum": "116771f2f80d4aa712474de9347b8ba86ef04213333946837dec30f8aaa20a12",
+        "filename": "jasper-devel-2.0.14-5.el8.i686.rpm",
+        "sum": "90542fa9ba87781c059c0348bf1323c856abae4896a2cb38119677334ac846a1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -44,18 +44,6 @@
         "src": "jasper-2.0.14-5.el8.src.rpm",
         "filename": "jasper-libs-2.0.14-5.el8.x86_64.rpm",
         "sum": "b17cac2a91cd7f32c93f0f4f3412276ca61614caf5fddd658d9d33da38449da5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "jasper-devel",
-        "version": "2.0.14",
-        "release": "5.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "jasper-2.0.14-5.el8.src.rpm",
-        "filename": "jasper-devel-2.0.14-5.el8.i686.rpm",
-        "sum": "90542fa9ba87781c059c0348bf1323c856abae4896a2cb38119677334ac846a1",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -106,6 +94,18 @@
         "sum": "a2cb986bc85f9fac7edfaef266b5f5f9fafe5d87f91cd71b22d30cc64dda7ded",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "jasper-libs",
+        "version": "2.0.14",
+        "release": "5.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "jasper-2.0.14-5.el8.src.rpm",
+        "filename": "jasper-libs-2.0.14-5.el8.i686.rpm",
+        "sum": "116771f2f80d4aa712474de9347b8ba86ef04213333946837dec30f8aaa20a12",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -146,7 +146,7 @@
   "title": "Moderate: jasper security update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1636712461000
   },
   "version": "2"
 }

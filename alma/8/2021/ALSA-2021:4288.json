@@ -8,30 +8,18 @@
     "$date": 1636448167000
   },
   "pkglist": {
-    "name": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
-    "shortname": "almalinux-8-for-x86_64-appstream-rpms__8_0_default",
+    "name": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
+    "shortname": "codeready-builder-for-rhel-8-x86_64-rpms__8_0_default",
     "packages": [
       {
-        "name": "turbojpeg",
+        "name": "turbojpeg-devel",
         "version": "1.5.3",
         "release": "12.el8",
         "epoch": "0",
         "arch": "i686",
         "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
-        "filename": "turbojpeg-1.5.3-12.el8.i686.rpm",
-        "sum": "08024ca92389a18298c52ebb0dcde79d163c55e964a5180834ef009f94ce3824",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libjpeg-turbo-devel",
-        "version": "1.5.3",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
-        "filename": "libjpeg-turbo-devel-1.5.3-12.el8.i686.rpm",
-        "sum": "2e88a5b7ecd56c26892709c817b1d243483e4ce3a9663090485fd40511b5ac57",
+        "filename": "turbojpeg-devel-1.5.3-12.el8.i686.rpm",
+        "sum": "70c9e7b12fcc822a7bf5b03e6b1ff680912e6084ec74b22ca19ff029f8f0d158",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -56,18 +44,6 @@
         "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
         "filename": "libjpeg-turbo-utils-1.5.3-12.el8.x86_64.rpm",
         "sum": "96f1bc65cc633c7458cfd39a15727b43d8edf63365dd6dd3a07b8e073fec9110",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "libjpeg-turbo",
-        "version": "1.5.3",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
-        "filename": "libjpeg-turbo-1.5.3-12.el8.i686.rpm",
-        "sum": "a4b8f0f939ffbb45beaa0ad43a8037a1efa7b1776ee877c2b906b6cb2cd9a125",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -104,18 +80,6 @@
         "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
         "filename": "libjpeg-turbo-devel-1.5.3-12.el8.x86_64.rpm",
         "sum": "edbee2bfc4206ea3f9cd440a53661a1a356a6acb6af4a99177ac4c77c7bf43a5",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
-        "name": "turbojpeg-devel",
-        "version": "1.5.3",
-        "release": "12.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
-        "filename": "turbojpeg-devel-1.5.3-12.el8.i686.rpm",
-        "sum": "70c9e7b12fcc822a7bf5b03e6b1ff680912e6084ec74b22ca19ff029f8f0d158",
         "sum_type": 5,
         "reboot_suggested": 0
       },
@@ -238,6 +202,42 @@
         "sum": "ce799d272c3af2ed4ed9b798d6589d852caada90e948b5cf74d40d5bb9e72aeb",
         "sum_type": 5,
         "reboot_suggested": 0
+      },
+      {
+        "name": "turbojpeg",
+        "version": "1.5.3",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
+        "filename": "turbojpeg-1.5.3-12.el8.i686.rpm",
+        "sum": "08024ca92389a18298c52ebb0dcde79d163c55e964a5180834ef009f94ce3824",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libjpeg-turbo-devel",
+        "version": "1.5.3",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
+        "filename": "libjpeg-turbo-devel-1.5.3-12.el8.i686.rpm",
+        "sum": "2e88a5b7ecd56c26892709c817b1d243483e4ce3a9663090485fd40511b5ac57",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libjpeg-turbo",
+        "version": "1.5.3",
+        "release": "12.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libjpeg-turbo-1.5.3-12.el8.src.rpm",
+        "filename": "libjpeg-turbo-1.5.3-12.el8.i686.rpm",
+        "sum": "a4b8f0f939ffbb45beaa0ad43a8037a1efa7b1776ee877c2b906b6cb2cd9a125",
+        "sum_type": 5,
+        "reboot_suggested": 0
       }
     ],
     "module": {}
@@ -260,7 +260,7 @@
   "title": "Moderate: libjpeg-turbo security and bug fix update",
   "type": "security",
   "updated_date": {
-    "$date": 1636712456000
+    "$date": 1636712461000
   },
   "version": "2"
 }

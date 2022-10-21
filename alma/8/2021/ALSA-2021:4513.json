@@ -72,18 +72,6 @@
         "reboot_suggested": 0
       },
       {
-        "name": "libsepol-static",
-        "version": "2.9",
-        "release": "3.el8",
-        "epoch": "0",
-        "arch": "i686",
-        "src": "libsepol-2.9-3.el8.src.rpm",
-        "filename": "libsepol-static-2.9-3.el8.i686.rpm",
-        "sum": "a9528073bf059f0b0bbe370fd6b0a43c192606d92d13877b0b963fdda9e87c97",
-        "sum_type": 5,
-        "reboot_suggested": 0
-      },
-      {
         "name": "libsepol-devel",
         "version": "2.9",
         "release": "3.el8",
@@ -116,6 +104,18 @@
         "src": "libsepol-2.9-3.el8.src.rpm",
         "filename": "libsepol-2.9-3.el8.aarch64.rpm",
         "sum": "fe4f2ec60ea667b93d4a8d4cd70370f98d52d3ef3983798d918a526104d258fb",
+        "sum_type": 5,
+        "reboot_suggested": 0
+      },
+      {
+        "name": "libsepol-static",
+        "version": "2.9",
+        "release": "3.el8",
+        "epoch": "0",
+        "arch": "i686",
+        "src": "libsepol-2.9-3.el8.src.rpm",
+        "filename": "libsepol-static-2.9-3.el8.i686.rpm",
+        "sum": "a9528073bf059f0b0bbe370fd6b0a43c192606d92d13877b0b963fdda9e87c97",
         "sum_type": 5,
         "reboot_suggested": 0
       },
