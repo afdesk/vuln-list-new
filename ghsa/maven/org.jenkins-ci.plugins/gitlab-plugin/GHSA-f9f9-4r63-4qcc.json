@@ -38,11 +38,11 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins GitLab Plugin potentially allows attackers to use statistical methods to obtain valid webhook token",
-    "UpdatedAt": "2022-10-20T13:32:34Z",
+    "UpdatedAt": "2022-10-20T20:11:02Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
     }
   },
   "Versions": [

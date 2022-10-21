@@ -38,11 +38,11 @@
     "PublishedAt": "2022-10-18T19:00:33Z",
     "Severity": "HIGH",
     "Summary": "MobSF allows attackers to read arbitrary files via a crafted HTTP request",
-    "UpdatedAt": "2022-10-18T21:17:25Z",
+    "UpdatedAt": "2022-10-20T20:11:35Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [

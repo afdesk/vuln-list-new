@@ -38,11 +38,11 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Compuware Source Code Download for Endevor, PDS, and ISPW Plugin vulnerable to Protection Mechanism Failure",
-    "UpdatedAt": "2022-10-20T13:33:57Z",
+    "UpdatedAt": "2022-10-20T20:10:55Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
     }
   },
   "Versions": [

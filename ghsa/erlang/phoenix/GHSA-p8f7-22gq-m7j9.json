@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2022-10-18T18:01:44Z",
   "Package": {
     "Ecosystem": "ERLANG",
@@ -36,13 +36,13 @@
     "Description": "socket/transport.ex in Phoenix before 1.6.14 mishandles check_origin wildcarding. NOTE: LiveView applications are unaffected by default because of the presence of a LiveView CSRF token.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-10-17T12:00:27Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Phoenix before 1.6.14 mishandles check_origin wildcarding",
-    "UpdatedAt": "2022-10-18T18:01:44Z",
+    "UpdatedAt": "2022-10-20T20:12:40Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
     }
   },
   "Versions": [
