@@ -2,7 +2,7 @@
   "module": "golang.org/x/crypto",
   "id": "GO-2021-0356",
   "published": "2022-04-25T20:38:40Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T14:43:38Z",
   "aliases": [
     "CVE-2022-27191",
     "GHSA-8c26-wmh5-6g9v"
