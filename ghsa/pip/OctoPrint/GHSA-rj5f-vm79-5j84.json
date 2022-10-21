@@ -38,7 +38,7 @@
     "PublishedAt": "2022-10-19T19:00:24Z",
     "Severity": "MODERATE",
     "Summary": "OctoPrint vulnerable to Special Element Injection",
-    "UpdatedAt": "2022-10-19T22:21:35Z",
+    "UpdatedAt": "2022-10-21T13:03:30Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6,

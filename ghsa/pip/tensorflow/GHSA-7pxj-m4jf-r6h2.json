@@ -47,7 +47,7 @@
     "PublishedAt": "2021-11-10T19:12:46Z",
     "Severity": "HIGH",
     "Summary": "Missing validation during checkpoint loading",
-    "UpdatedAt": "2021-11-10T19:12:46Z",
+    "UpdatedAt": "2022-10-21T12:59:09Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.8,

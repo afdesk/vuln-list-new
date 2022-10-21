@@ -38,11 +38,11 @@
     "PublishedAt": "2022-10-19T19:00:18Z",
     "Severity": "HIGH",
     "Summary": "Jenkins Katalon Plugin vulnerable to Protection Mechanism Failure",
-    "UpdatedAt": "2022-10-19T21:23:59Z",
+    "UpdatedAt": "2022-10-21T13:02:07Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 8.8,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   },
   "Versions": [

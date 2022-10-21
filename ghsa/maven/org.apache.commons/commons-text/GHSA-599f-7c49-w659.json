@@ -26,6 +26,9 @@
         "Url": "http://www.openwall.com/lists/oss-security/2022/10/18/1"
       },
       {
+        "Url": "https://security.netapp.com/advisory/ntap-20221020-0004/"
+      },
+      {
         "Url": "https://github.com/advisories/GHSA-599f-7c49-w659"
       }
     ],
@@ -44,7 +47,7 @@
     "PublishedAt": "2022-10-13T19:00:17Z",
     "Severity": "CRITICAL",
     "Summary": "Arbitrary code execution in Apache Commons Text",
-    "UpdatedAt": "2022-10-18T15:37:32Z",
+    "UpdatedAt": "2022-10-21T12:57:54Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 9.8,

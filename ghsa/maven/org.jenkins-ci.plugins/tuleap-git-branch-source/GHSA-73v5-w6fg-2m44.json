@@ -38,11 +38,11 @@
     "PublishedAt": "2022-10-19T19:00:22Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Tuleap Git Branch Source Plugin allows unauthenticated attackers to trigger Tuleap projects whose configured repo matches attacker-specified value",
-    "UpdatedAt": "2022-10-20T13:33:04Z",
+    "UpdatedAt": "2022-10-21T13:00:04Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
     }
   },
   "Versions": [

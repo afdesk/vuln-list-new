@@ -38,11 +38,11 @@
     "PublishedAt": "2022-10-19T19:00:18Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Contrast Continuous Application Security Plugin vulnerable to stored Cross-site Scripting",
-    "UpdatedAt": "2022-10-19T21:23:38Z",
+    "UpdatedAt": "2022-10-21T13:02:34Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.4,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
     }
   },
   "Versions": [

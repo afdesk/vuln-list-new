@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2022-10-19T20:27:02Z",
   "Package": {
     "Ecosystem": "MAVEN",
@@ -36,13 +36,13 @@
     "Description": "Jenkins REPO Plugin 1.15.0 and earlier does not configure its XML parser to prevent XML external entity (XXE) attacks. REPO Plugin 1.16.0 disables external entity resolution for its XML parser.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-10-19T19:00:18Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Jenkins REPO Plugin does not configure XML parser to prevent XXE attacks",
-    "UpdatedAt": "2022-10-19T20:27:02Z",
+    "UpdatedAt": "2022-10-21T13:01:36Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [

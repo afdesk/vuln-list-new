@@ -38,11 +38,11 @@
     "PublishedAt": "2022-10-19T19:00:18Z",
     "Severity": "MODERATE",
     "Summary": "Jenkins Compuware Topaz Utilities Plugin vulnerable to Protection Mechanism Failure",
-    "UpdatedAt": "2022-10-19T21:23:13Z",
+    "UpdatedAt": "2022-10-21T13:02:50Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
     }
   },
   "Versions": [
