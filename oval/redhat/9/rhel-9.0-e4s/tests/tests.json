@@ -12344,6 +12344,18 @@
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20227026001"
       }
+    },
+    {
+      "Check": "at least one",
+      "Comment": "firefox is earlier than 0:102.4.0-1.el9_0",
+      "ID": "oval:com.redhat.rhsa:tst:20227071001",
+      "Version": "635",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.rhsa:obj:20224590001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.rhsa:ste:20227071001"
+      }
     }
   ],
   "RpmverifyfileTests": [
