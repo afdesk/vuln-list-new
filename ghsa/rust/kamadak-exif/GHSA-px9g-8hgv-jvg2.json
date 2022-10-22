@@ -47,7 +47,7 @@
     "PublishedAt": "2022-10-06T19:53:39Z",
     "Severity": "MODERATE",
     "Summary": "kamadak-exif vulnerable to Infinite loop when parsing PNG files",
-    "UpdatedAt": "2022-10-06T19:53:39Z",
+    "UpdatedAt": "2022-10-21T20:07:38Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 6.5,
