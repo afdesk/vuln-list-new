@@ -9,7 +9,7 @@
     "RevisionHistory": [
       {
         "Number": "1",
-        "Date": "2022-10-21T07:53:46Z",
+        "Date": "2022-10-22T07:55:36Z",
         "Description": "current"
       }
     ]
@@ -1389,8 +1389,8 @@
         }
       ],
       "CVSSScoreSets": {
-        "BaseScore": "4.6",
-        "Vector": "AV:L/AC:L/Au:N/C:P/I:P/A:P"
+        "BaseScore": "4.4",
+        "Vector": "AV:L/AC:M/Au:N/C:P/I:P/A:P"
       }
     },
     {
