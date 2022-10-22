@@ -1863,6 +1863,68 @@
   },
   {
     "Architecture": [
+      "all"
+    ],
+    "Autobuild": [
+      "yes"
+    ],
+    "Binary": [
+      "python-drf-yasg-nonfree-doc, python3-drf-yasg-nonfree"
+    ],
+    "Build-Depends": [
+      "debhelper-compat (= 13), python3-all"
+    ],
+    "Build-Depends-Indep": [
+      "dh-sequence-python3, pybuild-plugin-pyproject, python3-coreapi, python3-django, python3-djangorestframework, python3-inflection, python3-ruamel.yaml, python3-poetry, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-sphinx-rtd-theme"
+    ],
+    "Checksums-Sha256": [
+      "263d1ab861f11cfcbc2ebb72dbb657e1861ccd1a22483d96288d4808ed696901 2477 drf-yasg-nonfree_1.21.4-1.dsc b24de06a93d8b6cc71df6e42be707eac8c730867f397fe64d464646f8e7c94f5 6721110 drf-yasg-nonfree_1.21.4.orig.tar.gz 0dd1b04e53cf2028dd6e76cf15b3363526a5a024f5e028b779ec6b7857a8ddf2 8316 drf-yasg-nonfree_1.21.4-1.debian.tar.xz"
+    ],
+    "Directory": [
+      "pool/non-free/d/drf-yasg-nonfree"
+    ],
+    "Files": [
+      "1fdea9fbdb5c66528a0535762aebaa97 2477 drf-yasg-nonfree_1.21.4-1.dsc 9a51da4d52cecafc728492f4de6ae91f 6721110 drf-yasg-nonfree_1.21.4.orig.tar.gz 0effd9f62cd22510e9fdc250e93ee621 8316 drf-yasg-nonfree_1.21.4-1.debian.tar.xz"
+    ],
+    "Format": [
+      "3.0 (quilt)"
+    ],
+    "Homepage": [
+      "https://github.com/axnsan12/drf-yasg"
+    ],
+    "Maintainer": [
+      "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    ],
+    "Package": [
+      "drf-yasg-nonfree"
+    ],
+    "Package-List": [
+      "python-drf-yasg-nonfree-doc deb non-free/doc optional arch=all python3-drf-yasg-nonfree deb non-free/python optional arch=all"
+    ],
+    "Priority": [
+      "optional"
+    ],
+    "Section": [
+      "non-free/misc"
+    ],
+    "Standards-Version": [
+      "4.6.1"
+    ],
+    "Uploaders": [
+      "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+    ],
+    "Vcs-Browser": [
+      "https://salsa.debian.org/python-team/packages/drf-yasg-nonfree"
+    ],
+    "Vcs-Git": [
+      "https://salsa.debian.org/python-team/packages/drf-yasg-nonfree.git"
+    ],
+    "Version": [
+      "1.21.4-1"
+    ]
+  },
+  {
+    "Architecture": [
       "amd64 i386 all"
     ],
     "Binary": [
