@@ -2,7 +2,7 @@
   "module": "toolchain",
   "id": "GO-2022-0203",
   "published": "2022-08-09T23:19:00Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2018-7187"
   ],

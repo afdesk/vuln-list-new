@@ -2,7 +2,7 @@
   "module": "github.com/containerd/imgcrypt",
   "id": "GO-2021-0412",
   "published": "2022-04-28T23:35:11Z",
-  "modified": "2022-09-23T18:53:37Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2022-24778",
     "GHSA-8v99-48m9-c8pm"

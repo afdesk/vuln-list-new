@@ -2,7 +2,7 @@
   "module": "github.com/argoproj/argo-events",
   "id": "GO-2022-0492",
   "published": "2022-07-15T23:30:03Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2022-25856",
     "GHSA-qpgx-64h2-gc3c"

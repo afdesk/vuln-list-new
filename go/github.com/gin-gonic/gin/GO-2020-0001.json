@@ -2,7 +2,7 @@
   "module": "github.com/gin-gonic/gin",
   "id": "GO-2020-0001",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-10-05T22:50:46Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-36567"
   ],

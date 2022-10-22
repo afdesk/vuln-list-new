@@ -2,7 +2,7 @@
   "module": "github.com/dgrijalva/jwt-go/v4",
   "id": "GO-2020-0017",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-26160",
     "GHSA-w73w-5m7g-f7qc"

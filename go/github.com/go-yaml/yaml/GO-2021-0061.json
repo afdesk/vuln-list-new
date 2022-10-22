@@ -2,7 +2,7 @@
   "module": "github.com/go-yaml/yaml",
   "id": "GO-2021-0061",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2021-4235"
   ],

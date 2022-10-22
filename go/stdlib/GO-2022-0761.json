@@ -2,7 +2,7 @@
   "module": "stdlib",
   "id": "GO-2022-0761",
   "published": "2022-08-09T17:05:15Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2016-5386"
   ],

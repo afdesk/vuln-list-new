@@ -2,7 +2,7 @@
   "module": "github.com/square/go-jose",
   "id": "GO-2020-0009",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-10-05T15:18:19Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2016-9123",
     "GHSA-3fx4-7f69-5mmg"

@@ -2,7 +2,7 @@
   "module": "stdlib",
   "id": "GO-2021-0142",
   "published": "2022-07-01T20:11:09Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-16845",
     "GHSA-q6gq-997w-f55g"

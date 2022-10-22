@@ -2,7 +2,7 @@
   "module": "github.com/tendermint/tendermint",
   "id": "GO-2022-1052",
   "published": "2022-10-14T23:59:50Z",
-  "modified": "2022-10-14T23:59:50Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2021-21271",
     "GHSA-p658-8693-mhvg"

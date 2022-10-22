@@ -2,7 +2,7 @@
   "module": "golang.org/x/text",
   "id": "GO-2020-0015",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-14040",
     "GHSA-5rcv-m4m3-hfh7"

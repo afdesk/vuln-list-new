@@ -2,7 +2,7 @@
   "module": "sigs.k8s.io/secrets-store-csi-driver",
   "id": "GO-2022-0629",
   "published": "2022-02-15T01:57:18Z",
-  "modified": "2022-09-23T18:53:37Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-8568",
     "GHSA-5cgx-vhfp-6cf9"

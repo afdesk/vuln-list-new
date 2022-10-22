@@ -2,7 +2,7 @@
   "module": "github.com/git-lfs/git-lfs",
   "id": "GO-2021-0098",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-09-23T18:53:37Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2021-21237",
     "GHSA-cx3w-xqmc-84g5"

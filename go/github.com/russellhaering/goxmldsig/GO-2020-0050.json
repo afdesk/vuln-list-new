@@ -2,7 +2,7 @@
   "module": "github.com/russellhaering/goxmldsig",
   "id": "GO-2020-0050",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-09-23T18:53:37Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-15216",
     "CVE-2020-26290",

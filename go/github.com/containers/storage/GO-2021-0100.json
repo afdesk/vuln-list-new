@@ -2,7 +2,7 @@
   "module": "github.com/containers/storage",
   "id": "GO-2021-0100",
   "published": "2021-07-28T18:08:05Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2021-20291",
     "GHSA-7qw8-847f-pggm"

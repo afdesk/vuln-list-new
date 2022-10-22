@@ -2,7 +2,7 @@
   "module": "golang.org/x/crypto",
   "id": "GO-2022-0229",
   "published": "2022-07-06T18:23:48Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-7919",
     "GHSA-cjjc-xp8v-855w"

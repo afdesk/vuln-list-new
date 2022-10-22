@@ -2,7 +2,7 @@
   "module": "github.com/pion/webrtc/v3",
   "id": "GO-2021-0104",
   "published": "2021-07-28T18:08:05Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2021-28681",
     "GHSA-74xm-qj29-cq8p"

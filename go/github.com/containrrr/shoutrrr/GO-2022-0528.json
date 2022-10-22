@@ -2,7 +2,7 @@
   "module": "github.com/containrrr/shoutrrr",
   "id": "GO-2022-0528",
   "published": "2022-07-30T03:51:17Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2022-25891",
     "GHSA-477v-w82m-634j"

@@ -2,7 +2,7 @@
   "module": "github.com/open-policy-agent/opa",
   "id": "GO-2022-0978",
   "published": "2022-09-13T17:40:16Z",
-  "modified": "2022-09-21T19:50:31Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2022-36085",
     "GHSA-f524-rf33-2jjr"

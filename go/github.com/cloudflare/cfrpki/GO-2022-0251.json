@@ -2,7 +2,7 @@
   "module": "github.com/cloudflare/cfrpki",
   "id": "GO-2022-0251",
   "published": "2022-07-15T23:07:28Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2021-3910",
     "GHSA-5mxh-2qfv-4g7j"

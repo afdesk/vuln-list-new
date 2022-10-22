@@ -2,7 +2,7 @@
   "module": "github.com/satori/go.uuid",
   "id": "GO-2022-0244",
   "published": "2022-07-15T23:06:26Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2021-3538"
   ],

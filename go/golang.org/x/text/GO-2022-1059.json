@@ -2,7 +2,7 @@
   "module": "golang.org/x/text",
   "id": "GO-2022-1059",
   "published": "2022-10-11T18:16:24Z",
-  "modified": "2022-10-11T18:16:24Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2022-32149"
   ],

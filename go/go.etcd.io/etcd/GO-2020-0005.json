@@ -2,10 +2,11 @@
   "module": "go.etcd.io/etcd",
   "id": "GO-2020-0005",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T21:29:05Z",
   "aliases": [
     "CVE-2020-15106",
-    "CVE-2020-15112"
+    "CVE-2020-15112",
+    "GHSA-m332-53r6-2w93"
   ],
   "details": "Malformed WALs can be constructed such that WAL.ReadAll can cause attempted\nout of bounds reads, or creation of arbitrarily sized slices, which may be used as\na DoS vector.\n",
   "affected": [

@@ -2,7 +2,7 @@
   "module": "github.com/google/go-tpm",
   "id": "GO-2021-0095",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-09-23T18:53:37Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-8918",
     "GHSA-5x29-3hr9-6wpw"

@@ -2,7 +2,7 @@
   "module": "github.com/unknwon/cae",
   "id": "GO-2021-0228",
   "published": "2022-01-14T17:30:28Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-7664",
     "GHSA-vpx7-vm66-qx8r"

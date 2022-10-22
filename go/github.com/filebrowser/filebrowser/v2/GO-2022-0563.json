@@ -2,7 +2,7 @@
   "module": "github.com/filebrowser/filebrowser/v2",
   "id": "GO-2022-0563",
   "published": "2022-02-05T00:00:31Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2021-46398",
     "GHSA-72wf-hwcq-65h9"

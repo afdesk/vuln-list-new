@@ -2,7 +2,7 @@
   "module": "github.com/labstack/echo/v4",
   "id": "GO-2021-0051",
   "published": "2021-04-14T20:04:52Z",
-  "modified": "2022-10-05T15:18:19Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2020-36565"
   ],

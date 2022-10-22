@@ -2,7 +2,7 @@
   "module": "golang.org/x/crypto",
   "id": "GO-2022-0209",
   "published": "2022-07-01T20:15:25Z",
-  "modified": "2022-09-20T15:16:04Z",
+  "modified": "2022-10-21T20:22:39Z",
   "aliases": [
     "CVE-2019-11840"
   ],
