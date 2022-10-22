@@ -41,11 +41,11 @@
     "PublishedAt": "2022-10-19T12:00:18Z",
     "Severity": "MODERATE",
     "Summary": "Apache Isis webconsole module may directly query the database in prototype mode",
-    "UpdatedAt": "2022-10-20T13:49:30Z",
+    "UpdatedAt": "2022-10-22T01:05:57Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 5.3,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
     }
   },
   "Versions": [

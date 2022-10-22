@@ -35,7 +35,7 @@
     "PublishedAt": "2022-02-09T21:59:42Z",
     "Severity": "MODERATE",
     "Summary": "Exposure of Resource to Wrong Sphere and Insecure Temporary File in Ansible",
-    "UpdatedAt": "2022-08-13T03:06:30Z",
+    "UpdatedAt": "2022-10-22T00:57:05Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 5,

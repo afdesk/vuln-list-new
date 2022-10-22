@@ -30,12 +30,12 @@
         "Value": "CVE-2022-35944"
       }
     ],
-    "Description": "### Impact\n\nThis vulnerability only affects installations that rely on the safe mode restriction, commonly used when providing public access to the admin panel. Assuming an attacker has access to the admin panel and permission to open the \"Editor\" section, they can bypass the Safe Mode (`cms.safe_mode`) restriction to introduce new PHP code in a CMS template using a specially crafted request.\n\n### Patches\n\nThe issue has been patched in v2.2.34 and v3.0.66\n\n### References\n\nCredits to:\n\n-  David Miller\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n- Email us at [hello@octobercms.com](mailto:hello@octobercms.com)\n",
+    "Description": "### Impact\n\nThis vulnerability only affects installations that rely on the safe mode restriction, commonly used when providing public access to the admin panel. Assuming an attacker has access to the admin panel and permission to open the \"Editor\" section, they can bypass the Safe Mode (`cms.safe_mode`) restriction to introduce new PHP code in a CMS template using a specially crafted request.\n\n### Patches\n\nThe issue has been patched in v2.2.34 and v3.0.66.\n\n### References\n\nCredits to:\n\n-  David Miller\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n\n- Email us at [hello@octobercms.com](mailto:hello@octobercms.com)\n",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-10-13T19:11:08Z",
     "Severity": "HIGH",
     "Summary": "October CMS Safe Mode bypass leads to authenticated Remote Code Execution",
-    "UpdatedAt": "2022-10-19T15:40:37Z",
+    "UpdatedAt": "2022-10-22T01:14:50Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.2,

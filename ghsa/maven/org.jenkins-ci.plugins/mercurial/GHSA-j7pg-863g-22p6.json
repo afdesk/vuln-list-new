@@ -1,5 +1,5 @@
 {
-  "Severity": "MODERATE",
+  "Severity": "HIGH",
   "UpdatedAt": "2022-10-19T20:27:32Z",
   "Package": {
     "Ecosystem": "MAVEN",
@@ -36,13 +36,13 @@
     "Description": "Jenkins Mercurial Plugin 1251.va_b_121f184902 and earlier provides information about which jobs were triggered or scheduled for polling through its webhook endpoint, including jobs the user has no permission to access. Mercurial Plugin 1260.vdfb_723cdcc81 does not provide the names of jobs for which polling is triggered unless the user has the appropriate Item/Read permission.",
     "Origin": "UNSPECIFIED",
     "PublishedAt": "2022-10-19T19:00:18Z",
-    "Severity": "MODERATE",
+    "Severity": "HIGH",
     "Summary": "Jenkins Mercurial Plugin provides info about jobs triggered or scheduled for polling through webhook endpoint",
-    "UpdatedAt": "2022-10-19T20:27:32Z",
+    "UpdatedAt": "2022-10-22T01:05:44Z",
     "WithdrawnAt": "",
     "CVSS": {
-      "Score": 0,
-      "VectorString": ""
+      "Score": 7.5,
+      "VectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
     }
   },
   "Versions": [

@@ -38,7 +38,7 @@
     "PublishedAt": "2020-06-30T16:05:24Z",
     "Severity": "HIGH",
     "Summary": "Authorization bypass in express-jwt",
-    "UpdatedAt": "2022-08-13T03:06:01Z",
+    "UpdatedAt": "2022-10-22T00:56:52Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7.7,

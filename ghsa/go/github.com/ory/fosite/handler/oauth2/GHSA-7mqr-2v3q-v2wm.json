@@ -41,7 +41,7 @@
     "PublishedAt": "2021-05-24T16:57:39Z",
     "Severity": "HIGH",
     "Summary": "Ignored errors on token revokation in github.com/ory/fosite",
-    "UpdatedAt": "2022-08-13T03:06:22Z",
+    "UpdatedAt": "2022-10-22T00:57:27Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 8,
