@@ -1,6 +1,6 @@
 {
   "Severity": "HIGH",
-  "UpdatedAt": "2022-10-14T03:06:26Z",
+  "UpdatedAt": "2022-10-23T03:06:43Z",
   "Package": {
     "Ecosystem": "NPM",
     "Name": "mongoose"
@@ -47,7 +47,7 @@
     "PublishedAt": "2022-07-29T00:00:18Z",
     "Severity": "HIGH",
     "Summary": "automattic/mongoose vulnerable to Prototype pollution via Schema.path",
-    "UpdatedAt": "2022-10-14T03:06:26Z",
+    "UpdatedAt": "2022-10-23T03:06:43Z",
     "WithdrawnAt": "",
     "CVSS": {
       "Score": 7,
