@@ -10544,16 +10544,16 @@
       "debhelper-compat (= 13), dh-exec, quilt, chrpath, hardlink"
     ],
     "Build-Depends-Arch": [
-      "bison, flex, libbabeltrace-dev, libdebuginfod-dev, libexpat1-dev, libipt-dev [amd64], liblzma-dev, libmpfr-dev, libncurses-dev, libreadline-dev, libsource-highlight-dev, libxxhash-dev, pkg-config, python3-dev, texinfo, zlib1g-dev, libasound2-dev [!arm64], libdbus-1-3 [amd64], libegl1 [amd64], libfontconfig1 [amd64], libfreetype-dev [!arm64], libgl1 [amd64], libgssapi-krb5-2 [amd64], libnss3 [amd64], libssh-4 [amd64], libwayland-cursor0 [amd64], libwayland-egl1 [amd64], libwayland-server0 [amd64], libxcb-icccm4 [amd64], libxcb-image0 [amd64], libxcb-keysyms1 [amd64], libxcb-randr0 [amd64], libxcb-render-util0 [amd64], libxcb-shape0 [amd64], libxcb-xinerama0 [amd64], libxcomposite1 [amd64], libxcursor1 [amd64], libxdamage1 [amd64], libxi-dev [!arm64], libxkbcommon-x11-0 [amd64], libxrandr2 [amd64], libxtst-dev [!arm64], libgif-dev [!arm64], libjpeg-dev (\u003e= 1:0) [!arm64] | libjpeg62-dev [!arm64], liblcms2-dev [!arm64], libpcsclite-dev [!arm64], libpng-dev [!arm64], libpulse-dev [!arm64], libxrender-dev [!arm64]"
+      "dh-sequence-python3, bison, flex, libbabeltrace-dev, libdebuginfod-dev, libexpat1-dev, libipt-dev [amd64], liblzma-dev, libmpfr-dev, libncurses-dev, libreadline-dev, libsource-highlight-dev, libxxhash-dev, pkg-config, python3-dev, texinfo, zlib1g-dev, libasound2-dev [!arm64], libdbus-1-3 [amd64], libegl1 [amd64], libfontconfig1 [amd64], libfreetype-dev [!arm64], libgl1 [amd64], libgssapi-krb5-2 [amd64], libnss3 [amd64], libssh-dev [amd64], libwayland-cursor0 [amd64], libwayland-egl1 [amd64], libwayland-server0 [amd64], libxcb-icccm4 [amd64], libxcb-image0 [amd64], libxcb-keysyms1 [amd64], libxcb-randr0 [amd64], libxcb-render-util0 [amd64], libxcb-shape0 [amd64], libxcb-xinerama0 [amd64], libxcomposite1 [amd64], libxcursor1 [amd64], libxdamage1 [amd64], libxi-dev [!arm64], libxkbcommon-x11-0 [amd64], libxrandr2 [amd64], libxtst-dev [!arm64], libgif-dev [!arm64], libjpeg-dev (\u003e= 1:0) [!arm64] | libjpeg62-dev [!arm64], liblcms2-dev [!arm64], libpcsclite-dev [!arm64], libpng-dev [!arm64], libpulse-dev [!arm64], libxrender-dev [!arm64]"
     ],
     "Checksums-Sha256": [
-      "6ac59dc41b91e2c7d98733250c14b993c1b4762bb957cace7443caa348310ef4 8952 nvidia-cuda-toolkit_11.5.2-3.dsc bbcb7d02f66ecef0df9ecd210ecccb8208191d78211e1fdb88af06dbdd6f30a8 1874599776 nvidia-cuda-toolkit_11.5.2.orig-amd64.tar.xz 6c10a46ae0a610e48836915795b1706caa6c8e042214a5317f77b9900abbc0fb 1289656936 nvidia-cuda-toolkit_11.5.2.orig-arm64.tar.xz e6a17862fe964735c64ef307596049916b95e44e7b1c2de098f85e8bc0da2d2f 28319160 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-jre-amd64-8u342-b07-1.tar.xz 0d772d9fb529d084b54bd583633285bcbabed51741f42378aecb9eb1af467420 28125212 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-jre-ppc64el-8u342-b07-1.tar.xz 7b870bc239bee0e23abac00fbd4af1dedd2d4581f37e47c7cc0c4fd5dd58ed63 66596248 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-source-8u342-b07-1.tar.xz 3bed0f26b0e0f0c5ff697b4f2d86cbc54cdf4ee55cb74ef852b4ac17be8b211f 1518053640 nvidia-cuda-toolkit_11.5.2.orig-ppc64el.tar.xz 855d66e1eaec9df9ea74daa49d434041988ebabe11c95cadf4bc5c45293d86cc 196 nvidia-cuda-toolkit_11.5.2.orig.tar.xz 984a80d2d332d197475ae0d58a06b9a28e6f80ebd599981f926217ca20e81551 60244 nvidia-cuda-toolkit_11.5.2-3.debian.tar.xz"
+      "327ed2b1013d8b7a648a42ccacd6b140e942f3247d11a68b7a47912e0ba59bc7 8975 nvidia-cuda-toolkit_11.5.2-4.dsc bbcb7d02f66ecef0df9ecd210ecccb8208191d78211e1fdb88af06dbdd6f30a8 1874599776 nvidia-cuda-toolkit_11.5.2.orig-amd64.tar.xz 6c10a46ae0a610e48836915795b1706caa6c8e042214a5317f77b9900abbc0fb 1289656936 nvidia-cuda-toolkit_11.5.2.orig-arm64.tar.xz e6a17862fe964735c64ef307596049916b95e44e7b1c2de098f85e8bc0da2d2f 28319160 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-jre-amd64-8u342-b07-1.tar.xz 0d772d9fb529d084b54bd583633285bcbabed51741f42378aecb9eb1af467420 28125212 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-jre-ppc64el-8u342-b07-1.tar.xz 7b870bc239bee0e23abac00fbd4af1dedd2d4581f37e47c7cc0c4fd5dd58ed63 66596248 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-source-8u342-b07-1.tar.xz 3bed0f26b0e0f0c5ff697b4f2d86cbc54cdf4ee55cb74ef852b4ac17be8b211f 1518053640 nvidia-cuda-toolkit_11.5.2.orig-ppc64el.tar.xz 855d66e1eaec9df9ea74daa49d434041988ebabe11c95cadf4bc5c45293d86cc 196 nvidia-cuda-toolkit_11.5.2.orig.tar.xz 1787c7aa87cdde08e4a9b700ba6ea4f5e4e40f350251b82a58cdfcd2b9b94dbc 60124 nvidia-cuda-toolkit_11.5.2-4.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-cuda-toolkit"
     ],
     "Files": [
-      "ef8d46ad348f074a42ea77b45adb1e00 8952 nvidia-cuda-toolkit_11.5.2-3.dsc ab5dbf13ce7b38a9c1eae821b6fc9030 1874599776 nvidia-cuda-toolkit_11.5.2.orig-amd64.tar.xz 2df1290b9731e339ea9a2dee8a9db83e 1289656936 nvidia-cuda-toolkit_11.5.2.orig-arm64.tar.xz 4e79f7728df69befc9c2d3c130a44cc4 28319160 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-jre-amd64-8u342-b07-1.tar.xz 592e55f5f0114618e46e9e5f1fadf88c 28125212 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-jre-ppc64el-8u342-b07-1.tar.xz 55b0181901009b0f2a7734464d230bd4 66596248 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-source-8u342-b07-1.tar.xz 54271c55669db65d5d82f43123e33eeb 1518053640 nvidia-cuda-toolkit_11.5.2.orig-ppc64el.tar.xz 6fd9ed152ce50d9b6ddcde397aa82fdf 196 nvidia-cuda-toolkit_11.5.2.orig.tar.xz 28cb8d33e136df1934626d105eb9e78b 60244 nvidia-cuda-toolkit_11.5.2-3.debian.tar.xz"
+      "29e0df9dfe588c09a11f8558b010a0d1 8975 nvidia-cuda-toolkit_11.5.2-4.dsc ab5dbf13ce7b38a9c1eae821b6fc9030 1874599776 nvidia-cuda-toolkit_11.5.2.orig-amd64.tar.xz 2df1290b9731e339ea9a2dee8a9db83e 1289656936 nvidia-cuda-toolkit_11.5.2.orig-arm64.tar.xz 4e79f7728df69befc9c2d3c130a44cc4 28319160 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-jre-amd64-8u342-b07-1.tar.xz 592e55f5f0114618e46e9e5f1fadf88c 28125212 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-jre-ppc64el-8u342-b07-1.tar.xz 55b0181901009b0f2a7734464d230bd4 66596248 nvidia-cuda-toolkit_11.5.2.orig-openjdk-8-source-8u342-b07-1.tar.xz 54271c55669db65d5d82f43123e33eeb 1518053640 nvidia-cuda-toolkit_11.5.2.orig-ppc64el.tar.xz 6fd9ed152ce50d9b6ddcde397aa82fdf 196 nvidia-cuda-toolkit_11.5.2.orig.tar.xz 7d87802850582a4411a2b2b51ce13857 60124 nvidia-cuda-toolkit_11.5.2-4.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -10589,7 +10589,7 @@
       "https://salsa.debian.org/nvidia-team/nvidia-cuda-toolkit.git"
     ],
     "Version": [
-      "11.5.2-3"
+      "11.5.2-4"
     ]
   },
   {
@@ -10656,19 +10656,22 @@
       "yes"
     ],
     "Binary": [
-      "nvidia-driver, nvidia-alternative, nvidia-kernel-support, nvidia-kernel-dkms, nvidia-kernel-source, xserver-xorg-video-nvidia, nvidia-legacy-check, nvidia-driver-bin, libnvidia-cfg1, nvidia-driver-libs, libglx-nvidia0, libgl1-nvidia-glvnd-glx, libnvidia-glcore, libegl-nvidia0, libgles-nvidia1, libgles-nvidia2, libnvidia-eglcore, nvidia-egl-common, nvidia-egl-icd, nvidia-vdpau-driver, nvidia-vulkan-common, nvidia-vulkan-icd, nvidia-nonglvnd-vulkan-common, libnvidia-glvkspirv, libnvidia-cbl, libnvidia-rtcore, nvidia-smi, libnvidia-ml1, libcuda1, libnvidia-compiler, libnvidia-ptxjitcompiler1, libnvidia-nvvm4, libnvcuvid1, libnvidia-encode1, libnvidia-ifr1, libnvidia-fbc1, libnvoptix1, libnvidia-opticalflow1, libnvidia-allocator1, libnvidia-ngx1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-libopencl1, nvidia-detect"
+      "nvidia-driver, nvidia-alternative, nvidia-kernel-support, nvidia-kernel-dkms, nvidia-kernel-source, xserver-xorg-video-nvidia, nvidia-legacy-check, nvidia-driver-bin, libnvidia-cfg1, nvidia-driver-libs, libglx-nvidia0, libgl1-nvidia-glvnd-glx, libnvidia-glcore, libegl-nvidia0, libgles-nvidia1, libgles-nvidia2, libnvidia-eglcore, nvidia-egl-common, nvidia-egl-icd, nvidia-vdpau-driver, nvidia-vulkan-common, nvidia-vulkan-icd, nvidia-nonglvnd-vulkan-common, libnvidia-glvkspirv, libnvidia-rtcore, nvidia-smi, libnvidia-ml1, libcuda1, libnvidia-compiler, libnvidia-ptxjitcompiler1, libnvidia-nvvm4, libnvcuvid1, libnvidia-encode1, libnvidia-fbc1, libnvoptix1, libnvidia-opticalflow1, libnvidia-allocator1, libnvidia-ngx1, nvidia-opencl-common, nvidia-opencl-icd, nvidia-libopencl1, nvidia-detect"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), dh-sequence-dkms, dh-exec, libnvidia-egl-wayland1, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, libglvnd-dev"
+      "debhelper-compat (= 13)"
+    ],
+    "Build-Depends-Arch": [
+      "dh-sequence-dkms, dh-dkms (\u003e= 3.0.3-4~), dh-exec, libnvidia-egl-wayland1, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, libglvnd-dev"
     ],
     "Checksums-Sha256": [
-      "30afaeb6c15b610defed7b82721f5d07e273a19f7c2491f88c485d63a717dc01 7056 nvidia-graphics-drivers_470.141.03-2.dsc c59808154faec1c9f87d0bd0b97761807027b51df7fd27c9b3a4073b0d3b3f4c 272970754 nvidia-graphics-drivers_470.141.03.orig-amd64.tar.gz 0af3d0d34b6933dcf9f53aa81a3157bce139702e535331d5984f831b94696525 184399040 nvidia-graphics-drivers_470.141.03.orig-arm64.tar.gz 8701466110c31ff6dd5ac47046cedf4e8ab449c9c9dab0a2a3c219f55c06fc0e 140 nvidia-graphics-drivers_470.141.03.orig.tar.gz 77ad91dcc405d796ad54feb877189517854b2e42c5e4dc7087dd047a8034ea7e 207576 nvidia-graphics-drivers_470.141.03-2.debian.tar.xz"
+      "bb014d510271efa265a9828b335890d1b28ebf8939ffaa3cc16ebe2bafbac8e3 6655 nvidia-graphics-drivers_510.85.02-5.dsc 00eb1ec411297a8f3d19835d672d1a12656bcb7c6d601cc60d95f68cd80c58e8 329820599 nvidia-graphics-drivers_510.85.02.orig-amd64.tar.gz 740381714444bb17ee2ad813236a13993d57df3e36c97556331cd67db51f90b6 211404492 nvidia-graphics-drivers_510.85.02.orig-arm64.tar.gz b18cd050f3f67df443ec13ff4771d5a60d5ff2bff0573b89ac3a1a373dbc0d91 140 nvidia-graphics-drivers_510.85.02.orig.tar.gz a18765e842ab4d7cb6d77e189a09694d2210e7c01587fdf050e000267cf21a8c 210464 nvidia-graphics-drivers_510.85.02-5.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-graphics-drivers"
     ],
     "Files": [
-      "861cb358b0a152d326396e48c4806942 7056 nvidia-graphics-drivers_470.141.03-2.dsc f73041c488d0ca2880e34ecd71e0889b 272970754 nvidia-graphics-drivers_470.141.03.orig-amd64.tar.gz bf7d0957a0c183c2bffad867bf65430d 184399040 nvidia-graphics-drivers_470.141.03.orig-arm64.tar.gz 670a7c645247a04b4fd9a07c1d2be0d0 140 nvidia-graphics-drivers_470.141.03.orig.tar.gz 0636f06b70e24718f968f90e1818e743 207576 nvidia-graphics-drivers_470.141.03-2.debian.tar.xz"
+      "ab615a36513b505dd7639a83887b8107 6655 nvidia-graphics-drivers_510.85.02-5.dsc 38c5782348e41e3fd4c06e6968029a1e 329820599 nvidia-graphics-drivers_510.85.02.orig-amd64.tar.gz 23cc9e235825f780362ca9790c5a0ca9 211404492 nvidia-graphics-drivers_510.85.02.orig-arm64.tar.gz eae1637131f35ed8a66233bf5c7b28c3 140 nvidia-graphics-drivers_510.85.02.orig.tar.gz 3d02b12f6591f0c520a05b8b5a0252dc 210464 nvidia-graphics-drivers_510.85.02-5.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -10683,7 +10686,7 @@
       "nvidia-graphics-drivers"
     ],
     "Package-List": [
-      "libcuda1 deb non-free/libs optional arch=i386,amd64,arm64 libegl-nvidia0 deb non-free/libs optional arch=i386,amd64,arm64 libgl1-nvidia-glvnd-glx deb non-free/libs optional arch=i386,amd64,arm64 libgles-nvidia1 deb non-free/libs optional arch=i386,amd64,arm64 libgles-nvidia2 deb non-free/libs optional arch=i386,amd64,arm64 libglx-nvidia0 deb non-free/libs optional arch=i386,amd64,arm64 libnvcuvid1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-allocator1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-cbl deb non-free/libs optional arch=amd64,arm64 libnvidia-cfg1 deb non-free/libs optional arch=amd64,arm64 libnvidia-compiler deb non-free/libs optional arch=i386,amd64 libnvidia-eglcore deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-encode1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-fbc1 deb non-free/libs optional arch=i386,amd64 libnvidia-glcore deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-glvkspirv deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-ifr1 deb non-free/libs optional arch=i386,amd64 libnvidia-ml1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-ngx1 deb non-free/libs optional arch=amd64 libnvidia-nvvm4 deb non-free/libs optional arch=amd64,arm64 libnvidia-opticalflow1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-ptxjitcompiler1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-rtcore deb non-free/libs optional arch=amd64,arm64 libnvoptix1 deb non-free/libs optional arch=amd64,arm64 nvidia-alternative deb non-free/libs optional arch=i386,amd64,arm64 nvidia-detect deb non-free/x11 optional arch=amd64,arm64,ppc64el nvidia-driver deb non-free/x11 optional arch=amd64,arm64 nvidia-driver-bin deb non-free/x11 optional arch=amd64,arm64 nvidia-driver-libs deb non-free/libs optional arch=i386,amd64,arm64 nvidia-egl-common deb non-free/libs optional arch=i386,amd64,arm64,ppc64el,armhf nvidia-egl-icd deb non-free/libs optional arch=i386,amd64,arm64 nvidia-kernel-dkms deb non-free/kernel optional arch=amd64,arm64 nvidia-kernel-source deb non-free/kernel optional arch=amd64,arm64 nvidia-kernel-support deb non-free/kernel optional arch=amd64,arm64 nvidia-legacy-check deb non-free/libs optional arch=amd64 nvidia-libopencl1 deb non-free/libs optional arch=i386,amd64,arm64 nvidia-nonglvnd-vulkan-common deb non-free/libs optional arch=i386,amd64,ppc64el nvidia-opencl-common deb non-free/libs optional arch=i386,amd64,arm64,ppc64el nvidia-opencl-icd deb non-free/libs optional arch=i386,amd64,arm64 nvidia-smi deb non-free/utils optional arch=amd64,arm64 nvidia-vdpau-driver deb non-free/video optional arch=i386,amd64,arm64 nvidia-vulkan-common deb non-free/libs optional arch=i386,amd64,arm64,ppc64el nvidia-vulkan-icd deb non-free/libs optional arch=i386,amd64,arm64 xserver-xorg-video-nvidia deb non-free/x11 optional arch=amd64,arm64"
+      "libcuda1 deb non-free/libs optional arch=i386,amd64,arm64 libegl-nvidia0 deb non-free/libs optional arch=i386,amd64,arm64 libgl1-nvidia-glvnd-glx deb non-free/libs optional arch=i386,amd64,arm64 libgles-nvidia1 deb non-free/libs optional arch=i386,amd64,arm64 libgles-nvidia2 deb non-free/libs optional arch=i386,amd64,arm64 libglx-nvidia0 deb non-free/libs optional arch=i386,amd64,arm64 libnvcuvid1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-allocator1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-cfg1 deb non-free/libs optional arch=amd64,arm64 libnvidia-compiler deb non-free/libs optional arch=i386,amd64 libnvidia-eglcore deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-encode1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-fbc1 deb non-free/libs optional arch=i386,amd64 libnvidia-glcore deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-glvkspirv deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-ml1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-ngx1 deb non-free/libs optional arch=amd64 libnvidia-nvvm4 deb non-free/libs optional arch=amd64,arm64 libnvidia-opticalflow1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-ptxjitcompiler1 deb non-free/libs optional arch=i386,amd64,arm64 libnvidia-rtcore deb non-free/libs optional arch=amd64,arm64 libnvoptix1 deb non-free/libs optional arch=amd64,arm64 nvidia-alternative deb non-free/libs optional arch=i386,amd64,arm64 nvidia-detect deb non-free/x11 optional arch=amd64,arm64,ppc64el nvidia-driver deb non-free/x11 optional arch=amd64,arm64 nvidia-driver-bin deb non-free/x11 optional arch=amd64,arm64 nvidia-driver-libs deb non-free/libs optional arch=i386,amd64,arm64 nvidia-egl-common deb non-free/libs optional arch=i386,amd64,arm64,ppc64el,armhf nvidia-egl-icd deb non-free/libs optional arch=i386,amd64,arm64 nvidia-kernel-dkms deb non-free/kernel optional arch=amd64,arm64 nvidia-kernel-source deb non-free/kernel optional arch=amd64,arm64 nvidia-kernel-support deb non-free/kernel optional arch=amd64,arm64 nvidia-legacy-check deb non-free/libs optional arch=amd64,arm64 nvidia-libopencl1 deb non-free/libs optional arch=i386,amd64,arm64 nvidia-nonglvnd-vulkan-common deb non-free/libs optional arch=i386,amd64,ppc64el nvidia-opencl-common deb non-free/libs optional arch=i386,amd64,arm64,ppc64el nvidia-opencl-icd deb non-free/libs optional arch=i386,amd64,arm64 nvidia-smi deb non-free/utils optional arch=amd64,arm64 nvidia-vdpau-driver deb non-free/video optional arch=i386,amd64,arm64 nvidia-vulkan-common deb non-free/libs optional arch=i386,amd64,arm64,ppc64el nvidia-vulkan-icd deb non-free/libs optional arch=i386,amd64,arm64 xserver-xorg-video-nvidia deb non-free/x11 optional arch=amd64,arm64"
     ],
     "Priority": [
       "source"
@@ -10698,7 +10701,7 @@
       "autopkgtest, autopkgtest-pkg-dkms"
     ],
     "Testsuite-Triggers": [
-      "linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
+      "linux-doc, module-assistant-autopkgtest"
     ],
     "Uploaders": [
       "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -10710,7 +10713,7 @@
       "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git"
     ],
     "Version": [
-      "470.141.03-2"
+      "510.85.02-5"
     ]
   },
   {
@@ -10795,13 +10798,13 @@
       "dh-sequence-dkms, dh-dkms (\u003e= 3.0.3-4~), dh-exec, libnvidia-egl-wayland1, libvulkan1 (\u003e= 1.0.42), libxext6, po-debconf, quilt, xz-utils, libglvnd-dev"
     ],
     "Checksums-Sha256": [
-      "4131406e8b67fc1189754c7785034f3f250c1306f5e3628d49bb3793337cda4f 7480 nvidia-graphics-drivers-tesla_510.85.02-1.dsc 00eb1ec411297a8f3d19835d672d1a12656bcb7c6d601cc60d95f68cd80c58e8 329820599 nvidia-graphics-drivers-tesla_510.85.02.orig-amd64.tar.gz 740381714444bb17ee2ad813236a13993d57df3e36c97556331cd67db51f90b6 211404492 nvidia-graphics-drivers-tesla_510.85.02.orig-arm64.tar.gz 7ce5974d303261ec3fcfb9c11467351b2aaebd70020d44571f7cb0b4922b8aa0 72731560 nvidia-graphics-drivers-tesla_510.85.02.orig-ppc64el.tar.gz b18cd050f3f67df443ec13ff4771d5a60d5ff2bff0573b89ac3a1a373dbc0d91 140 nvidia-graphics-drivers-tesla_510.85.02.orig.tar.gz 972f16c3f84ffd4344fe781841075d4805885e12955404caf341ce72943edf9f 212660 nvidia-graphics-drivers-tesla_510.85.02-1.debian.tar.xz"
+      "a4dfdbbb469472dc39efb75f9f913155eba4d3dfe2a2dca01042a9296031466d 7193 nvidia-graphics-drivers-tesla_510.85.02-2.dsc 00eb1ec411297a8f3d19835d672d1a12656bcb7c6d601cc60d95f68cd80c58e8 329820599 nvidia-graphics-drivers-tesla_510.85.02.orig-amd64.tar.gz 740381714444bb17ee2ad813236a13993d57df3e36c97556331cd67db51f90b6 211404492 nvidia-graphics-drivers-tesla_510.85.02.orig-arm64.tar.gz 7ce5974d303261ec3fcfb9c11467351b2aaebd70020d44571f7cb0b4922b8aa0 72731560 nvidia-graphics-drivers-tesla_510.85.02.orig-ppc64el.tar.gz b18cd050f3f67df443ec13ff4771d5a60d5ff2bff0573b89ac3a1a373dbc0d91 140 nvidia-graphics-drivers-tesla_510.85.02.orig.tar.gz b72208e5d5f60b66b19e9c4a2830ef402483277069ee9d344ece5e46b77c65ed 212128 nvidia-graphics-drivers-tesla_510.85.02-2.debian.tar.xz"
     ],
     "Directory": [
       "pool/non-free/n/nvidia-graphics-drivers-tesla"
     ],
     "Files": [
-      "732612d2c6c087fa3ab0dfe0eb1db01b 7480 nvidia-graphics-drivers-tesla_510.85.02-1.dsc 38c5782348e41e3fd4c06e6968029a1e 329820599 nvidia-graphics-drivers-tesla_510.85.02.orig-amd64.tar.gz 23cc9e235825f780362ca9790c5a0ca9 211404492 nvidia-graphics-drivers-tesla_510.85.02.orig-arm64.tar.gz c65abb4daf8f64ad2730561b77455b49 72731560 nvidia-graphics-drivers-tesla_510.85.02.orig-ppc64el.tar.gz eae1637131f35ed8a66233bf5c7b28c3 140 nvidia-graphics-drivers-tesla_510.85.02.orig.tar.gz ec227cf6071b1264e54609c7035b0e16 212660 nvidia-graphics-drivers-tesla_510.85.02-1.debian.tar.xz"
+      "5a20412d051af069c3774a29695b9f0c 7193 nvidia-graphics-drivers-tesla_510.85.02-2.dsc 38c5782348e41e3fd4c06e6968029a1e 329820599 nvidia-graphics-drivers-tesla_510.85.02.orig-amd64.tar.gz 23cc9e235825f780362ca9790c5a0ca9 211404492 nvidia-graphics-drivers-tesla_510.85.02.orig-arm64.tar.gz c65abb4daf8f64ad2730561b77455b49 72731560 nvidia-graphics-drivers-tesla_510.85.02.orig-ppc64el.tar.gz eae1637131f35ed8a66233bf5c7b28c3 140 nvidia-graphics-drivers-tesla_510.85.02.orig.tar.gz bf60553a78ded6d9b2cd9fd46d82e2d3 212128 nvidia-graphics-drivers-tesla_510.85.02-2.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -10831,7 +10834,7 @@
       "autopkgtest, autopkgtest-pkg-dkms"
     ],
     "Testsuite-Triggers": [
-      "linux-headers-686, linux-headers-686-pae, linux-headers-amd64, linux-headers-arm64, linux-headers-armmp, linux-headers-armmp-lpae, linux-headers-cloud-amd64, linux-headers-cloud-arm64, linux-headers-powerpc64le, linux-headers-rt-686-pae, linux-headers-rt-amd64, linux-headers-rt-arm64, linux-headers-rt-armmp, module-assistant"
+      "linux-doc, module-assistant-autopkgtest"
     ],
     "Uploaders": [
       "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
@@ -10843,7 +10846,7 @@
       "https://salsa.debian.org/nvidia-team/nvidia-graphics-drivers.git -b tesla/master"
     ],
     "Version": [
-      "510.85.02-1"
+      "510.85.02-2"
     ]
   },
   {

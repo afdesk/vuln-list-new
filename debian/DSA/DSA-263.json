@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[17 Mar 2003] DSA-263 netpbm-free - math overflow errors",
-    "Line": 17371,
+    "Line": 17373,
     "ID": "DSA-263",
     "Description": "netpbm-free - math overflow errors"
   },
   "Annotations": [
     {
       "Original": "{CVE-2003-0146}",
-      "Line": 17372,
+      "Line": 17374,
       "Type": "xref",
       "Bugs": [
         "CVE-2003-0146"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[woody] - netpbm-free 2:9.20-8.2",
-      "Line": 17373,
+      "Line": 17375,
       "Type": "package",
       "Release": "woody",
       "Package": "netpbm-free",

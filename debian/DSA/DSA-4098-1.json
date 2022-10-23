@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[26 Jan 2018] DSA-4098-1 curl - security update",
-    "Line": 3901,
+    "Line": 3903,
     "ID": "DSA-4098-1",
     "Description": "curl - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2018-1000007}",
-      "Line": 3902,
+      "Line": 3904,
       "Type": "xref",
       "Bugs": [
         "CVE-2018-1000007"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[jessie] - curl 7.38.0-4+deb8u9",
-      "Line": 3903,
+      "Line": 3905,
       "Type": "package",
       "Release": "jessie",
       "Package": "curl",
@@ -25,7 +25,7 @@
     },
     {
       "Original": "[stretch] - curl 7.52.1-5+deb9u4",
-      "Line": 3904,
+      "Line": 3906,
       "Type": "package",
       "Release": "stretch",
       "Package": "curl",

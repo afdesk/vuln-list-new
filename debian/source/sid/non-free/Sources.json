@@ -12025,65 +12025,6 @@
       "cdbs, debhelper (\u003e= 10)"
     ],
     "Checksums-Sha256": [
-      "f397c7cb054984d41612ff129fcdb58edeea3cbf83500c8dfd98744255731b56 2233 openboard-extras-nonfree_1.6.1+nonfree1-1.dsc 557588381b15d72f270facd16a354c62bc9ecfd2fc3ed6d7449d4306df83db37 196796 openboard-extras-nonfree_1.6.1+nonfree1.orig.tar.xz a8a968d23d398fb6f8392a582fbfd49a319cb74e26edf9326736d1c0c58464df 9564 openboard-extras-nonfree_1.6.1+nonfree1-1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/non-free/o/openboard-extras-nonfree"
-    ],
-    "Files": [
-      "12032ea4231cac90379606d9cd012ae3 2233 openboard-extras-nonfree_1.6.1+nonfree1-1.dsc 0b2c8e21b51b4adfc3922e9db0b23fbe 196796 openboard-extras-nonfree_1.6.1+nonfree1.orig.tar.xz 172656dd202c3af90060525e0d4a1b17 9564 openboard-extras-nonfree_1.6.1+nonfree1-1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://github.com/OpenBoard-org/OpenBoard"
-    ],
-    "Maintainer": [
-      "Debian Edu Packaging Team \u003cdebian-edu-pkg-team@lists.alioth.debian.org\u003e"
-    ],
-    "Package": [
-      "openboard-extras-nonfree"
-    ],
-    "Package-List": [
-      "openboard-fonts-nonfree deb non-free/fonts optional arch=all"
-    ],
-    "Priority": [
-      "extra"
-    ],
-    "Section": [
-      "non-free/misc"
-    ],
-    "Standards-Version": [
-      "4.6.0"
-    ],
-    "Uploaders": [
-      "Mike Gabriel \u003csunweaver@debian.org\u003e,"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/debian-edu-pkg-team/openboard-extras-nonfree"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/debian-edu-pkg-team/openboard-extras-nonfree.git"
-    ],
-    "Version": [
-      "1.6.1+nonfree1-1"
-    ]
-  },
-  {
-    "Architecture": [
-      "all"
-    ],
-    "Autobuild": [
-      "yes"
-    ],
-    "Binary": [
-      "openboard-fonts-nonfree"
-    ],
-    "Build-Depends": [
-      "cdbs, debhelper (\u003e= 10)"
-    ],
-    "Checksums-Sha256": [
       "92dcca398aa1481757110b226a3dc6ee69188d3abcb8ec2d7c3bce01270b5aff 2233 openboard-extras-nonfree_1.6.4+nonfree1-1.dsc b917fdd8b917a02750f486acbb4eb728f6fa0836197b46089bdd0fb575f1e288 196080 openboard-extras-nonfree_1.6.4+nonfree1.orig.tar.xz d03f4955af5715bc33063dd801bdc1470e6a4ad660eed472bff75d8b9d3cfcba 9636 openboard-extras-nonfree_1.6.4+nonfree1-1.debian.tar.xz"
     ],
     "Directory": [

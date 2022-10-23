@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[17 Jan 2006] DSA-945-1 antiword - insecure temporary file",
-    "Line": 14749,
+    "Line": 14751,
     "ID": "DSA-945-1",
     "Description": "antiword - insecure temporary file"
   },
   "Annotations": [
     {
       "Original": "{CVE-2005-3126}",
-      "Line": 14750,
+      "Line": 14752,
       "Type": "xref",
       "Bugs": [
         "CVE-2005-3126"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[woody] - antiword 0.32-2woody0",
-      "Line": 14751,
+      "Line": 14753,
       "Type": "package",
       "Release": "woody",
       "Package": "antiword",
@@ -25,19 +25,19 @@
     },
     {
       "Original": "NOTE: fixed in testing at time of DSA",
-      "Line": 14752,
+      "Line": 14754,
       "Type": "NOTE",
       "Description": "fixed in testing at time of DSA"
     },
     {
       "Original": "NOTE: sarge is also affected, but the uploaded version is greater",
-      "Line": 14753,
+      "Line": 14755,
       "Type": "NOTE",
       "Description": "sarge is also affected, but the uploaded version is greater"
     },
     {
       "Original": "NOTE: than the fixed sid version.",
-      "Line": 14754,
+      "Line": 14756,
       "Type": "NOTE",
       "Description": "than the fixed sid version."
     }

@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[24 May 2017] DSA-3860-1 samba - security update",
-    "Line": 4757,
+    "Line": 4759,
     "ID": "DSA-3860-1",
     "Description": "samba - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2017-7494}",
-      "Line": 4758,
+      "Line": 4760,
       "Type": "xref",
       "Bugs": [
         "CVE-2017-7494"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[jessie] - samba 2:4.2.14+dfsg-0+deb8u6",
-      "Line": 4759,
+      "Line": 4761,
       "Type": "package",
       "Release": "jessie",
       "Package": "samba",

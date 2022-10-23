@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[27 Jan 2018] DSA-4099-1 ffmpeg - security update",
-    "Line": 3898,
+    "Line": 3900,
     "ID": "DSA-4099-1",
     "Description": "ffmpeg - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2017-17081}",
-      "Line": 3899,
+      "Line": 3901,
       "Type": "xref",
       "Bugs": [
         "CVE-2017-17081"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[stretch] - ffmpeg 7:3.2.10-1~deb9u1",
-      "Line": 3900,
+      "Line": 3902,
       "Type": "package",
       "Release": "stretch",
       "Package": "ffmpeg",

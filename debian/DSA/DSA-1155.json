@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[24 Aug 2006] DSA-1155 sendmail - programming error",
-    "Line": 13981,
+    "Line": 13983,
     "ID": "DSA-1155",
     "Description": "sendmail - programming error"
   },
   "Annotations": [
     {
       "Original": "{CVE-2006-1173}",
-      "Line": 13982,
+      "Line": 13984,
       "Type": "xref",
       "Bugs": [
         "CVE-2006-1173"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[sarge] - sendmail 8.13.4-3sarge2",
-      "Line": 13983,
+      "Line": 13985,
       "Type": "package",
       "Release": "sarge",
       "Package": "sendmail",

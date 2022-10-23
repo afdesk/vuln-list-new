@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[09 Dec 2020] DSA-4808-1 apt - security update",
-    "Line": 1508,
+    "Line": 1510,
     "ID": "DSA-4808-1",
     "Description": "apt - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2020-27350}",
-      "Line": 1509,
+      "Line": 1511,
       "Type": "xref",
       "Bugs": [
         "CVE-2020-27350"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[buster] - apt 1.8.2.2",
-      "Line": 1510,
+      "Line": 1512,
       "Type": "package",
       "Release": "buster",
       "Package": "apt",
