@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[01 Aug 2002] DSA-139 super - format string vulnerability",
-    "Line": 17753,
+    "Line": 17756,
     "ID": "DSA-139",
     "Description": "super - format string vulnerability"
   },
   "Annotations": [
     {
       "Original": "{CVE-2002-0817}",
-      "Line": 17754,
+      "Line": 17757,
       "Type": "xref",
       "Bugs": [
         "CVE-2002-0817"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[woody] - super 3.16.1-1.2",
-      "Line": 17755,
+      "Line": 17758,
       "Type": "package",
       "Release": "woody",
       "Package": "super",

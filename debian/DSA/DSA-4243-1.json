@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[11 Jul 2018] DSA-4243-1 cups - security update",
-    "Line": 3385,
+    "Line": 3388,
     "ID": "DSA-4243-1",
     "Description": "cups - security update"
   },
   "Annotations": [
     {
       "Original": "{CVE-2017-15400 CVE-2018-4180 CVE-2018-4181 CVE-2018-6553}",
-      "Line": 3386,
+      "Line": 3389,
       "Type": "xref",
       "Bugs": [
         "CVE-2017-15400",
@@ -19,7 +19,7 @@
     },
     {
       "Original": "[stretch] - cups 2.2.1-8+deb9u2",
-      "Line": 3387,
+      "Line": 3390,
       "Type": "package",
       "Release": "stretch",
       "Package": "cups",

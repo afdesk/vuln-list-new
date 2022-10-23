@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[21 Oct 2002] DSA-180 nis - information leak",
-    "Line": 17624,
+    "Line": 17627,
     "ID": "DSA-180",
     "Description": "nis - information leak"
   },
   "Annotations": [
     {
       "Original": "{CVE-2002-1232}",
-      "Line": 17625,
+      "Line": 17628,
       "Type": "xref",
       "Bugs": [
         "CVE-2002-1232"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[woody] - nis 3.9-6.1",
-      "Line": 17626,
+      "Line": 17629,
       "Type": "package",
       "Release": "woody",
       "Package": "nis",

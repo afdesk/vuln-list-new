@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[07 Mar 2005] DSA-691-1 abuse - several",
-    "Line": 15937,
+    "Line": 15940,
     "ID": "DSA-691-1",
     "Description": "abuse - several"
   },
   "Annotations": [
     {
       "Original": "{CVE-2005-0098 CVE-2005-0099}",
-      "Line": 15938,
+      "Line": 15941,
       "Type": "xref",
       "Bugs": [
         "CVE-2005-0098",
@@ -17,7 +17,7 @@
     },
     {
       "Original": "[woody] - abuse 2.00+-3woody4",
-      "Line": 15939,
+      "Line": 15942,
       "Type": "package",
       "Release": "woody",
       "Package": "abuse",
@@ -26,7 +26,7 @@
     },
     {
       "Original": "NOTE: not in unstable/testing",
-      "Line": 15940,
+      "Line": 15943,
       "Type": "NOTE",
       "Description": "not in unstable/testing"
     }

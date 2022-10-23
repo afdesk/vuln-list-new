@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[05 Jan 2004] DSA-409 bind - denial of service",
-    "Line": 16919,
+    "Line": 16922,
     "ID": "DSA-409",
     "Description": "bind - denial of service"
   },
   "Annotations": [
     {
       "Original": "{CVE-2003-0914}",
-      "Line": 16920,
+      "Line": 16923,
       "Type": "xref",
       "Bugs": [
         "CVE-2003-0914"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[woody] - bind 1:8.3.3-2.0woody2",
-      "Line": 16921,
+      "Line": 16924,
       "Type": "package",
       "Release": "woody",
       "Package": "bind",

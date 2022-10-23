@@ -1,14 +1,14 @@
 {
   "Header": {
     "Original": "[31 Jan 2009] DSA-1716-1 vnc4 - remote code execution",
-    "Line": 12083,
+    "Line": 12086,
     "ID": "DSA-1716-1",
     "Description": "vnc4 - remote code execution"
   },
   "Annotations": [
     {
       "Original": "{CVE-2008-4770}",
-      "Line": 12084,
+      "Line": 12087,
       "Type": "xref",
       "Bugs": [
         "CVE-2008-4770"
@@ -16,7 +16,7 @@
     },
     {
       "Original": "[etch] - vnc4 4.1.1+X4.3.0-21+etch1",
-      "Line": 12085,
+      "Line": 12088,
       "Type": "package",
       "Release": "etch",
       "Package": "vnc4",
