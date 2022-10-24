@@ -68,6 +68,28 @@
     },
     {
       "Check": "at least one",
+      "Comment": "openstack-barbican is installed",
+      "ID": "oval:com.redhat.cve:tst:20223100001",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223100001"
+      },
+      "State": {}
+    },
+    {
+      "Check": "at least one",
+      "Comment": "openstack-barbican is signed with Red Hat redhatrelease2 key",
+      "ID": "oval:com.redhat.cve:tst:20223100002",
+      "Version": "636",
+      "Object": {
+        "ObjectRef": "oval:com.redhat.cve:obj:20223100001"
+      },
+      "State": {
+        "StateRef": "oval:com.redhat.cve:ste:201910768001"
+      }
+    },
+    {
+      "Check": "at least one",
       "Comment": "puppet-mysql is installed",
       "ID": "oval:com.redhat.cve:tst:20223276001",
       "Version": "636",
@@ -94,22 +116,10 @@
       "ID": "oval:com.redhat.rhsa:tst:20226750001",
       "Version": "634",
       "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226750001"
+        "ObjectRef": "oval:com.redhat.cve:obj:20223100001"
       },
       "State": {
         "StateRef": "oval:com.redhat.rhsa:ste:20226750001"
-      }
-    },
-    {
-      "Check": "at least one",
-      "Comment": "openstack-barbican is signed with Red Hat redhatrelease2 key",
-      "ID": "oval:com.redhat.rhsa:tst:20226750002",
-      "Version": "634",
-      "Object": {
-        "ObjectRef": "oval:com.redhat.rhsa:obj:20226750001"
-      },
-      "State": {
-        "StateRef": "oval:com.redhat.cve:ste:201910768001"
       }
     },
     {
@@ -234,13 +244,13 @@
     {
       "Check": "at least one",
       "Comment": "Red Hat Enterprise Linux 8 is installed",
-      "ID": "oval:com.redhat.cve:tst:20223276003",
+      "ID": "oval:com.redhat.cve:tst:20223100003",
       "Version": "636",
       "Object": {
         "ObjectRef": "oval:com.redhat.cve:obj:201910768003"
       },
       "State": {
-        "StateRef": "oval:com.redhat.cve:ste:20223276002"
+        "StateRef": "oval:com.redhat.cve:ste:20223100002"
       }
     }
   ]

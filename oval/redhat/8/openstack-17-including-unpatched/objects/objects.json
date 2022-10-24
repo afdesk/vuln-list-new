@@ -16,14 +16,14 @@
       "Name": "python3-scciclient"
     },
     {
+      "ID": "oval:com.redhat.cve:obj:20223100001",
+      "Version": "636",
+      "Name": "openstack-barbican"
+    },
+    {
       "ID": "oval:com.redhat.cve:obj:20223276001",
       "Version": "636",
       "Name": "puppet-mysql"
-    },
-    {
-      "ID": "oval:com.redhat.rhsa:obj:20226750001",
-      "Version": "634",
-      "Name": "openstack-barbican"
     },
     {
       "ID": "oval:com.redhat.rhsa:obj:20226750002",
