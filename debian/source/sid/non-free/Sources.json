@@ -4559,65 +4559,6 @@
       "debhelper-compat (= 13), dh-sequence-libva, cmake, libdrm-dev, libigdgmm-dev (\u003e= 21.1.1), libva-dev (\u003e= 2.12), libx11-dev, pkg-config"
     ],
     "Checksums-Sha256": [
-      "bfeabe7fe65472970b793ab429b863ef429ad1778caaf90234870d834b6089b4 2342 intel-media-driver-non-free_22.5.4+ds1-1.dsc e5d4f32a24a3cd3c4a6f46222d3de4526406e53b720d6a72b8cf99d77636cd11 14773992 intel-media-driver-non-free_22.5.4+ds1.orig.tar.xz 19c8680abd29ef0ab9da4212852bfb38a47d3b8f3b26f59dc562183c858fe91f 5620 intel-media-driver-non-free_22.5.4+ds1-1.debian.tar.xz"
-    ],
-    "Directory": [
-      "pool/non-free/i/intel-media-driver-non-free"
-    ],
-    "Files": [
-      "cbd8c1bf22f641c5922dea811c75c0a9 2342 intel-media-driver-non-free_22.5.4+ds1-1.dsc 47a3403be0f786901abbbb009a7d73a3 14773992 intel-media-driver-non-free_22.5.4+ds1.orig.tar.xz 4cbeacf5e1c8e5831fe9846c6b6b8378 5620 intel-media-driver-non-free_22.5.4+ds1-1.debian.tar.xz"
-    ],
-    "Format": [
-      "3.0 (quilt)"
-    ],
-    "Homepage": [
-      "https://github.com/intel/media-driver"
-    ],
-    "Maintainer": [
-      "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
-    ],
-    "Package": [
-      "intel-media-driver-non-free"
-    ],
-    "Package-List": [
-      "intel-media-va-driver-non-free deb non-free/video optional arch=amd64,i386,x32"
-    ],
-    "Priority": [
-      "extra"
-    ],
-    "Section": [
-      "non-free/misc"
-    ],
-    "Standards-Version": [
-      "4.6.1"
-    ],
-    "Uploaders": [
-      "Sebastian Ramacher \u003csramacher@debian.org\u003e"
-    ],
-    "Vcs-Browser": [
-      "https://salsa.debian.org/multimedia-team/intel-media-driver-non-free"
-    ],
-    "Vcs-Git": [
-      "https://salsa.debian.org/multimedia-team/intel-media-driver-non-free.git"
-    ],
-    "Version": [
-      "22.5.4+ds1-1"
-    ]
-  },
-  {
-    "Architecture": [
-      "amd64 i386 x32"
-    ],
-    "Autobuild": [
-      "yes"
-    ],
-    "Binary": [
-      "intel-media-va-driver-non-free"
-    ],
-    "Build-Depends": [
-      "debhelper-compat (= 13), dh-sequence-libva, cmake, libdrm-dev, libigdgmm-dev (\u003e= 21.1.1), libva-dev (\u003e= 2.12), libx11-dev, pkg-config"
-    ],
-    "Checksums-Sha256": [
       "fbb4d4ef05a1aa2b8561444142d55886dfd286247aa1323cd4da53a4d4aa772b 2342 intel-media-driver-non-free_22.6.0+ds1-1.dsc 500e6b52ab1ce72068535041c4e27d5b43b9051a2633de4207c114ba7fb04e9c 14867332 intel-media-driver-non-free_22.6.0+ds1.orig.tar.xz 4120042b337ea9076e3569c00fbefa4f0f46a9033a3127fad005690492a81769 5620 intel-media-driver-non-free_22.6.0+ds1-1.debian.tar.xz"
     ],
     "Directory": [

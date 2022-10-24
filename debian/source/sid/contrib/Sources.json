@@ -6722,16 +6722,16 @@
       "protontricks"
     ],
     "Build-Depends": [
-      "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-setuptools-scm, python3-vdf, python3-pytest"
+      "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm, python3-vdf, python3-pytest"
     ],
     "Checksums-Sha256": [
-      "43c5b2e52154c2a72a5ef87d56ca6dfbb7b8e9a98c7a78925e84e361adadcec0 2202 protontricks_1.9.1-1.dsc 14ce0c1e6b67c7fb6b06e8a451a1acb080ef63e11f989151d2fd4eb8eec07846 151360 protontricks_1.9.1.orig.tar.gz 1b012eab9b1d2c16f7cae2dca038fcdbba18c09fdca88c6e1e41ff02bafd4598 2308 protontricks_1.9.1-1.debian.tar.xz"
+      "d05fc58d957829a9c25089e833972fb390ff920bf86112ebd1c91a0150462fc6 2191 protontricks_1.9.2-1.dsc 950f6e2c079322c1e9403e7896b9d7e4c401f1b74c5400c106c96daea0a985bd 151479 protontricks_1.9.2.orig.tar.gz a24111735187b8a242533b803a77a203063122d2d9957cfa952c1d3eb441e155 2340 protontricks_1.9.2-1.debian.tar.xz"
     ],
     "Directory": [
       "pool/contrib/p/protontricks"
     ],
     "Files": [
-      "a8f99ea8815bc4527b3b541ad9dd8cf2 2202 protontricks_1.9.1-1.dsc 06e960e722c8c8d69ab7966ff5800f05 151360 protontricks_1.9.1.orig.tar.gz eeca09975fb209009c04be9dedd84e3f 2308 protontricks_1.9.1-1.debian.tar.xz"
+      "ec44fdd844a6e7a7372a84d9ee12f624 2191 protontricks_1.9.2-1.dsc 8151e051f651a59cca378056c0f89a21 151479 protontricks_1.9.2.orig.tar.gz bcf1e58720001ef881247899e0515e09 2340 protontricks_1.9.2-1.debian.tar.xz"
     ],
     "Format": [
       "3.0 (quilt)"
@@ -6773,7 +6773,7 @@
       "https://salsa.debian.org/games-team/protontricks.git"
     ],
     "Version": [
-      "1.9.1-1"
+      "1.9.2-1"
     ]
   },
   {
