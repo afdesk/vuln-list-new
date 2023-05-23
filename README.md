@@ -1,5 +1,5 @@
 # vuln-list
-Collect vulnerability information and save it in parsable format automatically
+Collect vulnerability information and save it in parsable format automatically.
 
 ## Source
 
